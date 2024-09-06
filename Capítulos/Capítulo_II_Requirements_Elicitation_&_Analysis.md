@@ -47,37 +47,36 @@ Finalmente, aprovecharemos la falta de enfoque en la realidad aumentada (RA) de 
 
 Preguntas Generales (para todos los entrevistados):
 
-`   `- ¿Cuál es su nombre completo?
+- ¿Cuál es su nombre completo?
 
-`   `- ¿Qué edad tiene?
+- ¿Qué edad tiene?
 
-`   `- ¿Con qué género se identifica?
+- ¿Con qué género se identifica?
 
-`   `- ¿Cuál es su estado civil?
+- ¿Cuál es su estado civil?
 
-`   `- ¿En dónde reside actualmente?
+- ¿En dónde reside actualmente?
 
-`   `- ¿Cuál es su ocupación actual?
+- ¿Cuál es su ocupación actual?
 
-`   `- ¿Qué marca y modelo de teléfono celular utiliza?
+- ¿Qué marca y modelo de teléfono celular utiliza?
 
-`   `- ¿Qué sistema operativo tiene su teléfono (iOS, Android, otro)?
+- ¿Qué sistema operativo tiene su teléfono (iOS, Android, otro)?
 
-`   `- ¿Utiliza tablet? Si es así, ¿qué marca y modelo?
+- ¿Utiliza tablet? Si es así, ¿qué marca y modelo?
 
-`   `- ¿Con qué frecuencia cambia de dispositivo móvil?
+- ¿Con qué frecuencia cambia de dispositivo móvil?
 
-`   `- ¿Qué aplicaciones usa con más frecuencia en su día a día?
+- ¿Qué aplicaciones usa con más frecuencia en su día a día?
 
-`   `- ¿Ha usado alguna vez aplicaciones para editar o mejorar fotos? ¿Cuáles?
+- ¿Ha usado alguna vez aplicaciones para editar o mejorar fotos? ¿Cuáles?
 
-`   `- ¿Con qué frecuencia visita museos o galerías de arte?
+- ¿Con qué frecuencia visita museos o galerías de arte?
 
-`   `- ¿Tiene alguna afición relacionada con la fotografía o el arte?
+- ¿Tiene alguna afición relacionada con la fotografía o el arte?
 
-`   `- ¿Qué redes sociales utiliza más y con qué frecuencia?
-
-`   `- ¿Cómo prefiere aprender sobre nuevas tecnologías o aplicaciones?
+- ¿Qué redes sociales utiliza más y con qué frecuencia?
+- ¿Cómo prefiere aprender sobre nuevas tecnologías o aplicaciones?
 
 Preguntas para Historiadores y Archiveros:
 

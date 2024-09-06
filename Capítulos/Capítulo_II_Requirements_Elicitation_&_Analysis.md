@@ -44,6 +44,120 @@ Finalmente, aprovecharemos la falta de enfoque en la realidad aumentada (RA) de 
 
 ## 2.2. Entrevistas.
 ### 2.2.1. Diseño de entrevistas.
+
+Preguntas Generales (para todos los entrevistados):
+
+`   `- ¿Cuál es su nombre completo?
+
+`   `- ¿Qué edad tiene?
+
+`   `- ¿Con qué género se identifica?
+
+`   `- ¿Cuál es su estado civil?
+
+`   `- ¿En dónde reside actualmente?
+
+`   `- ¿Cuál es su ocupación actual?
+
+`   `- ¿Qué marca y modelo de teléfono celular utiliza?
+
+`   `- ¿Qué sistema operativo tiene su teléfono (iOS, Android, otro)?
+
+`   `- ¿Utiliza tablet? Si es así, ¿qué marca y modelo?
+
+`   `- ¿Con qué frecuencia cambia de dispositivo móvil?
+
+`   `- ¿Qué aplicaciones usa con más frecuencia en su día a día?
+
+`   `- ¿Ha usado alguna vez aplicaciones para editar o mejorar fotos? ¿Cuáles?
+
+`   `- ¿Con qué frecuencia visita museos o galerías de arte?
+
+`   `- ¿Tiene alguna afición relacionada con la fotografía o el arte?
+
+`   `- ¿Qué redes sociales utiliza más y con qué frecuencia?
+
+`   `- ¿Cómo prefiere aprender sobre nuevas tecnologías o aplicaciones?
+
+Preguntas para Historiadores y Archiveros:
+
+¿Cuántos años de experiencia tiene en su campo?
+
+¿En qué tipo de institución trabaja (museo, archivo, universidad, etc.)?
+
+¿Qué tipo de colecciones o materiales históricos maneja habitualmente?
+
+¿Qué software o herramientas digitales utiliza actualmente para la preservación o restauración de imágenes?
+
+¿Qué aspectos le gustan y cuáles no de las herramientas que usa?
+
+¿Ha experimentado con tecnologías de IA para la restauración de imágenes? Si es así, ¿cuál ha sido su experiencia?
+
+¿Cuáles son los mayores desafíos de la preservación digital de imágenes históricas
+
+¿Qué tan importante es la precisión histórica en la restauración digital para usted y por qué?
+
+¿Cómo equilibra la necesidad de mejorar la calidad de la imagen con la preservación de su autenticidad?
+
+Si pudiera crear la herramienta perfecta para su trabajo, ¿qué características tendría?
+
+¿Consideraría usar una aplicación móvil para la restauración de imágenes en su trabajo? ¿Por qué sí o por qué no?
+
+¿Qué funcionalidades serían esenciales para usted en una aplicación móvil de este tipo?
+
+
+
+Preguntas para Entusiastas de la Fotografía Histórica:
+
+¿Cómo surgió su interés por la fotografía histórica?
+
+¿Qué tipo de proyectos de restauración o colorización ha realizado?
+
+¿Qué lo motiva a restaurar o colorizar fotografías históricas?
+
+¿Qué software o aplicaciones utiliza actualmente para sus proyectos?
+
+¿Qué aspectos le gustan y cuáles no de las herramientas que usa?
+
+¿Cómo aprendió a usar estas herramientas?
+
+¿Qué nivel de personalización busca en el proceso de restauración o colorización?
+
+¿Prefiere trabajar en un dispositivo móvil o en una computadora de escritorio? ¿Por qué?
+
+¿Qué características serían esenciales para usted en una aplicación móvil de restauración de fotos?
+
+¿Cómo comparte o presenta sus proyectos de restauración?
+
+¿Participa en comunidades en línea relacionadas con la fotografía histórica? Si es así, ¿cuáles?
+
+¿Qué piensa sobre la posibilidad de usar realidad aumentada para visualizar fotografías restauradas en su contexto original?
+
+Preguntas para Estudiantes de Historia y Arte:
+
+¿Qué estás estudiando actualmente y en qué año de la carrera te encuentras?
+
+¿Cuántos años de experiencia tienes en trabajos prácticos relacionados con la historia o el arte?
+
+¿En qué área específica de la historia o el arte estás más interesado (preservación, restauración, investigación, etc.)?
+
+¿Has utilizado algún software o herramienta para la restauración o edición de imágenes históricas? ¿Cuál es?
+
+¿Cuáles son los principales desafíos que enfrentas al trabajar con imágenes históricas en tus proyectos académicos?
+
+¿Cómo evaluas la precisión y efectividad de las herramientas digitales que has utilizado para la restauración de imágenes?
+
+¿Qué tan importante es para ti mantener la autenticidad histórica cuando trabajas en la restauración digital de imágenes?
+
+¿Has considerado o utilizado alguna vez tecnologías de inteligencia artificial para la restauración de imágenes? Si es así, ¿cómo ha sido tu experiencia?
+
+¿Qué características consideras esenciales en una nueva herramienta digital que te ayude en la restauración y gestión de imágenes históricas para tus proyectos académicos?
+
+Pregunta de Cierre:
+
+¿Estarías interesado en probar una nueva aplicación móvil diseñada específicamente para la restauración y gestión de imágenes históricas en tus proyectos académicos? ¿Por qué sí o por qué no?
+
+
 ### 2.2.2. Registro de entrevistas.
 ### 2.2.3. Análisis de entrevistas.
 ## 2.3. Needfinding.

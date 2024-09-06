@@ -15,9 +15,9 @@ Nuestra visión es crear un mundo donde el patrimonio visual sea valorado, prote
 #### 1.2.2.4. Lean UX Canvas.
 ## 1.3. Segmentos objetivo.
 Nuestra solución se enfoca principalmente en 3 públicos objetivo.
-Ciudadanos Aficionados al arte:  
+### Ciudadanos Aficionados al arte:  
 Personas con interés genuino en el arte, sea como hobby o como especialidad.  PictorIA ofrece una plataforma para descubrir y apreciar piezas únicas restauradas a su máximo esplendor.
-Historiadores e Investigadores:  
+### Historiadores e Investigadores:  
 Profesionales interesados en el estudio del pasado, sea a través de documentos históricos, fotografías, pinturas o arte en general.  PictorIA se ofrece como herramienta que les permita analizar, restaurar y documentar imágenes antiguas que podrán usar para sus investigaciones o registros.  
-Estudiantes de Historia y Arte:  
+### Estudiantes de Historia y Arte:  
 Este segmento está compuesto por jóvenes que están cursando estudios universitarios en historia, arte, o disciplinas relacionadas. Estos estudiantes tienen un profundo interés en la preservación del patrimonio cultural y en el análisis de imágenes históricas como parte de su formación académica. Están en busca de herramientas que les permitan realizar investigaciones, proyectos académicos y creativos, a la vez que desarrollan habilidades prácticas en la restauración y conservación digital de imágenes históricas. Su enfoque es aprender y aplicar conocimientos que complementen su formación teórica con experiencias prácticas en el manejo de materiales históricos.  

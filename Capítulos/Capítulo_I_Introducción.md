@@ -101,7 +101,7 @@ Nuestra aplicación de restauración digital de imágenes históricas fue diseñ
   Creemos que lograremos una mejor integración de usuarios y una curva de aprendizaje reducida si los usuarios nuevos que no están familiarizados con el software alcanzan una comprensión completa de las funciones clave con tutoriales interactivos que los guían a través de las funcionalidades principales.
   
 #### 1.2.2.3. Lean UX Canvas
-![Lean UX Canvas](./Recursos/imagenes/lean-ux-canvas.png)
+![Lean UX Canvas](../Recursos/imagenes/lean-ux-canvas.png)
 
 ## 1.3. Segmentos objetivo.
 Nuestra solución se enfoca principalmente en 3 públicos objetivo.

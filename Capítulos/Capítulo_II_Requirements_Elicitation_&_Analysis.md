@@ -30,6 +30,17 @@ Descripción generada automáticamente](Aspose.Words.7967ea77-2ba6-4a63-b1f4-abe
 ### 2.1.1. Análisis competitivo.
 ### 2.1.2. Estrategias y tácticas frente a competidores.
 
+Nuestra principal ventaja competitiva radica en la especialización en restauración digital de obras de arte y artefactos de museos. A diferencia de aplicaciones como PixeLeap o YouCam Enhance, que se centran en fotos personales o familiares, nuestro enfoque exclusivo en piezas de museo nos permite desarrollar algoritmos más precisos y adaptados a las necesidades específicas de la conservación del patrimonio cultural. Esta especialización nos permite ofrecer resultados de mayor calidad y autenticidad histórica, un aspecto crucial para nuestros usuarios principales: historiadores, archiveros y entusiastas de la fotografía histórica.
+
+Aprovecharemos la limitación de ImagIA en cuanto a su nicho restringido, expandiendo nuestro alcance al incluir no solo fotografías, sino también pinturas, esculturas y otros artefactos históricos. Esto nos permitirá atraer a un público más amplio dentro del sector cultural y patrimonial. Además, al centrarnos en la experiencia in situ en museos, ofrecemos un valor añadido que las aplicaciones existentes no contemplan, mejorando la interacción de los visitantes con las obras de arte.
+
+Una desventaja común entre nuestros competidores, como FixMyPics, es su dependencia de modelos de suscripción o compras dentro de la aplicación. Nosotros adoptaremos un enfoque diferente, ofreciendo la aplicación de forma gratuita a los museos colaboradores. Esta estrategia nos permitirá establecer relaciones sólidas con instituciones culturales, obteniendo acceso a colecciones valiosas para mejorar nuestros algoritmos y, al mismo tiempo, aumentar nuestra visibilidad entre los visitantes del museo.
+
+Mientras que aplicaciones como YouCam Enhance se centran en la integración con redes sociales para compartir fotos personales mejoradas, nuestra aplicación se enfocará en proporcionar información educativa y contextual sobre las obras restauradas. Esta característica no solo mejorará la experiencia del usuario en el museo, sino que también nos diferenciará como una herramienta educativa y de preservación cultural, en lugar de ser simplemente otra aplicación de edición de fotos.
+
+A diferencia de las aplicaciones existentes que ofrecen una amplia gama de herramientas de edición que pueden resultar abrumadoras para algunos usuarios, nuestra interfaz se diseñará con simplicidad y facilidad de uso en mente. Nos centraremos en ofrecer funciones específicas y relevantes para la visualización y comprensión de obras de arte restauradas, evitando la confusión que pueden generar las múltiples opciones de edición de apps como PixeLeap.
+
+Finalmente, aprovecharemos la falta de enfoque en la realidad aumentada (RA) de nuestros competidores. Al incorporar tecnología de RA, permitiremos a los usuarios visualizar cómo se habrían visto las obras de arte en su estado original, directamente en el entorno del museo. Esta característica innovadora no solo nos diferenciará de la competencia, sino que también proporcionará una experiencia única y atractiva para los visitantes del museo, potenciando el aspecto educativo y emocional de la interacción con el arte.
 
 ## 2.2. Entrevistas.
 ### 2.2.1. Diseño de entrevistas.

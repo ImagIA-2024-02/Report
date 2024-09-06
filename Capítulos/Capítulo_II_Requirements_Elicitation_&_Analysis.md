@@ -45,7 +45,7 @@ Finalmente, aprovecharemos la falta de enfoque en la realidad aumentada (RA) de 
 ## 2.2. Entrevistas.
 ### 2.2.1. Diseño de entrevistas.
 
-Preguntas Generales (para todos los entrevistados):
+#### Preguntas Generales (para todos los entrevistados):
 
 - ¿Cuál es su nombre completo?
 
@@ -78,7 +78,7 @@ Preguntas Generales (para todos los entrevistados):
 - ¿Qué redes sociales utiliza más y con qué frecuencia?
 - ¿Cómo prefiere aprender sobre nuevas tecnologías o aplicaciones?
 
-Preguntas para Historiadores y Archiveros:
+#### Preguntas para Historiadores y Archiveros:
 
 ¿Cuántos años de experiencia tiene en su campo?
 
@@ -106,7 +106,7 @@ Si pudiera crear la herramienta perfecta para su trabajo, ¿qué característica
 
 
 
-Preguntas para Entusiastas de la Fotografía Histórica:
+#### Preguntas para Entusiastas de la Fotografía Histórica:
 
 ¿Cómo surgió su interés por la fotografía histórica?
 

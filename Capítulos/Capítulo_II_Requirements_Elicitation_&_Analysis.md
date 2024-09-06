@@ -3,15 +3,33 @@
 <table><tr><th colspan="2" valign="top"> </th><th colspan="8" valign="top">Competitive Analysis Landscape </th></tr>
 <tr><td rowspan="2" valign="top">¿Por qué llevar a cabo este análisis? </td><td colspan="3" valign="top"> </td><td colspan="6" valign="top">¿Quiénes son nuestros principales competidores y que nos diferencia de ellos? </td></tr>
 <tr><td colspan="3" valign="top"> </td><td colspan="6" valign="top">Gracias al análisis de la competencia presente en el mercado podremos conocer las fortalezas y debilidades de nuestros principales competidores. Además, lograremos identificar las estrategias utilizadas por los competidores y su presencia dentro del mercado. A partir de la información recopilada en el análisis competitivo podremos plantear estrategias que nos permitan posicionarnos dentro del mercado. </td></tr>
-<tr><td colspan="5" valign="top"><p> </p><p> </p></td><td colspan="2" valign="top"><p> </p><p>![Forma
 
-Descripción generada automáticamente con confianza media](Aspose.Words.7967ea77-2ba6-4a63-b1f4-abe7b6f86598.001.png) </p></td><td valign="top"><p>![Foto montaje de la cara de una persona
 
-Descripción generada automáticamente con confianza media](Aspose.Words.7967ea77-2ba6-4a63-b1f4-abe7b6f86598.002.png) </p><p>PixeLeap </p></td><td valign="top"><p>![Icono
+<tr><td colspan="5" valign="top"><p> </p><p> </p></td><td colspan="2" valign="top">
+  <div class="container" style="text-align: center">
+    <img src="https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/1.png?raw=true" width="200" alt="Forma">
+  </div>
+</td>
+<td valign="top">
+  <div class="container" style="text-align: center">
+    <img src="https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/2.png?raw=true" width="200" alt="Foto montaje de la cara de una persona">
+  </div>
+  <p>PixeLeap</p>
+</td>
+<td valign="top">
+  <div class="container" style="text-align: center">
+    <img src="https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/3.png?raw=true" width="200" alt="Icono">
+  </div>
+  <p>YouCam Enhance</p>
+</td>
+<td valign="top">
+  <div class="container" style="text-align: center">
+    <img src="https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/4.png?raw=true" width="200" alt="Cara de una persona">
+  </div>
+  <p>FixMyPics</p>
+</td></tr>
 
-Descripción generada automáticamente](Aspose.Words.7967ea77-2ba6-4a63-b1f4-abe7b6f86598.003.png) </p><p>YounCam Enhance </p></td><td valign="top"><p>![Cara de una persona
 
-Descripción generada automáticamente](Aspose.Words.7967ea77-2ba6-4a63-b1f4-abe7b6f86598.004.png) </p><p>FixMyPics </p></td></tr>
 <tr><td colspan="3" rowspan="2" valign="top">Perfil  </td><td colspan="2" valign="top">Overview </td><td colspan="2" valign="top">ImagIA es una startup dedicada a la preservación y restauración de imágenes históricas, combinando tecnología avanzada con un profundo respeto por el patrimonio visual. Su misión es democratizar el acceso a la historia vidual, permitiendo a los usuarios, desde historiadores hasta aficionados del arte, restaurar y perseverar fotografías y pinturas que cuentan la historia del pasado. La plataforma esta diseñada para conectar el pasado con el presente, ofreciendo herramientas á mejorar la calidad de las imágenes y asegurar que las memorias visuales sean accesibles para las futuras generaciones .  </td><td valign="top"><p>PixeLeap </p><p>es una aplicación móvil que permite a los usuarios restaurar y mejorar fotos antiguas o de baja calidad con un enfoque en la facilidad de uso y la accesibilidad. Utilizando tecnología de inteligencia artificial, PixeLeap ofrece herramientas para mejorar la claridad, corregir defectos y agregar color a imágenes en blanco y negro, haciéndola ideal para aquellos que desean revitalizar fotos familiares o personales. La aplicación está disponible principalmente en dispositivos iOS y utiliza un modelo de suscripción para acceder a funciones avanzadas </p></td><td valign="top">YouCam Enhance es una aplicación diseñada para mejorar la calidad de las fotos mediante tecnologías avanzadas de inteligencia artificial. Ofrece herramientas para corregir fotos borrosas, mejorar la resolución y restaurar imágenes antiguas. La aplicación está dirigida a usuarios de smartphones que desean mejorar la calidad de sus selfies y fotos personales. Además, YouCam Enhance está integrada con otras plataformas de redes sociales, lo que facilita compartir imágenes mejoradas en línea. Está disponible tanto en iOS como en Android y ofrece un modelo freemium con opciones de suscripción​ </td><td valign="top">FixMyPics es una aplicación móvil que se centra en la restauración de fotos antiguas, proporcionando una interfaz intuitiva y fácil de usar para ayudar a los usuarios a revivir sus recuerdos visuales. Ofrece funciones como la eliminación de arañazos y la mejora de la calidad de imágenes, lo que la convierte en una opción atractiva para aquellos que buscan preservar sus fotos familiares y personales. La aplicación está disponible en plataformas como GameLoop, dirigida a un mercado que valora la preservación de recuerdos fotográficos, con opciones de compra dentro de la aplicación para funciones premium </td></tr>
 <tr><td colspan="2" valign="top">Ventaja competitiva ¿Qué valor ofrece a los clientes? </td><td colspan="2" valign="top">Especialización en la preservación y restauración de imágenes históricas. </td><td valign="top">Restauración y mejora de fotos antiguas con facilidad de uso y accesibilidad para usuarios generales. </td><td valign="top">Potente combinación de herramientas de mejora de fotos respaldadas por IA, corrección de fotos borrosas y restauración de imágenes. </td><td valign="top">FixMyPics se enfoca en la restauración de fotos antiguas con una interfaz fácil de usar, permitiendo a los usuarios revivir y preservar sus recuerdos familiares y personales de manera rápida y accesible. </td></tr>
 <tr><td colspan="3" rowspan="2" valign="top">Perfil Marketing </td><td colspan="2" valign="top">Mercado Objetivo </td><td colspan="2" valign="top">Amantes del arte, historiadores, museos, y bibliotecas. </td><td valign="top">Usuarios generales interesados en mejorar fotos antiguas o de baja calidad. </td><td valign="top"><p> </p><p> </p><p>Usuarios de smartphones interesados en mejorar la calidad de sus fotos y selfies. </p></td><td valign="top">Familias, personas mayores, y cualquier persona que desee restaurar fotos antiguas o dañadas. </td></tr>

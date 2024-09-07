@@ -35,7 +35,7 @@ Setiembre 2024
 
 | Versión | Fecha      | Autor | Descripción de modificación                                                                                                                                                                               |
 | ------- | ---------- | ----- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1.0     | 06/09/2024 | Todos | Caminante no hay camino se hace camino al andar. Al andar se hace el camino, y al volver la vista atrás se ve la senda que nunca se ha de volver a pisar. Caminante no hay camino sino estelas en la mar. |
+| 1.0     | 06/09/2024 | Todos | Se pasaron las secciones trabajadas en el word borrador al github. Se realizó una revisión grupal final y agregaron el link del video de entrevistas y exposición en los anexos. |
 
 ### Project Report Collaboration Insights
 

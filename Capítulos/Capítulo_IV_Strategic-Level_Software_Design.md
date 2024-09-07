@@ -28,6 +28,67 @@ En esta sección se especifica los Epics o User stories que tienen mayor relevan
 ### 4.1.3. Architectural Drivers Backlog.
 ### 4.1.4. Architectural Design Decisions.
 ### 4.1.5. Quality Attribute Scenario Refinements.
+En este apartado se presentan refinamientos de los escenarios relacionados con los atributos de calidad más relevantes para el sistema de restauración de imágenes históricas. Estos escenarios ayudan a garantizar que el sistema cumpla con los requisitos clave de rendimiento, seguridad, usabilidad, disponibilidad y escalabilidad, proporcionando una experiencia de usuario robusta y eficiente, incluso bajo condiciones de uso intensivo. A continuación, se describen los escenarios refinados para cada atributo de calidad, con sus correspondientes estímulos, entornos, respuestas esperadas y medidas de desempeño.  
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0pky" colspan="3">Scenario Refinement for Scenario1</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky" colspan="2">Scenario(s)</td>
+    <td class="tg-0pky">Performance</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky" colspan="2">Business Goals</td>
+    <td class="tg-0pky">Minimizar el tiempo de procesamiento para ofrecer una experiencia de usuario ágil y evitar la frustración por demoras en dispositivos móviles.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky" colspan="2">Relevant Quality Attributes</td>
+    <td class="tg-0pky">Rendimiento en la restauración de imágenes de alta resolución en dispositivos móviles con recursos limitados.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky" rowspan="6">Scenario Components</td>
+    <td class="tg-0pky">Stimulus</td>
+    <td class="tg-0pky">Un usuario selecciona una imagen de alta resolución y aplica la restauración automática.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Stimulus Source</td>
+    <td class="tg-0pky">Usuario utilizando un dispositivo móvil con capacidades limitadas.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Environment</td>
+    <td class="tg-0pky">Dispositivo móvil con CPU y memoria limitados.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Artifact (if Known)</td>
+    <td class="tg-0pky">Algoritmo de restauración de imágenes.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Response</td>
+    <td class="tg-0pky">La imagen se restaura en menos de 5 segundos, proporcionando resultados inmediatos.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Response Measure</td>
+    <td class="tg-0pky">El tiempo de procesamiento medido en segundos no debe exceder los 5 segundos en el 95% de los casos.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky" colspan="2">Questions</td>
+    <td class="tg-0pky">¿Cómo optimiza el sistema el uso de CPU y memoria en dispositivos móviles de gama baja?</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky" colspan="2">Issues</td>
+    <td class="tg-0pky">Necesidad de ajustar el algoritmo de restauración para que funcione eficientemente en hardware con recursos limitados sin sacrificar la calidad de la restauración.</td>
+  </tr>
+</tbody></table>  
+
 ## 4.2. Strategic-Level Domain-Driven Design.
 ### 4.2.1. EventStorming.
 ### 4.2.2. Candidate Context Discovery.

@@ -242,7 +242,57 @@ En este apartado se presentan refinamientos de los escenarios relacionados con l
     <td class="tg-0pky">Asegurar que las actualizaciones y el mantenimiento no afecten la disponibilidad.</td>
   </tr>
 </tbody></table>  
-
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0pky" colspan="3">Scenario Refinement for Scenario 5</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky" colspan="2">Scenario(s)</td>
+    <td class="tg-0pky">Aumento en el número de usuarios concurrentes que aplican restauraciones de imágenes durante un evento promocional (Scalability)</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky" colspan="2">Business Goals</td>
+    <td class="tg-0pky">Garantizar que la aplicación pueda manejar un aumento súbito de tráfico sin degradar la experiencia del usuario.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky" colspan="2">Relevant Quality Attributes</td>
+    <td class="tg-0pky">Escalabilidad del sistema para soportar picos de tráfico.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky" rowspan="6">Scenario Components</td>
+    <td class="tg-0pky">Stimulus</td>
+    <td class="tg-0pky">Aumento en usuarios concurrentes durante un evento promocional.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Stimulus Source</td>
+    <td class="tg-0pky">Usuario accediendo a la plataforma durante un evento de alta demanda.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Environment</td>
+    <td class="tg-0pky">Sistema backend sometido a una carga elevada de usuarios.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Artifact (if Known)</td>
+    <td class="tg-0pky">Servidor backend y base de datos.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Response</td>
+    <td class="tg-0pky">La aplicación debe soportar un aumento del 200% en la carga de usuarios sin una degradación significativa en el rendimiento.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Response Measure</td>
+    <td class="tg-0pky">La tasa de respuesta y éxito de las operaciones debe mantenerse por encima del 95% bajo carga máxima.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky" colspan="2">Questions</td>
+    <td class="tg-0pky">¿Cómo se maneja la distribución de carga en los servidores durante picos de tráfico?</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky" colspan="2">Issues</td>
+    <td class="tg-0pky">Implementación de soluciones de escalado automático para manejar picos de tráfico sin afectar el rendimiento.</td>
+  </tr>
+</tbody></table>
 ## 4.2. Strategic-Level Domain-Driven Design.
 ### 4.2.1. EventStorming.
 ### 4.2.2. Candidate Context Discovery.

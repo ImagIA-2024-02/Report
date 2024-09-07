@@ -1,9 +1,10 @@
 # Capítulo II: Requirements Elicitation & Analysis
+
 ### 2.1. Competidores.
+
 <table><tr><th colspan="2" valign="top"> </th><th colspan="8" valign="top">Competitive Analysis Landscape </th></tr>
 <tr><td rowspan="2" valign="top">¿Por qué llevar a cabo este análisis? </td><td colspan="3" valign="top"> </td><td colspan="6" valign="top">¿Quiénes son nuestros principales competidores y que nos diferencia de ellos? </td></tr>
 <tr><td colspan="3" valign="top"> </td><td colspan="6" valign="top">Gracias al análisis de la competencia presente en el mercado podremos conocer las fortalezas y debilidades de nuestros principales competidores. Además, lograremos identificar las estrategias utilizadas por los competidores y su presencia dentro del mercado. A partir de la información recopilada en el análisis competitivo podremos plantear estrategias que nos permitan posicionarnos dentro del mercado. </td></tr>
-
 
 <tr><td colspan="5" valign="top"><p> </p><p> </p></td><td colspan="2" valign="top">
   <div class="container" style="text-align: center">
@@ -29,7 +30,6 @@
   <p>FixMyPics</p>
 </td></tr>
 
-
 <tr><td colspan="3" rowspan="2" valign="top">Perfil  </td><td colspan="2" valign="top">Overview </td><td colspan="2" valign="top">ImagIA es una startup dedicada a la preservación y restauración de imágenes históricas, combinando tecnología avanzada con un profundo respeto por el patrimonio visual. Su misión es democratizar el acceso a la historia vidual, permitiendo a los usuarios, desde historiadores hasta aficionados del arte, restaurar y perseverar fotografías y pinturas que cuentan la historia del pasado. La plataforma esta diseñada para conectar el pasado con el presente, ofreciendo herramientas á mejorar la calidad de las imágenes y asegurar que las memorias visuales sean accesibles para las futuras generaciones .  </td><td valign="top"><p>PixeLeap </p><p>es una aplicación móvil que permite a los usuarios restaurar y mejorar fotos antiguas o de baja calidad con un enfoque en la facilidad de uso y la accesibilidad. Utilizando tecnología de inteligencia artificial, PixeLeap ofrece herramientas para mejorar la claridad, corregir defectos y agregar color a imágenes en blanco y negro, haciéndola ideal para aquellos que desean revitalizar fotos familiares o personales. La aplicación está disponible principalmente en dispositivos iOS y utiliza un modelo de suscripción para acceder a funciones avanzadas </p></td><td valign="top">YouCam Enhance es una aplicación diseñada para mejorar la calidad de las fotos mediante tecnologías avanzadas de inteligencia artificial. Ofrece herramientas para corregir fotos borrosas, mejorar la resolución y restaurar imágenes antiguas. La aplicación está dirigida a usuarios de smartphones que desean mejorar la calidad de sus selfies y fotos personales. Además, YouCam Enhance está integrada con otras plataformas de redes sociales, lo que facilita compartir imágenes mejoradas en línea. Está disponible tanto en iOS como en Android y ofrece un modelo freemium con opciones de suscripción​ </td><td valign="top">FixMyPics es una aplicación móvil que se centra en la restauración de fotos antiguas, proporcionando una interfaz intuitiva y fácil de usar para ayudar a los usuarios a revivir sus recuerdos visuales. Ofrece funciones como la eliminación de arañazos y la mejora de la calidad de imágenes, lo que la convierte en una opción atractiva para aquellos que buscan preservar sus fotos familiares y personales. La aplicación está disponible en plataformas como GameLoop, dirigida a un mercado que valora la preservación de recuerdos fotográficos, con opciones de compra dentro de la aplicación para funciones premium </td></tr>
 <tr><td colspan="2" valign="top">Ventaja competitiva ¿Qué valor ofrece a los clientes? </td><td colspan="2" valign="top">Especialización en la preservación y restauración de imágenes históricas. </td><td valign="top">Restauración y mejora de fotos antiguas con facilidad de uso y accesibilidad para usuarios generales. </td><td valign="top">Potente combinación de herramientas de mejora de fotos respaldadas por IA, corrección de fotos borrosas y restauración de imágenes. </td><td valign="top">FixMyPics se enfoca en la restauración de fotos antiguas con una interfaz fácil de usar, permitiendo a los usuarios revivir y preservar sus recuerdos familiares y personales de manera rápida y accesible. </td></tr>
 <tr><td colspan="3" rowspan="2" valign="top">Perfil Marketing </td><td colspan="2" valign="top">Mercado Objetivo </td><td colspan="2" valign="top">Amantes del arte, historiadores, museos, y bibliotecas. </td><td valign="top">Usuarios generales interesados en mejorar fotos antiguas o de baja calidad. </td><td valign="top"><p> </p><p> </p><p>Usuarios de smartphones interesados en mejorar la calidad de sus fotos y selfies. </p></td><td valign="top">Familias, personas mayores, y cualquier persona que desee restaurar fotos antiguas o dañadas. </td></tr>
@@ -44,8 +44,8 @@
 <tr><td colspan="2" valign="top">Amenazas </td><td colspan="2" valign="top">Avances tecnológicos de la competencia. </td><td valign="top"><p> </p><p>Competencia de aplicaciones con IA avanzada y mejor reputación. </p><p> </p></td><td valign="top">Saturación del mercado y rápida evolución de la tecnología en apps de fotos. </td><td valign="top">Competencia con aplicaciones que utilizan tecnologías más avanzadas de inteligencia artificial para la restauración de fotos. </td></tr>
 </table>
 
-
 ### 2.1.1. Análisis competitivo.
+
 ### 2.1.2. Estrategias y tácticas frente a competidores.
 
 Nuestra principal ventaja competitiva radica en la especialización en restauración digital de obras de arte y artefactos de museos. A diferencia de aplicaciones como PixeLeap o YouCam Enhance, que se centran en fotos personales o familiares, nuestro enfoque exclusivo en piezas de museo nos permite desarrollar algoritmos más precisos y adaptados a las necesidades específicas de la conservación del patrimonio cultural. Esta especialización nos permite ofrecer resultados de mayor calidad y autenticidad histórica, un aspecto crucial para nuestros usuarios principales: historiadores, archiveros y entusiastas de la fotografía histórica.
@@ -61,6 +61,7 @@ A diferencia de las aplicaciones existentes que ofrecen una amplia gama de herra
 Finalmente, aprovecharemos la falta de enfoque en la realidad aumentada (RA) de nuestros competidores. Al incorporar tecnología de RA, permitiremos a los usuarios visualizar cómo se habrían visto las obras de arte en su estado original, directamente en el entorno del museo. Esta característica innovadora no solo nos diferenciará de la competencia, sino que también proporcionará una experiencia única y atractiva para los visitantes del museo, potenciando el aspecto educativo y emocional de la interacción con el arte.
 
 ## 2.2. Entrevistas.
+
 ### 2.2.1. Diseño de entrevistas.
 
 #### Preguntas Generales (para todos los entrevistados):
@@ -122,8 +123,6 @@ Si pudiera crear la herramienta perfecta para su trabajo, ¿qué característica
 
 ¿Qué funcionalidades serían esenciales para usted en una aplicación móvil de este tipo?
 
-
-
 #### Preguntas para Entusiastas de la Fotografía Histórica:
 
 ¿Cómo surgió su interés por la fotografía histórica?
@@ -174,8 +173,8 @@ Pregunta de Cierre:
 
 ¿Estarías interesado en probar una nueva aplicación móvil diseñada específicamente para la restauración y gestión de imágenes históricas en tus proyectos académicos? ¿Por qué sí o por qué no?
 
-
 ### 2.2.2. Registro de entrevistas.
+
 **Segmento: Ciudadanos Aficionados al arte:**
 
 Entrevistador: Diego Merino
@@ -186,22 +185,13 @@ Edad: 20 años
 
 Distrito: Los Olivos
 
-Min inicio:
-
-Min final:
-
 <div class="container" style="text-align: center">
     <img src="https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/entrevista3.png?raw=true" width="200" alt="Imagen de entrevista">
 </div>
 
-
 Wilmer Salines, un joven de 20 años que estudia Arquitectura, representa un segmento objetivo clave para el proyecto PictorIA. Con un estilo de vida urbano en Los Olivos y una afinidad natural por la tecnología, Wilmer utiliza un Samsung A13 y prefiere aplicaciones como WhatsApp, Instagram y LinkedIn, que reflejan su conectividad y presencia en redes sociales. Además, es un usuario frecuente de Photoshop, lo que indica su interés y habilidades en la edición digital, una competencia relevante para su campo de estudio.
 
-
-
 Wilmer muestra un interés profundo y arraigado por el arte y la historia, lo que lo lleva a visitar museos y galerías al menos una vez al mes. Su enfoque en observar maquetas y modelos arquitectónicos, más que en leer descripciones, resalta su preferencia por lo visual y lo tangible, elementos que podrían ser esenciales en la experiencia de usuario de PictorIA. La capacidad de visualizar modelos digitales de edificaciones, así como la posibilidad de interactuar con estas representaciones a través del tiempo o modificando aspectos como la paleta de colores, son características que Wilmer encontraría atractivas y útiles en una aplicación.
-
-
 
 Su tendencia a compartir ocasionalmente sus visitas en redes sociales sugiere un potencial para la gamificación y la integración social, fomentando no solo la exploración del arte y la historia, sino también la difusión de estas experiencias entre sus contactos.
 
@@ -209,32 +199,21 @@ Su tendencia a compartir ocasionalmente sus visitas en redes sociales sugiere un
 
 Entrevistador: Diego Merino
 
-Entrevistado: 
+Entrevistado:
 
 Edad: 20 años
 
 Distrito: Los Olivos
 
-Min inicio:
-
-Min final:
-
 <div class="container" style="text-align: center">
     <img src="https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/entrevista4.png?raw=true" width="200" alt="Imagen de entrevista">
 </div>
 
-
 Carla Xiomara Valle Espinoza, una joven de 17 años que reside en Callao, Lima, y estudia Administración y Marketing, aporta una perspectiva valiosa para el desarrollo de PictorIA. Con un iPhone 13 y una tablet Samsung S7 Plus que prefiere usar en casa, Carla es una usuaria de tecnología que se mantiene actualizada, pero que cambia sus dispositivos con menor frecuencia, aproximadamente cada cinco años. Sus aplicaciones más utilizadas, como WhatsApp e Instagram, revelan su afinidad por las redes sociales y su inclinación hacia contenido visual y dinámico.
-
-
 
 Hace unos dos o tres meses, Carla visitó un museo por primera vez hace un gran interés por el arte desde muy joven, especialmente por el dibujo. Este interés la llevó a disfrutar de una exhibición colorida en un espacio que estaba a punto de ser demolido, lo que resalta su aprecio por las experiencias artísticas que combinan creatividad con un elemento efímero y transformador.
 
-
-
 Carla prefiere observar más que leer descripciones o seguir visitas guiadas, lo que indica una tendencia hacia el aprendizaje visual e interactivo. Le atrae la idea de una versión digital de las obras que le permita ver cómo eran en su estado original y cómo se han deteriorado con el tiempo y querría poder cambiar colores en las representaciones digitales para hacerlas más dinámicas. Además, Carla expresó un deseo por características inmersivas en la aplicación, como la posibilidad de ver movimientos en las imágenes, lo que sugiere que valora la interactividad y el dinamismo en sus experiencias visuales.
-
-
 
 **Entrevista 3:**
 
@@ -246,28 +225,17 @@ Edad: 23 años
 
 Distrito: Chorrillos
 
-Min inicio:
-
-Min final:
-
 <div class="container" style="text-align: center">
     <img src="https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/entrevista5.png?raw=true" width="200" alt="Imagen de entrevista">
 </div>
 
-
 Manuel Rueda, un joven de 23 años que vive en Chorrillos y estudia Diseño Gráfico, ofrece una perspectiva interesante y detallada. Como usuario de Apple, incluyendo un iPhone y un iPad que utiliza principalmente en casa, Manuel se identifica con una generación que valora la tecnología de alta calidad, aunque no cambia sus dispositivos con frecuencia. Sus visitas regulares a museos y galerías, que realiza semanalmente, muestran un profundo interés por el arte y la historia, un interés que, según él, tiene raíces familiares.
-
-
 
 Manuel aprecia una experiencia museística completa que combine la observación visual, la lectura de inscripciones y la guía narrativa, lo que sugiere que valora tanto la estética como el contexto educativo de las exhibiciones. Sin embargo, también expresa un deseo de modernizar estas experiencias, haciendo que las exposiciones sean más dinámicas e interactivas. Esto se alinea con su interés por el diseño gráfico, donde la interacción y la participación del usuario son fundamentales.
 
-
-
 Manuel considera que las experiencias digitales pueden enriquecer las visitas físicas a museos, permitiendo a los usuarios ver versiones restauradas de obras en su mejor momento, así como cambiar elementos como la paleta de colores. También le gustaría ver una mayor integración de tecnología, como el uso de códigos QR que permitan a los visitantes recibir descripciones directamente de los autores, haciéndolo sentir más conectado con las obras.
 
-
-
-Aunque comparte ocasionalmente sus visitas en redes sociales, Manuel no lo hace de manera constante. 
+Aunque comparte ocasionalmente sus visitas en redes sociales, Manuel no lo hace de manera constante.
 
 **Segmento: Historiadores e Investigadores:**
 
@@ -281,14 +249,9 @@ Edad: 58
 
 Distrito: Independencia
 
-Min inicio:
-
-Min final:
-
 <div class="container" style="text-align: center">
     <img src="https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/entrevista6.png?raw=true" width="200" alt="Imagen de entrevista">
 </div>
-
 
 Resumen: Alcides Jaramillo es un técnico de profesión que, como trabajo voluntario, se encarga de hacer transcripciones de actas antiguas (indexar) en una aplicación web proporcionada por la institución “La Iglesia de Jesucristo de los Santos de los Últimos Días”. Utiliza un celular Samsung de sistema operativo Android que cambia cada 3 años. No utiliza Tablet para su actividad de transcripción, sino laptops o computadoras de escritorio, de sistema operativo Windows, porque el tamaño de la pantalla de ayuda a distinguir y transcribir mejor los escritos. Las aplicaciones que más utiliza para su labor son, dicha aplicación web [FamiliSearch](https://www.familysearch.org/es/), Microsoft Office y otros programas de edición como: Photoshop y CorelDraw. Visita museos y galerías con poca frecuencia ya que no son las entidades que mayor relevancia tienen en la actividad de recolección de archivos. Tiene afición por la fotografía que demuestra al mantener recuerdos familiares valiosos. Las redes sociales que utiliza normalmente son Whatsapp, Facebook, Instagram y TikTok. Prefiere aprender de nuevas tecnologías a través de tutoriales gratuitos en YouTube, libros guía o siguiendo instrucciones de Inteligencia Artificial.
 
@@ -310,7 +273,6 @@ Distrito: Breña
     <img src="https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/entrevista1.jpeg?raw=true" width="200" alt="Imagen de entrevista 1">
 </div>
 
-
 **Resumen:** Elizabeth es una estudiante de tercer año de Historia y Artes, apasionada por ambas áreas. Suele visitar museos y ha realizado trabajos de restauración de imágenes utilizando software como Adobe Photoshop y GIMP para la restauración digital, así como Pixlr. En su trabajo enfrenta retos importantes, como conservar los detalles originales de las imágenes y evitar distorsionar su autenticidad, algo que considera crucial.
 
 Ha probado herramientas de inteligencia artificial para la restauración de imágenes, pero siente que aún no cumplen con sus expectativas, ya que les faltan características que permitan gestionar mejor la calidad de las imágenes restauradas. Elizabeth está interesada en una aplicación móvil para la restauración de imágenes, lo cual sería de gran ayuda para su trabajo académico y profesional.
@@ -329,7 +291,6 @@ Distrito: San Martín de Porres
     <img src="https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/entrevista2.png?raw=true" width="200" alt="Imagen de entrevista 2">
 </div>
 
-
 Resumen: William es un estudiante de 20 años, menciona que está cursando la carrera de Historia, enfocándose principalmente en la historia del Perú. Aunque no tiene experiencia laboral práctica en el área, ha realizado múltiples trabajos académicos, en su mayoría investigaciones sobre culturas y temas de antropología relacionados con la historia peruana.
 
 <a name="_int_t2nwyjcz"></a>William ha utilizado software como Photoshop para la edición de imágenes históricas, pero no ha trabajado con herramientas específicas para la restauración. Su principal desafío al trabajar con imágenes históricas es la accesibilidad de las mismas, así como la presencia de errores o manchas que dificultan el análisis visual. Además, menciona problemas comunes con imágenes familiares antiguas, como la baja resolución o secciones faltantes.
@@ -340,9 +301,8 @@ Para él, es crucial que una herramienta digital para restauración permita mejo
 
 Finalmente, William se interesa en probar una nueva aplicación diseñada para restaurar y gestionar imágenes históricas, ya que sería útil para sus proyectos académicos y también para preservar imágenes históricas que podrían perderse por daños irreparables.
 
-
-
 ### 2.2.3. Análisis de entrevistas.
+
 **Segmento Ciudadanos Aficionados al Arte**
 
 **¿Qué tecnologías utilizan con mayor frecuencia?**
@@ -364,31 +324,28 @@ Aunque no todos comparten sus experiencias artísticas regularmente en redes soc
 
 muestra un interés profundo por experiencias artísticas visuales e interactivas, prefiriendo la personalización y el dinamismo sobre la pasividad. Valoran la tecnología moderna, tanto para capturar como para compartir experiencias, y buscan herramientas que enriquezcan su interacción con el arte, especialmente en entornos museísticos. PictorIA tiene la oportunidad de cubrir estas necesidades al ofrecer funciones inmersivas y personalizables, promoviendo la conexión social y el compromiso con el arte a través de plataformas digitales.
 
-
-
 **Segmento: Historiadores e Investigadores**
 
-**¿Qué dispositivos usan y cómo afectan sus hábitos?** 
+**¿Qué dispositivos usan y cómo afectan sus hábitos?**
 
 Los entrevistados prefieren dispositivos como laptops y computadoras de escritorio, debido a la necesidad de trabajar con pantallas más grandes que facilitan la visualización detallada de documentos. Esto difiere de otros segmentos más orientados hacia el arte que prefieren dispositivos móviles como smartphones y tablets para consumir contenido visual. Aunque son usuarios de celulares para redes sociales y comunicación, para su trabajo de transcripción y análisis de documentos, consideran que las pantallas de los móviles son inadecuadas.
 
-**¿Cuáles son sus principales necesidades o problemas en el uso de tecnología?** 
+**¿Cuáles son sus principales necesidades o problemas en el uso de tecnología?**
 
 Se encuentran con problemas como el deterioro físico de los textos (por estar borrosos, en otros idiomas o en caligrafías difíciles de leer) y la falta de herramientas digitales más avanzadas que faciliten su interpretación o restauración. Algunos han usado softwares como Photoshop y CorelDraw, expresan interés en soluciones que incluyan inteligencia artificial para mejorar la restauración de estos textos sin comprometer su autenticidad.
 
-**¿Cómo consumen contenido histórico y cultural?** 
+**¿Cómo consumen contenido histórico y cultural?**
 
 Este segmento consume contenido histórico de manera más profesional que recreativa. Sus visitas a museos y galerías son poco frecuentes, ya que el contenido expuesto no es necesariamente relevante para su investigación de documentos y archivos históricos. Sin embargo, cuando visitan estos espacios, su interés está más centrado en la exactitud histórica y en la posibilidad de obtener datos que en la experiencia visual o interactiva.
 
-**¿Qué expectativas tienen en cuanto a nuevas herramientas digitales?** 
+**¿Qué expectativas tienen en cuanto a nuevas herramientas digitales?**
 
 Este grupo valora la precisión histórica y la preservación de la autenticidad en cualquier aplicación tecnológica. Si bien no han experimentado con herramientas avanzadas de inteligencia artificial para la restauración de documentos, muestran curiosidad y disposición a probar nuevas aplicaciones, siempre y cuando estas no comprometan la integridad de los documentos. Además, sugieren que las aplicaciones de este tipo incluyan características para agregar fotos a los datos indexados, lo cual enriquecería sus actividades de preservación histórica.
 
 **Análisis general del segmento**
 
 Utilizan principalmente WhatsApp, Facebook e Instagram aunque no lo hacen de manera activa para la difusión de su trabajo. En este contexto, podría destacarse al ofrecer herramientas que faciliten la restauración y preservación de documentos antiguos, permitiendo una integración con dispositivos móviles para consultas o visualizaciones rápidas. La funcionalidad más apreciada por este segmento sería la capacidad de mejorar la calidad de imágenes históricas o documentos antiguos sin comprometer su autenticidad. Sin embargo, no es un grupo orientado a la gamificación o la interacción visual, deberá enfocarse en características más prácticas y de valor académico.
-**
-
+\*\*
 
 **Segmento: Estudiantes de Historia y Arte**
 
@@ -412,10 +369,10 @@ Este segmento espera que una herramienta de restauración de imágenes con IA le
 
 Los estudiantes de Historia y Arte tienen una necesidad crítica de herramientas que les permitan realizar restauraciones de imágenes de manera precisa y sin comprometer los detalles originales. Las soluciones actuales que utilizan son efectivas, pero requieren mucho tiempo y habilidades técnicas. Aunque hay interés en tecnologías de inteligencia artificial, la accesibilidad económica y la capacidad de personalización son barreras importantes. PictorIA tiene la oportunidad de llenar este vacío ofreciendo una herramienta accesible, fácil de usar, que combine automatización mediante IA con la flexibilidad necesaria para controlar los resultados finales. Una aplicación móvil que permita realizar restauraciones eficientes y conservar la autenticidad de las imágenes puede ser un recurso valioso para este segmento.
 
-
-
 ## 2.3. Needfinding.
+
 ### 2.3.1. User Personas.
+
 **Segmento:** Ciudadanos Aficionados al arte
 
 <div class="container" style="text-align: center">
@@ -428,68 +385,80 @@ Los estudiantes de Historia y Arte tienen una necesidad crítica de herramientas
     <img src="https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/user2.png?raw=true" width="200" alt="Imagen de user 2">
 </div>
 
-
 **Segmento:** Estudiantes de Historia y Arte
 
 <div class="container" style="text-align: center">
     <img src="https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/user3.png?raw=true" width="200" alt="Imagen de user 3">
 </div>
 
-
 ### 2.3.2. User Task Matrix.
-
 
 **Historiadores y Archiveros**
 
 Este segmento se compone de profesionales que valoran la autenticidad y precisión en la restauración de imágenes históricas. Buscan herramientas que les permitan mantener la integridad de las fotografías sin necesidad de conocimientos técnicos avanzados.
 
-|**User Task**|**Frecuencia**|**Importancia**|
-| :- | :- | :- |
-|Analizan documentos e imágenes históricas para investigación|Alta|Alta|
-|Corrigen manualmente imperfecciones en imágenes|Media|Alta|
-|Realizan comparaciones entre diferentes versiones de documentos|Baja|Media|
-|Consultan archivos físicos y digitales de difícil acceso|Media|Alta|
-|Colaboran con otros historiadores en proyectos conjuntos|Baja|Alta|
+| **User Task**                                                   | **Frecuencia** | **Importancia** |
+| :-------------------------------------------------------------- | :------------- | :-------------- |
+| Analizan documentos e imágenes históricas para investigación    | Alta           | Alta            |
+| Corrigen manualmente imperfecciones en imágenes                 | Media          | Alta            |
+| Realizan comparaciones entre diferentes versiones de documentos | Baja           | Media           |
+| Consultan archivos físicos y digitales de difícil acceso        | Media          | Alta            |
+| Colaboran con otros historiadores en proyectos conjuntos        | Baja           | Alta            |
 
 ### **Entusiastas de la Fotografía Histórica**
+
 Los usuarios de este segmento son apasionados por la fotografía histórica y buscan personalizar imágenes antiguas a través de colorización y restauración. Valoran las opciones de edición creativa para revitalizar imágenes y darles un toque personal.
 
-|**User Task**|**Frecuencia**|**Importancia**|
-| :- | :- | :- |
-|Realizan trabajos de investigación sobre fotografía histórica|Media|Media|
-|Editan y personalizan imágenes antiguas de forma manual|Alta|Media|
-|Publican y comparten imágenes históricas restauradas|Alta|Media|
-|Buscan imágenes históricas en archivos físicos o digitales|Media|Alta|
-|Participan en foros o comunidades sobre fotografía histórica|Media|Media|
+| **User Task**                                                 | **Frecuencia** | **Importancia** |
+| :------------------------------------------------------------ | :------------- | :-------------- |
+| Realizan trabajos de investigación sobre fotografía histórica | Media          | Media           |
+| Editan y personalizan imágenes antiguas de forma manual       | Alta           | Media           |
+| Publican y comparten imágenes históricas restauradas          | Alta           | Media           |
+| Buscan imágenes históricas en archivos físicos o digitales    | Media          | Alta            |
+| Participan en foros o comunidades sobre fotografía histórica  | Media          | Media           |
 
 **Estudiantes de Historia y Arte**
 
 Este segmento está compuesto por estudiantes universitarios interesados en la preservación del patrimonio cultural. Utilizan herramientas digitales para sus investigaciones académicas y proyectos creativos, buscando aprender y aplicar habilidades prácticas de restauración y conservación de imágenes.
 
-|**User Task**|**Frecuencia**|**Importancia**|
-| :- | :- | :- |
-|Investigan imágenes históricas para proyectos académicos|Alta|Alta|
-|Escriben ensayos y análisis sobre las imágenes y documentos|Alta|Alta|
-|Realizan pequeños ajustes manuales a imágenes para mejorar calidad|Media|Alta|
-|Consultan bibliotecas físicas y archivos para obtener imágenes|Media|Alta|
-|Presentan trabajos académicos con uso de imágenes históricas|Baja|Alta|
+| **User Task**                                                      | **Frecuencia** | **Importancia** |
+| :----------------------------------------------------------------- | :------------- | :-------------- |
+| Investigan imágenes históricas para proyectos académicos           | Alta           | Alta            |
+| Escriben ensayos y análisis sobre las imágenes y documentos        | Alta           | Alta            |
+| Realizan pequeños ajustes manuales a imágenes para mejorar calidad | Media          | Alta            |
+| Consultan bibliotecas físicas y archivos para obtener imágenes     | Media          | Alta            |
+| Presentan trabajos académicos con uso de imágenes históricas       | Baja           | Alta            |
 
 ### 2.3.3. Empathy Mapping.
 
 #### Segmento: Ciudadanos Aficionados al arte
-[![segmento-aficionados.png](https://i.postimg.cc/xjKtvQ53/segmento-aficionados.png)](https://postimg.cc/hhtLnHHX)  
+
+[![segmento-aficionados.png](https://i.postimg.cc/xjKtvQ53/segmento-aficionados.png)](https://postimg.cc/hhtLnHHX)
+
 #### Segmento: Historiadores e Investigadores
-[![segmento-historiadores.png](https://i.postimg.cc/cJgcrG6Y/segmento-historiadores.png)](https://postimg.cc/4KGcSM6N)  
+
+[![segmento-historiadores.png](https://i.postimg.cc/cJgcrG6Y/segmento-historiadores.png)](https://postimg.cc/4KGcSM6N)
+
 #### Segmento: Estudiantes de Historia y Arte
-[![segmento-estudiantes.png](https://i.postimg.cc/R0kLtpnY/segmento-estudiantes.png)](https://postimg.cc/jWhf0Xc6)  
+
+[![segmento-estudiantes.png](https://i.postimg.cc/R0kLtpnY/segmento-estudiantes.png)](https://postimg.cc/jWhf0Xc6)
+
 ### 2.3.4. As-is Scenario Mapping
+
 #### Segmento: Ciudadanos Aficionados al arte
+
 [![asis-Ciudadanos-Aficionados-al-arte.png](https://i.postimg.cc/vZjrR2Xm/asis-Ciudadanos-Aficionados-al-arte.png)](https://postimg.cc/XrfGd8RM)
+
 #### Segmento: Historiadores e Investigadores
+
 [![asis-Historiadores-e-Investigadores.png](https://i.postimg.cc/dQBGQVnp/asis-Historiadores-e-Investigadores.png)](https://postimg.cc/yWDDvBMy)
+
 #### Segmento: Estudiantes de Historia y Arte
+
 [![asis-Estudiantes-de-Historia-y-Arte.png](https://i.postimg.cc/zX2WW2sk/asis-Estudiantes-de-Historia-y-Arte.png)](https://postimg.cc/zVWVY7XL)
+
 ## 2.4. Ubiquitous Language.
+
 Temporal Wear (Desgaste Temporal): Referencia al deterioro natural de las imágenes debido al paso del tiempo, que debe ser corregido durante la restauración.  
 Digital Restoration (Restauración Digital): Proceso de reparación y mejora de imágenes utilizando herramientas digitales y algoritmos.  
 Damage Detection (Detección de Daños): Algoritmo o herramienta que identifica áreas dañadas en una imagen que requieren restauración.  
@@ -517,4 +486,4 @@ Conservator (Conservador): Profesional encargado de supervisar la integridad y p
 Collaborative Restoration (Restauración Colaborativa): Proceso en el cual múltiples expertos o instituciones trabajan juntos para restaurar una imagen o conjunto de imágenes.  
 Historical Exhibit (Muestra Histórica): Exposición temporal o permanente de imágenes restauradas en un museo o galería.  
 Contextual Visualization (Visualización Contextual): Técnica que muestra la imagen restaurada junto con información y artefactos históricos relacionados para mejorar la comprensión del espectador.  
-Museum Cloud (Nube de Museos): Plataforma que permite a diversas instituciones culturales compartir y colaborar en la restauración y exhibición de imágenes digitales.  
+Museum Cloud (Nube de Museos): Plataforma que permite a diversas instituciones culturales compartir y colaborar en la restauración y exhibición de imágenes digitales.

@@ -49,4 +49,18 @@
 |TS13|Desarrollo de Sistema de Guías y Tutoriales para Usuarios Nuevos|Como desarrollador, quiero implementar un sistema de guías y tutoriales interactivos que ayuden a los nuevos usuarios a familiarizarse con las funcionalidades de la aplicación de manera eficiente.|<p>**Escenario 1: Obtener lista de tutoriales disponibles** </p><p>Dado que un nuevo usuario accede a la aplicación por primera vez, Cuando se envía una petición GET al endpoint /api/tutorials, Entonces se devuelve un 200 OK con un body que contiene un array de objetos de tutorial, cada uno incluyendo un identificador único, título, y breve descripción.</p><p></p><p>**Escenario 2: Obtener contenido de un tutorial específico** </p><p>Dado que un usuario selecciona un tutorial específico, Cuando se envía una petición GET al endpoint /api/tutorials/{tutorialId}, Entonces se devuelve un 200 OK con un body que contiene el contenido detallado del tutorial, incluyendo pasos, imágenes o videos instructivos, y cualquier interacción requerida.</p><p></p><p>**Escenario 3: Registrar progreso del usuario en un tutorial** </p><p>Dado que un usuario completa un paso o la totalidad de un tutorial, Cuando se envía una petición POST al endpoint /api/users/{userId}/tutorial-progress con el progreso actualizado, Entonces se registra el avance del usuario, y se devuelve un 200 OK con un body que contiene el estado actualizado del progreso del tutorial.</p><p></p><p>**Escenario 4: Sugerir tutorial basado en la actividad del usuario**</p><p>Dado que un usuario intenta usar una función avanzada por primera vez, Cuando el sistema detecta esta actividad y envía una petición GET a /api/tutorials con parámetros de consulta específicos, Entonces se devuelve un 200 OK con un body que contiene el tutorial más relevante para esa función.</p><p></p><p>**Escenario 5: Error al acceder a un tutorial no existente** </p><p>Dado que un usuario intenta acceder a un tutorial que no existe, Cuando se envía una petición GET a /api/tutorials/{nonExistentTutorialId}, Entonces se devuelve un 404 Not Found con un body que contiene {"error": "tutorial\_not\_found"}.</p><p></p>||
 
 ## 3.3. Impact Mapping.
+
+<div class="container" style="text-align: center">
+    <img src="https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/emp1.png?raw=true" width="200" alt="Imagen de segmento emp1">
+</div>
+
+<div class="container" style="text-align: center">
+    <img src="https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/emp2.png?raw=true" width="200" alt="Imagen de segmento emp2">
+</div>
+
+<div class="container" style="text-align: center">
+    <img src="https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/emp3.png?raw=true" width="200" alt="Imagen de segmento emp3">
+</div>
+
+
 ## 3.4. Product Backlog.

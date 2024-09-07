@@ -88,7 +88,7 @@ En este apartado se presentan refinamientos de los escenarios relacionados con l
     <td class="tg-0pky">Necesidad de ajustar el algoritmo de restauración para que funcione eficientemente en hardware con recursos limitados sin sacrificar la calidad de la restauración.</td>
   </tr>
 </tbody></table>  
-
+  
 <table class="tg"><thead>
   <tr>
     <th class="tg-0pky" colspan="3">Scenario Refinement for Scenario 2</th>
@@ -140,6 +140,7 @@ En este apartado se presentan refinamientos de los escenarios relacionados con l
     <td class="tg-0pky">Garantizar que el cifrado no degrade el rendimiento de la aplicación ni sobrecargue los recursos del dispositivo.</td>
   </tr>
 </tbody></table>  
+  
 <table class="tg"><thead>
   <tr>
     <th class="tg-0pky" colspan="3">Scenario Refinement for Scenario 3</th>
@@ -191,6 +192,7 @@ En este apartado se presentan refinamientos de los escenarios relacionados con l
     <td class="tg-0pky">Necesidad de diseñar una interfaz suficientemente intuitiva para minimizar la curva de aprendizaje.</td>
   </tr>
 </tbody></table>  
+  
 <table class="tg"><thead>
   <tr>
     <th class="tg-0pky" colspan="3">Scenario Refinement for Scenario 4</th>
@@ -242,6 +244,7 @@ En este apartado se presentan refinamientos de los escenarios relacionados con l
     <td class="tg-0pky">Asegurar que las actualizaciones y el mantenimiento no afecten la disponibilidad.</td>
   </tr>
 </tbody></table>  
+  
 <table class="tg"><thead>
   <tr>
     <th class="tg-0pky" colspan="3">Scenario Refinement for Scenario 5</th>

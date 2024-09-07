@@ -245,6 +245,14 @@ En este apartado se presentan refinamientos de los escenarios relacionados con l
   </tr>
 </tbody></table>  
   
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
 <table class="tg"><thead>
   <tr>
     <th class="tg-0pky" colspan="3">Scenario Refinement for Scenario 5</th>
@@ -295,7 +303,7 @@ En este apartado se presentan refinamientos de los escenarios relacionados con l
     <td class="tg-0pky" colspan="2">Issues</td>
     <td class="tg-0pky">Implementación de soluciones de escalado automático para manejar picos de tráfico sin afectar el rendimiento.</td>
   </tr>
-</tbody></table>  
+</tbody></table>
 Estos escenarios refinados permiten anticipar posibles desafíos y garantizar que el sistema de restauración de imágenes mantenga su desempeño, seguridad y disponibilidad bajo diversas condiciones. Así, se asegura una experiencia de usuario satisfactoria y confiable.  
 ## 4.2. Strategic-Level Domain-Driven Design.
 ### 4.2.1. EventStorming.

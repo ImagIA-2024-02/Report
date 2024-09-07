@@ -44,7 +44,7 @@ En este apartado se presentan refinamientos de los escenarios relacionados con l
 <tbody>
   <tr>
     <td class="tg-0pky" colspan="2">Scenario(s)</td>
-    <td class="tg-0pky">Performance</td>
+    <td class="tg-0pky">Un usuario aplica la restauración automática a una imagen dañada de alta resolución (Performance)</td>
   </tr>
   <tr>
     <td class="tg-0pky" colspan="2">Business Goals</td>

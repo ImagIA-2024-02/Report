@@ -26,6 +26,9 @@ Aquí está la tabla ajustada según tus indicaciones:
                 Realicé sesiones de lluvia de ideas (brainstorming) para generar soluciones creativas a los desafíos del proyecto.<br>
                 <b>Template</b><br>
                 Asigné roles y responsabilidades claras a cada miembro del equipo para garantizar una distribución equitativa del trabajo y un avance eficiente del proyecto.<br>
+                <b>Gonzales Gomez Antonella</b><br>
+                <b>TB1</b><br>
+                Realice las tareas asiganadas y organicé reuniones regulares de equipo para discutir el progreso del proyecto y asignar tareas de manera eficiente.<br>
             </p>
         </td>
         <td>
@@ -46,6 +49,9 @@ Aquí está la tabla ajustada según tus indicaciones:
                 Realicé investigaciones de mercado para comprender las necesidades y tendencias en el sector de transporte público y la gestión de flotas de autobuses.<br>
                 <b>Template</b><br>
                 Realicé entrevistas con expertos y profesionales del sector de transporte para comprender sus desafíos y requisitos específicos.<br>
+                <b>Gonzales Gomez Antonella</b><br>
+                <b>TB1</b><br>
+                Estudié casos de estudio y buenas prácticas en el desarrollo de soluciones de software aplicadas al sector de transporte para obtener ideas y conocimientos.<br>
             </p>
         </td>
         <td>

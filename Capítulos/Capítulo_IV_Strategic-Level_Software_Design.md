@@ -293,6 +293,7 @@ En este apartado se presentan refinamientos de los escenarios relacionados con l
     <td class="tg-0pky">Implementación de soluciones de escalado automático para manejar picos de tráfico sin afectar el rendimiento.</td>
   </tr>
 </tbody></table>  
+Estos escenarios refinados permiten anticipar posibles desafíos y garantizar que el sistema de restauración de imágenes mantenga su desempeño, seguridad y disponibilidad bajo diversas condiciones. Así, se asegura una experiencia de usuario satisfactoria y confiable.  
 ## 4.2. Strategic-Level Domain-Driven Design.
 ### 4.2.1. EventStorming.
 ### 4.2.2. Candidate Context Discovery.

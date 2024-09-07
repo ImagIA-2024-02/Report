@@ -29,14 +29,7 @@ En esta sección se especifica los Epics o User stories que tienen mayor relevan
 ### 4.1.4. Architectural Design Decisions.
 ### 4.1.5. Quality Attribute Scenario Refinements.
 En este apartado se presentan refinamientos de los escenarios relacionados con los atributos de calidad más relevantes para el sistema de restauración de imágenes históricas. Estos escenarios ayudan a garantizar que el sistema cumpla con los requisitos clave de rendimiento, seguridad, usabilidad, disponibilidad y escalabilidad, proporcionando una experiencia de usuario robusta y eficiente, incluso bajo condiciones de uso intensivo. A continuación, se describen los escenarios refinados para cada atributo de calidad, con sus correspondientes estímulos, entornos, respuestas esperadas y medidas de desempeño.  
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-</style>
+
 <table class="tg"><thead>
   <tr>
     <th class="tg-0pky" colspan="3">Scenario Refinement for Scenario1</th>
@@ -245,14 +238,6 @@ En este apartado se presentan refinamientos de los escenarios relacionados con l
   </tr>
 </tbody></table>  
   
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-</style>
 <table class="tg"><thead>
   <tr>
     <th class="tg-0pky" colspan="3">Scenario Refinement for Scenario 5</th>

@@ -176,6 +176,7 @@ Pregunta de Cierre:
 
 
 ### 2.2.2. Registro de entrevistas.
+**Segmento: Ciudadanos Aficionados al arte:**
 
 Entrevistador: Diego Merino
 
@@ -189,7 +190,10 @@ Min inicio:
 
 Min final:
 
-![ref1]
+<div class="container" style="text-align: center">
+    <img src="https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/entrevista3.png?raw=true" width="200" alt="Imagen de entrevista">
+</div>
+
 
 Wilmer Salines, un joven de 20 años que estudia Arquitectura, representa un segmento objetivo clave para el proyecto PictorIA. Con un estilo de vida urbano en Los Olivos y una afinidad natural por la tecnología, Wilmer utiliza un Samsung A13 y prefiere aplicaciones como WhatsApp, Instagram y LinkedIn, que reflejan su conectividad y presencia en redes sociales. Además, es un usuario frecuente de Photoshop, lo que indica su interés y habilidades en la edición digital, una competencia relevante para su campo de estudio.
 
@@ -215,7 +219,10 @@ Min inicio:
 
 Min final:
 
-![ref2]
+<div class="container" style="text-align: center">
+    <img src="https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/entrevista4.png?raw=true" width="200" alt="Imagen de entrevista">
+</div>
+
 
 Carla Xiomara Valle Espinoza, una joven de 17 años que reside en Callao, Lima, y estudia Administración y Marketing, aporta una perspectiva valiosa para el desarrollo de PictorIA. Con un iPhone 13 y una tablet Samsung S7 Plus que prefiere usar en casa, Carla es una usuaria de tecnología que se mantiene actualizada, pero que cambia sus dispositivos con menor frecuencia, aproximadamente cada cinco años. Sus aplicaciones más utilizadas, como WhatsApp e Instagram, revelan su afinidad por las redes sociales y su inclinación hacia contenido visual y dinámico.
 
@@ -243,7 +250,10 @@ Min inicio:
 
 Min final:
 
-![ref3]
+<div class="container" style="text-align: center">
+    <img src="https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/entrevista5.png?raw=true" width="200" alt="Imagen de entrevista">
+</div>
+
 
 Manuel Rueda, un joven de 23 años que vive en Chorrillos y estudia Diseño Gráfico, ofrece una perspectiva interesante y detallada. Como usuario de Apple, incluyendo un iPhone y un iPad que utiliza principalmente en casa, Manuel se identifica con una generación que valora la tecnología de alta calidad, aunque no cambia sus dispositivos con frecuencia. Sus visitas regulares a museos y galerías, que realiza semanalmente, muestran un profundo interés por el arte y la historia, un interés que, según él, tiene raíces familiares.
 
@@ -275,7 +285,10 @@ Min inicio:
 
 Min final:
 
-![ref4]
+<div class="container" style="text-align: center">
+    <img src="https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/entrevista6.png?raw=true" width="200" alt="Imagen de entrevista">
+</div>
+
 
 Resumen: Alcides Jaramillo es un técnico de profesión que, como trabajo voluntario, se encarga de hacer transcripciones de actas antiguas (indexar) en una aplicación web proporcionada por la institución “La Iglesia de Jesucristo de los Santos de los Últimos Días”. Utiliza un celular Samsung de sistema operativo Android que cambia cada 3 años. No utiliza Tablet para su actividad de transcripción, sino laptops o computadoras de escritorio, de sistema operativo Windows, porque el tamaño de la pantalla de ayuda a distinguir y transcribir mejor los escritos. Las aplicaciones que más utiliza para su labor son, dicha aplicación web [FamiliSearch](https://www.familysearch.org/es/), Microsoft Office y otros programas de edición como: Photoshop y CorelDraw. Visita museos y galerías con poca frecuencia ya que no son las entidades que mayor relevancia tienen en la actividad de recolección de archivos. Tiene afición por la fotografía que demuestra al mantener recuerdos familiares valiosos. Las redes sociales que utiliza normalmente son Whatsapp, Facebook, Instagram y TikTok. Prefiere aprender de nuevas tecnologías a través de tutoriales gratuitos en YouTube, libros guía o siguiendo instrucciones de Inteligencia Artificial.
 
@@ -293,9 +306,10 @@ Edad: 23
 
 Distrito: Breña
 
-![Captura de pantalla de un celular con la foto de una pareja
+<div class="container" style="text-align: center">
+    <img src="https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/entrevista1.jpeg?raw=true" width="200" alt="Imagen de entrevista 1">
+</div>
 
-Descripción generada automáticamente]
 
 **Resumen:** Elizabeth es una estudiante de tercer año de Historia y Artes, apasionada por ambas áreas. Suele visitar museos y ha realizado trabajos de restauración de imágenes utilizando software como Adobe Photoshop y GIMP para la restauración digital, así como Pixlr. En su trabajo enfrenta retos importantes, como conservar los detalles originales de las imágenes y evitar distorsionar su autenticidad, algo que considera crucial.
 
@@ -311,7 +325,10 @@ Edad: 21
 
 Distrito: San Martín de Porres
 
-![ref5]
+<div class="container" style="text-align: center">
+    <img src="https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/entrevista2.png?raw=true" width="200" alt="Imagen de entrevista 2">
+</div>
+
 
 Resumen: William es un estudiante de 20 años, menciona que está cursando la carrera de Historia, enfocándose principalmente en la historia del Perú. Aunque no tiene experiencia laboral práctica en el área, ha realizado múltiples trabajos académicos, en su mayoría investigaciones sobre culturas y temas de antropología relacionados con la historia peruana.
 
@@ -323,157 +340,7 @@ Para él, es crucial que una herramienta digital para restauración permita mejo
 
 Finalmente, William se interesa en probar una nueva aplicación diseñada para restaurar y gestionar imágenes históricas, ya que sería útil para sus proyectos académicos y también para preservar imágenes históricas que podrían perderse por daños irreparables.
 
-**2.2.2. Registro de entrevistas.**
 
-**Segmento: Ciudadanos Aficionados al arte:**
-
-**Entrevista 1:**
-
-Entrevistador: Diego Merino
-
-Entrevistado: Wilmer Salinas
-
-Edad: 20 años
-
-Distrito: Los Olivos
-
-Min inicio:
-
-Min final:
-
-![ref1]
-
-Wilmer Salines, un joven de 20 años que estudia Arquitectura, representa un segmento objetivo clave para el proyecto PictorIA. Con un estilo de vida urbano en Los Olivos y una afinidad natural por la tecnología, Wilmer utiliza un Samsung A13 y prefiere aplicaciones como WhatsApp, Instagram y LinkedIn, que reflejan su conectividad y presencia en redes sociales. Además, es un usuario frecuente de Photoshop, lo que indica su interés y habilidades en la edición digital, una competencia relevante para su campo de estudio.
-
-
-
-Wilmer muestra un interés profundo y arraigado por el arte y la historia, lo que lo lleva a visitar museos y galerías al menos una vez al mes. Su enfoque en observar maquetas y modelos arquitectónicos, más que en leer descripciones, resalta su preferencia por lo visual y lo tangible, elementos que podrían ser esenciales en la experiencia de usuario de PictorIA. La capacidad de visualizar modelos digitales de edificaciones, así como la posibilidad de interactuar con estas representaciones a través del tiempo o modificando aspectos como la paleta de colores, son características que Wilmer encontraría atractivas y útiles en una aplicación.
-
-
-
-Su tendencia a compartir ocasionalmente sus visitas en redes sociales sugiere un potencial para la gamificación y la integración social, fomentando no solo la exploración del arte y la historia, sino también la difusión de estas experiencias entre sus contactos.
-
-**Entrevista 2:**
-
-Entrevistador: Diego Merino
-
-Entrevistado: 
-
-Edad: 20 años
-
-Distrito: Los Olivos
-
-Min inicio:
-
-Min final:
-
-![ref2]
-
-Carla Xiomara Valle Espinoza, una joven de 17 años que reside en Callao, Lima, y estudia Administración y Marketing, aporta una perspectiva valiosa para el desarrollo de PictorIA. Con un iPhone 13 y una tablet Samsung S7 Plus que prefiere usar en casa, Carla es una usuaria de tecnología que se mantiene actualizada, pero que cambia sus dispositivos con menor frecuencia, aproximadamente cada cinco años. Sus aplicaciones más utilizadas, como WhatsApp e Instagram, revelan su afinidad por las redes sociales y su inclinación hacia contenido visual y dinámico.
-
-
-
-Hace unos dos o tres meses, Carla visitó un museo por primera vez hace un gran interés por el arte desde muy joven, especialmente por el dibujo. Este interés la llevó a disfrutar de una exhibición colorida en un espacio que estaba a punto de ser demolido, lo que resalta su aprecio por las experiencias artísticas que combinan creatividad con un elemento efímero y transformador.
-
-
-
-Carla prefiere observar más que leer descripciones o seguir visitas guiadas, lo que indica una tendencia hacia el aprendizaje visual e interactivo. Le atrae la idea de una versión digital de las obras que le permita ver cómo eran en su estado original y cómo se han deteriorado con el tiempo y querría poder cambiar colores en las representaciones digitales para hacerlas más dinámicas. Además, Carla expresó un deseo por características inmersivas en la aplicación, como la posibilidad de ver movimientos en las imágenes, lo que sugiere que valora la interactividad y el dinamismo en sus experiencias visuales.
-
-
-
-**Entrevista 3:**
-
-Entrevistador: Diego Merino
-
-Entrevistado: Manuel Rueda
-
-Edad: 23 años
-
-Distrito: Chorrillos
-
-Min inicio:
-
-Min final:
-
-![ref3]
-
-Manuel Rueda, un joven de 23 años que vive en Chorrillos y estudia Diseño Gráfico, ofrece una perspectiva interesante y detallada. Como usuario de Apple, incluyendo un iPhone y un iPad que utiliza principalmente en casa, Manuel se identifica con una generación que valora la tecnología de alta calidad, aunque no cambia sus dispositivos con frecuencia. Sus visitas regulares a museos y galerías, que realiza semanalmente, muestran un profundo interés por el arte y la historia, un interés que, según él, tiene raíces familiares.
-
-
-
-Manuel aprecia una experiencia museística completa que combine la observación visual, la lectura de inscripciones y la guía narrativa, lo que sugiere que valora tanto la estética como el contexto educativo de las exhibiciones. Sin embargo, también expresa un deseo de modernizar estas experiencias, haciendo que las exposiciones sean más dinámicas e interactivas. Esto se alinea con su interés por el diseño gráfico, donde la interacción y la participación del usuario son fundamentales.
-
-
-
-Manuel considera que las experiencias digitales pueden enriquecer las visitas físicas a museos, permitiendo a los usuarios ver versiones restauradas de obras en su mejor momento, así como cambiar elementos como la paleta de colores. También le gustaría ver una mayor integración de tecnología, como el uso de códigos QR que permitan a los visitantes recibir descripciones directamente de los autores, haciéndolo sentir más conectado con las obras.
-
-
-
-Aunque comparte ocasionalmente sus visitas en redes sociales, Manuel no lo hace de manera constante. 
-
-**Segmento: Historiadores e Investigadores:**
-
-**Entrevista 4:**
-
-Entrevistador: Jesica Jaramillo
-
-Entrevistado: Alcides Mariano Jaramillo Usno
-
-Edad: 58
-
-Distrito: Independencia
-
-Min inicio:
-
-Min final:
-
-![ref4]
-
-Resumen: Alcides Jaramillo es un técnico de profesión que, como trabajo voluntario, se encarga de hacer transcripciones de actas antiguas (indexar) en una aplicación web proporcionada por la institución “La Iglesia de Jesucristo de los Santos de los Últimos Días”. Utiliza un celular Samsung de sistema operativo Android que cambia cada 3 años. No utiliza Tablet para su actividad de transcripción, sino laptops o computadoras de escritorio, de sistema operativo Windows, porque el tamaño de la pantalla de ayuda a distinguir y transcribir mejor los escritos. Las aplicaciones que más utiliza para su labor son, dicha aplicación web [FamiliSearch](https://www.familysearch.org/es/), Microsoft Office y otros programas de edición como: Photoshop y CorelDraw. Visita museos y galerías con poca frecuencia ya que no son las entidades que mayor relevancia tienen en la actividad de recolección de archivos. Tiene afición por la fotografía que demuestra al mantener recuerdos familiares valiosos. Las redes sociales que utiliza normalmente son Whatsapp, Facebook, Instagram y TikTok. Prefiere aprender de nuevas tecnologías a través de tutoriales gratuitos en YouTube, libros guía o siguiendo instrucciones de Inteligencia Artificial.
-
-Tiene 10 años trabajando como indexador en la herramienta FamilySearch para su iglesia. Los materiales históricos que maneja son actas de proporcionadas por municipalidades o cementerios que están a disposición de los miembros de la dicha iglesia. Utilizan la aplicación web FamilySearch para estas actividades. No le disgusta nada en específico en la herramienta, pero algo que le gustaría agregar es la posibilidad de agregar fotos además de los datos de las personas indexadas. No ha experimentado on IA para la restauración de los textos. Está de acuerdo con otros usuarios que el mayor desafío de la preservación es el deterioro de los archivos y entenderlos, ya que están borrosos, en otros idiomas o en letras difíciles de entender. La precisión histórica es importante para él, ya que trabajan con datos reales que se utilizarán después en actividades religiosas. Dicha iglesia equilibra la necesidad de mejorar la calidad de los textos y la preservación de su autenticidad al utilizar “un sistema de almacenamiento con microfilms”; realzar visitas a cementerios, municipalidades o personas longevas y haciendo una comparación de los textos guardados y los nuevos textos e historias encontradas en sus visitas. Considera que la herramienta que usa ya es perfecta y le molesta un poco el uso de un celular para la labor por la pantalla pequeña, además recalca que la aplicación FamilySearch (al ser una app web) ya funciona en dispositivos móviles. Sin embargo, sí está interesado en probar una aplicación móvil de este tipo.
-
-**Segmento:** Estudiantes de Historia y Arte
-
-**Entrevista 1:**
-
-Entrevistador: Antonella Gonzales
-
-Entrevistado: Elizabeth Cjupa
-
-Edad: 23
-
-Distrito: Breña
-
-![Captura de pantalla de un celular con la foto de una pareja
-
-Descripción generada automáticamente]
-
-**Resumen:** Elizabeth es una estudiante de tercer año de Historia y Artes, apasionada por ambas áreas. Suele visitar museos y ha realizado trabajos de restauración de imágenes utilizando software como Adobe Photoshop y GIMP para la restauración digital, así como Pixlr. En su trabajo enfrenta retos importantes, como conservar los detalles originales de las imágenes y evitar distorsionar su autenticidad, algo que considera crucial.
-
-Ha probado herramientas de inteligencia artificial para la restauración de imágenes, pero siente que aún no cumplen con sus expectativas, ya que les faltan características que permitan gestionar mejor la calidad de las imágenes restauradas. Elizabeth está interesada en una aplicación móvil para la restauración de imágenes, lo cual sería de gran ayuda para su trabajo académico y profesional.
-
-**Entrevista 2:**
-
-Entrevistador: Rafael Primo
-
-Entrevistado: William Riega
-
-Edad: 21
-
-Distrito: San Martín de Porres
-
-![ref5]
-
-Resumen: William es un estudiante de 20 años, menciona que está cursando la carrera de Historia, enfocándose principalmente en la historia del Perú. Aunque no tiene experiencia laboral práctica en el área, ha realizado múltiples trabajos académicos, en su mayoría investigaciones sobre culturas y temas de antropología relacionados con la historia peruana.
-
-William ha utilizado software como Photoshop para la edición de imágenes históricas, pero no ha trabajado con herramientas específicas para la restauración. Su principal desafío al trabajar con imágenes históricas es la accesibilidad de las mismas, así como la presencia de errores o manchas que dificultan el análisis visual. Además, menciona problemas comunes con imágenes familiares antiguas, como la baja resolución o secciones faltantes.
-
-En cuanto a la precisión de las herramientas que ha usado, considera que las aplicaciones para mejorar la resolución son bastante precisas y fáciles de usar. Sin embargo, ha oído hablar de herramientas que usan inteligencia artificial para completar o mejorar imágenes, pero nunca las ha probado debido a su costo elevado o su inaccesibilidad en el país.
-
-Para él, es crucial que una herramienta digital para restauración permita mejorar la calidad de las imágenes, especialmente en términos de resolución y eliminación de manchas o defectos. También considera importante que estas herramientas utilicen inteligencia artificial para completar áreas faltantes o dañadas en las imágenes.
-
-Finalmente, William se interesa en probar una nueva aplicación diseñada para restaurar y gestionar imágenes históricas, ya que sería útil para sus proyectos académicos y también para preservar imágenes históricas que podrían perderse por daños irreparables.
 
 ### 2.2.3. Análisis de entrevistas.
 **Segmento Ciudadanos Aficionados al Arte**

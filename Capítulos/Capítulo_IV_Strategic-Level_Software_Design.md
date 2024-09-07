@@ -292,7 +292,7 @@ En este apartado se presentan refinamientos de los escenarios relacionados con l
     <td class="tg-0pky" colspan="2">Issues</td>
     <td class="tg-0pky">Implementación de soluciones de escalado automático para manejar picos de tráfico sin afectar el rendimiento.</td>
   </tr>
-</tbody></table>
+</tbody></table>  
 ## 4.2. Strategic-Level Domain-Driven Design.
 ### 4.2.1. EventStorming.
 ### 4.2.2. Candidate Context Discovery.

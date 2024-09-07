@@ -140,6 +140,57 @@ En este apartado se presentan refinamientos de los escenarios relacionados con l
     <td class="tg-0pky">Garantizar que el cifrado no degrade el rendimiento de la aplicación ni sobrecargue los recursos del dispositivo.</td>
   </tr>
 </tbody></table>  
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0pky" colspan="3">Scenario Refinement for Scenario 3</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky" colspan="2">Scenario(s)</td>
+    <td class="tg-0pky">Un usuario nuevo accede por primera vez a la funcionalidad de restauración de imágenes (Usability)</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky" colspan="2">Business Goals</td>
+    <td class="tg-0pky">Maximizar la facilidad de uso para que nuevos usuarios puedan realizar restauraciones sin complicaciones.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky" colspan="2">Relevant Quality Attributes</td>
+    <td class="tg-0pky">Usabilidad e intuitividad de la interfaz de usuario.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky" rowspan="6">Scenario Components</td>
+    <td class="tg-0pky">Stimulus</td>
+    <td class="tg-0pky">Un usuario sin experiencia previa intenta usar la funcionalidad de restauración.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Stimulus Source</td>
+    <td class="tg-0pky">Usuario nuevo que accede a la aplicación por primera vez.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Environment</td>
+    <td class="tg-0pky">Usuario final interactuando con la interfaz de restauración en un dispositivo móvil.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Artifact (if Known)</td>
+    <td class="tg-0pky">Interfaz de usuario.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Response</td>
+    <td class="tg-0pky">El usuario debe poder completar una restauración básica sin ayuda externa en menos de 3 minutos.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Response Measure</td>
+    <td class="tg-0pky">Tiempo promedio requerido para completar una restauración básica sin consultar documentación externa.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky" colspan="2">Questions</td>
+    <td class="tg-0pky">¿Qué pasos de onboarding y tutoriales se ofrecen para guiar a los nuevos usuarios?</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky" colspan="2">Issues</td>
+    <td class="tg-0pky">Necesidad de diseñar una interfaz suficientemente intuitiva para minimizar la curva de aprendizaje.</td>
+  </tr>
+</tbody></table>  
 
 ## 4.2. Strategic-Level Domain-Driven Design.
 ### 4.2.1. EventStorming.

@@ -318,7 +318,7 @@ Seguido de lo previamente nombrado, se inició el segundo paso llamado Timelines
 [![Captura-de-pantalla-2024-09-06-233120.png](https://i.postimg.cc/66jkySV0/Captura-de-pantalla-2024-09-06-233120.png)](https://postimg.cc/YjFnPdsG)  
 [![Captura-de-pantalla-2024-09-06-233207.png](https://i.postimg.cc/6qmgg26S/Captura-de-pantalla-2024-09-06-233207.png)](https://postimg.cc/D41xbzXd)  
 [![Captura-de-pantalla-2024-09-06-233228.png](https://i.postimg.cc/zvB4xSNK/Captura-de-pantalla-2024-09-06-233228.png)](https://postimg.cc/LYcyXPn8)  
-[![Captura-de-pantalla-2024-09-06-233252.png](https://i.postimg.cc/1tML07ky/Captura-de-pantalla-2024-09-06-233252.png)](https://postimg.cc/njjRp2VW)
+[![Captura-de-pantalla-2024-09-06-233252.png](https://i.postimg.cc/1tML07ky/Captura-de-pantalla-2024-09-06-233252.png)](https://postimg.cc/njjRp2VW)  
 
 ### 4.2.3. Domain Message Flows Modeling.
 

@@ -416,8 +416,59 @@ Los estudiantes de Historia y Arte tienen una necesidad crítica de herramientas
 
 ## 2.3. Needfinding.
 ### 2.3.1. User Personas.
+**Segmento:** Ciudadanos Aficionados al arte
+
+![](Aspose.Words.3203ea23-6f75-427f-9405-dc5d38af05e6.001.png)
+
+**Segmento:** Historiadores e Investigadores
+
+![](Aspose.Words.3203ea23-6f75-427f-9405-dc5d38af05e6.002.png)
+
+**Segmento:** Estudiantes de Historia y Arte
+
+![](Aspose.Words.3203ea23-6f75-427f-9405-dc5d38af05e6.003.png)
+
+
 ### 2.3.2. User Task Matrix.
+
+
+**Historiadores y Archiveros**
+
+Este segmento se compone de profesionales que valoran la autenticidad y precisión en la restauración de imágenes históricas. Buscan herramientas que les permitan mantener la integridad de las fotografías sin necesidad de conocimientos técnicos avanzados.
+
+|**User Task**|**Frecuencia**|**Importancia**|
+| :- | :- | :- |
+|Analizan documentos e imágenes históricas para investigación|Alta|Alta|
+|Corrigen manualmente imperfecciones en imágenes|Media|Alta|
+|Realizan comparaciones entre diferentes versiones de documentos|Baja|Media|
+|Consultan archivos físicos y digitales de difícil acceso|Media|Alta|
+|Colaboran con otros historiadores en proyectos conjuntos|Baja|Alta|
+
+### **Entusiastas de la Fotografía Histórica**
+Los usuarios de este segmento son apasionados por la fotografía histórica y buscan personalizar imágenes antiguas a través de colorización y restauración. Valoran las opciones de edición creativa para revitalizar imágenes y darles un toque personal.
+
+|**User Task**|**Frecuencia**|**Importancia**|
+| :- | :- | :- |
+|Realizan trabajos de investigación sobre fotografía histórica|Media|Media|
+|Editan y personalizan imágenes antiguas de forma manual|Alta|Media|
+|Publican y comparten imágenes históricas restauradas|Alta|Media|
+|Buscan imágenes históricas en archivos físicos o digitales|Media|Alta|
+|Participan en foros o comunidades sobre fotografía histórica|Media|Media|
+
+**Estudiantes de Historia y Arte**
+
+Este segmento está compuesto por estudiantes universitarios interesados en la preservación del patrimonio cultural. Utilizan herramientas digitales para sus investigaciones académicas y proyectos creativos, buscando aprender y aplicar habilidades prácticas de restauración y conservación de imágenes.
+
+|**User Task**|**Frecuencia**|**Importancia**|
+| :- | :- | :- |
+|Investigan imágenes históricas para proyectos académicos|Alta|Alta|
+|Escriben ensayos y análisis sobre las imágenes y documentos|Alta|Alta|
+|Realizan pequeños ajustes manuales a imágenes para mejorar calidad|Media|Alta|
+|Consultan bibliotecas físicas y archivos para obtener imágenes|Media|Alta|
+|Presentan trabajos académicos con uso de imágenes históricas|Baja|Alta|
+
 ### 2.3.3. Empathy Mapping.
+
 #### Segmento: Ciudadanos Aficionados al arte
 [![segmento-aficionados.png](https://i.postimg.cc/xjKtvQ53/segmento-aficionados.png)](https://postimg.cc/hhtLnHHX)  
 #### Segmento: Historiadores e Investigadores

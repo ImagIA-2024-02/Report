@@ -311,7 +311,9 @@ Estos escenarios refinados permiten anticipar posibles desafíos y garantizar qu
 En el proceso de nuestro EventStorming, utilizamos la herramienta MIRO para llevar a cabo todas las etapas. Comenzamos con la fase de Unstructured Exploration, durante la cual analizamos y discutimos diversas opiniones sobre los eventos del dominio, considerando también varios criterios para seleccionar los eventos más relevantes.  
 [![Captura-de-pantalla-2024-09-06-232809.png](https://i.postimg.cc/V6cYZhZM/Captura-de-pantalla-2024-09-06-232809.png)](https://postimg.cc/Y4bKhdHq)  
 Seguido de lo previamente nombrado, se inició el segundo paso llamado Timelines, donde discutimos el flujo de los eventos del dominio para tener una idea mucho más clara.  
-[![Captura-de-pantalla-2024-09-06-232917.png](https://i.postimg.cc/Z5GZ0gSg/Captura-de-pantalla-2024-09-06-232917.png)](https://postimg.cc/FYVwBT1g)
+[![Captura-de-pantalla-2024-09-06-232917.png](https://i.postimg.cc/Z5GZ0gSg/Captura-de-pantalla-2024-09-06-232917.png)](https://postimg.cc/FYVwBT1g)  
+
+Link del miro [https://miro.com/app/board/uXjVKjx3APU=/](https://miro.com/app/board/uXjVKjx3APU=/)  
 
 ### 4.2.2. Candidate Context Discovery.
 [![Captura-de-pantalla-2024-09-06-233019.png](https://i.postimg.cc/ydBHyZWy/Captura-de-pantalla-2024-09-06-233019.png)](https://postimg.cc/hJC6ShLX)  
@@ -320,19 +322,24 @@ Seguido de lo previamente nombrado, se inició el segundo paso llamado Timelines
 [![Captura-de-pantalla-2024-09-06-233228.png](https://i.postimg.cc/zvB4xSNK/Captura-de-pantalla-2024-09-06-233228.png)](https://postimg.cc/LYcyXPn8)  
 [![Captura-de-pantalla-2024-09-06-233252.png](https://i.postimg.cc/1tML07ky/Captura-de-pantalla-2024-09-06-233252.png)](https://postimg.cc/njjRp2VW)  
 Los eventos presentados en esta sección pertenecen a los bounded contexts de Reconocimiento y Restauración, ambos esenciales para el funcionamiento de la aplicación de restauración digital de imágenes. Dado su valor en la experiencia del usuario, consideramos el bounded context de Restauración como core, ya que su correcta implementación es clave para que los usuarios logren su objetivo principal: visualizar y restaurar obras deterioradas. Por otro lado, el bounded context de Reconocimiento, aunque crucial para identificar y procesar obras de arte, cumple una función de soporte, facilitando la interacción pero sin ser la base para el funcionamiento de otros bounded contexts. Ambos contextos juntos optimizan la experiencia del usuario, asegurando valor y precisión en la restauración.  
-[![Captura-de-pantalla-2024-09-06-233721.png](https://i.postimg.cc/yY3bWN81/Captura-de-pantalla-2024-09-06-233721.png)](https://postimg.cc/5613RbzT)
+[![Captura-de-pantalla-2024-09-06-233721.png](https://i.postimg.cc/yY3bWN81/Captura-de-pantalla-2024-09-06-233721.png)](https://postimg.cc/5613RbzT)  
+Link del miro [https://miro.com/app/board/uXjVKjx3APU=/](https://miro.com/app/board/uXjVKjx3APU=/)  
 ### 4.2.3. Domain Message Flows Modeling.
-[![Captura-de-pantalla-2024-09-06-233844.png](https://i.postimg.cc/C53JbjxF/Captura-de-pantalla-2024-09-06-233844.png)](https://postimg.cc/QKqp3K7P)
+[![Captura-de-pantalla-2024-09-06-233844.png](https://i.postimg.cc/C53JbjxF/Captura-de-pantalla-2024-09-06-233844.png)](https://postimg.cc/QKqp3K7P)  
+Link del miro [https://miro.com/app/board/uXjVKjx3APU=/](https://miro.com/app/board/uXjVKjx3APU=/)  
 ### 4.2.4. Bounded Context Canvases.
-
+De acuerdo con los boundend contexts definidos en puntos anteriores, se crearon sus respectivos Canvases:  
+[![Captura-de-pantalla-2024-09-06-233930.png](https://i.postimg.cc/zGFZXfxL/Captura-de-pantalla-2024-09-06-233930.png)](https://postimg.cc/pmr1sPbx)  
+Link del miro [https://miro.com/app/board/uXjVKjx3APU=/](https://miro.com/app/board/uXjVKjx3APU=/)  
 ### 4.2.5. Context Mapping.
 
 ## 4.3. Software Architecture.
 
 ### 4.3.1. Software Architecture System Landscape Diagram.
-
+[![Imagen4.png](https://i.postimg.cc/Z5Z2gSJJ/Imagen4.png)](https://postimg.cc/D8jxJRWN)
 ### 4.3.1. Software Architecture Context Level Diagrams.
-
+[![Imagen3.png](https://i.postimg.cc/Wb0xX3L9/Imagen3.png)](https://postimg.cc/rKFhpqpW)
 ### 4.3.2. Software Architecture Container Level Diagrams.
-
+[![Imagen2.png](https://i.postimg.cc/zDs9ChMb/Imagen2.png)](https://postimg.cc/mhSXRPTB)
 ### 4.3.3. Software Architecture Deployment Diagrams.
+[![Imagen1.png](https://i.postimg.cc/1XqbxRg3/Imagen1.png)](https://postimg.cc/gLGg8WqC)

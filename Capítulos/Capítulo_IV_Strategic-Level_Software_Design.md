@@ -34,6 +34,24 @@ En esta sección se especifica los Epics o User stories que tienen mayor relevan
 #### 4.1.2.2. Quality attribute Scenarios.
 
 #### 4.1.2.3. Constraints.
+Durante el proceso de diseño de la arquitectura de la aplicación de restauración digital de imágenes históricas con inteligencia artificial, hemos identificado varias restricciones clave que influyen en las decisiones de diseño. Estas restricciones son fundamentales para garantizar la viabilidad y el cumplimiento de los objetivos del proyecto.  
+A continuación, se describen las principales restricciones que hemos considerado:  
+1.	Requisitos de Seguridad:  
+Dado que la aplicación manejará imágenes históricas y, en algunos casos, archivos 		pertenecientes a colecciones privadas o bajo derechos de autor, la seguridad es una prioridad. 	La plataforma debe garantizar que se cumplan normativas de protección de datos, como la Ley 	de Protección de Datos Personales, especialmente en lo que respecta al acceso y uso de estas 	imágenes.  
+2.	Requisitos de Rendimiento:  
+Para asegurar una experiencia de usuario fluida, hemos establecido restricciones en cuanto al 	tiempo de respuesta de la aplicación. La restauración de imágenes de alta resolución utilizando 	redes neuronales puede ser intensiva en procesamiento, por lo que la arquitectura debe 			optimizarse para manejar operaciones complejas sin comprometer la rapidez, incluso con un alto 	     número de usuarios simultáneos.  
+3.	Plataforma de Implementación:  
+Debido a las limitaciones de infraestructura y requisitos de procesamiento, estamos restringidos 	a implementar nuestra solución en plataformas de nube robustas que permitan el uso intensivo 	de GPU o TPU para entrenar y ejecutar los modelos de IA. Las opciones viables incluyen 	Amazon Web Services (AWS), Google Cloud Platform (GCP), y Microsoft Azure. Además, debe 	haber soporte para redes neuronales convolucionales (CNNs) a través de frameworks como 	TensorFlow o PyTorch.
+4.	Cumplimiento de Normativas y Estándares:  
+El proyecto debe cumplir con las regulaciones internacionales sobre el uso de imágenes 			históricas y, en particular, con las normativas locales para el manejo y preservación de 		patrimonio cultural. También se deberán cumplir normativas relacionadas con la manipulación de 	datos y su almacenamiento seguro, sobre todo si se obtienen imágenes de fuentes públicas o 	   privadas con restricciones de uso.  
+5.	Requisitos de Interoperabilidad:  
+La aplicación debe ser capaz de interoperar con otras plataformas y sistemas externos que 	puedan proporcionar o recibir imágenes, como archivos históricos digitales, bibliotecas en línea, 	o bases de datos académicas. Esto impone restricciones en cuanto a los protocolos de 			comunicación y los formatos de datos que deben ser compatibles  
+6.	Requisitos de Escalabilidad:  
+Anticipamos un crecimiento en la cantidad de imágenes que se procesarán y usuarios que 	utilizarán la aplicación. La arquitectura debe estar diseñada para ser escalable y manejar una 	creciente carga de procesamiento sin perder eficiencia. Esto incluye la capacidad de procesar 	simultáneamente imágenes de alta resolución en un entorno distribuido en la nube.  
+7.	Requisitos de Mantenimiento:  
+La facilidad de mantenimiento y actualización de la plataforma es una restricción crítica. La 	arquitectura debe permitir que futuras mejoras en los modelos de IA, así como actualizaciones 	de la aplicación, se implementen de manera ágil y sin interrupciones significativas en el servicio.  
+8.	Ética y Derechos de Autor:  
+Es fundamental tener en cuenta los aspectos éticos relacionados con la manipulación de 	imágenes históricas. En muchos casos, estas imágenes tienen un valor cultural significativo, por 	lo que es necesario respetar la integridad de los archivos originales. Además, se deben gestionar 	correctamente los derechos de autor, asegurando que las imágenes restauradas no infrinjan las 	regulaciones vigentes sobre propiedad intelectual.  
 
 ### 4.1.3. Architectural Drivers Backlog.
 

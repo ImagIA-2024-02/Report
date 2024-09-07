@@ -308,8 +308,17 @@ Estos escenarios refinados permiten anticipar posibles desafíos y garantizar qu
 ## 4.2. Strategic-Level Domain-Driven Design.
 
 ### 4.2.1. EventStorming.
+En el proceso de nuestro EventStorming, utilizamos la herramienta MIRO para llevar a cabo todas las etapas. Comenzamos con la fase de Unstructured Exploration, durante la cual analizamos y discutimos diversas opiniones sobre los eventos del dominio, considerando también varios criterios para seleccionar los eventos más relevantes.  
+[![Captura-de-pantalla-2024-09-06-232809.png](https://i.postimg.cc/V6cYZhZM/Captura-de-pantalla-2024-09-06-232809.png)](https://postimg.cc/Y4bKhdHq)  
+Seguido de lo previamente nombrado, se inició el segundo paso llamado Timelines, donde discutimos el flujo de los eventos del dominio para tener una idea mucho más clara.  
+[![Captura-de-pantalla-2024-09-06-232917.png](https://i.postimg.cc/Z5GZ0gSg/Captura-de-pantalla-2024-09-06-232917.png)](https://postimg.cc/FYVwBT1g)
 
 ### 4.2.2. Candidate Context Discovery.
+[![Captura-de-pantalla-2024-09-06-233019.png](https://i.postimg.cc/ydBHyZWy/Captura-de-pantalla-2024-09-06-233019.png)](https://postimg.cc/hJC6ShLX)  
+[![Captura-de-pantalla-2024-09-06-233120.png](https://i.postimg.cc/66jkySV0/Captura-de-pantalla-2024-09-06-233120.png)](https://postimg.cc/YjFnPdsG)  
+[![Captura-de-pantalla-2024-09-06-233207.png](https://i.postimg.cc/6qmgg26S/Captura-de-pantalla-2024-09-06-233207.png)](https://postimg.cc/D41xbzXd)  
+[![Captura-de-pantalla-2024-09-06-233228.png](https://i.postimg.cc/zvB4xSNK/Captura-de-pantalla-2024-09-06-233228.png)](https://postimg.cc/LYcyXPn8)  
+[![Captura-de-pantalla-2024-09-06-233252.png](https://i.postimg.cc/1tML07ky/Captura-de-pantalla-2024-09-06-233252.png)](https://postimg.cc/njjRp2VW)  
 
 ### 4.2.3. Domain Message Flows Modeling.
 

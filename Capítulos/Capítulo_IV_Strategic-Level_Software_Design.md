@@ -319,9 +319,10 @@ Seguido de lo previamente nombrado, se inició el segundo paso llamado Timelines
 [![Captura-de-pantalla-2024-09-06-233207.png](https://i.postimg.cc/6qmgg26S/Captura-de-pantalla-2024-09-06-233207.png)](https://postimg.cc/D41xbzXd)  
 [![Captura-de-pantalla-2024-09-06-233228.png](https://i.postimg.cc/zvB4xSNK/Captura-de-pantalla-2024-09-06-233228.png)](https://postimg.cc/LYcyXPn8)  
 [![Captura-de-pantalla-2024-09-06-233252.png](https://i.postimg.cc/1tML07ky/Captura-de-pantalla-2024-09-06-233252.png)](https://postimg.cc/njjRp2VW)  
-
+Los eventos presentados en esta sección pertenecen a los bounded contexts de Reconocimiento y Restauración, ambos esenciales para el funcionamiento de la aplicación de restauración digital de imágenes. Dado su valor en la experiencia del usuario, consideramos el bounded context de Restauración como core, ya que su correcta implementación es clave para que los usuarios logren su objetivo principal: visualizar y restaurar obras deterioradas. Por otro lado, el bounded context de Reconocimiento, aunque crucial para identificar y procesar obras de arte, cumple una función de soporte, facilitando la interacción pero sin ser la base para el funcionamiento de otros bounded contexts. Ambos contextos juntos optimizan la experiencia del usuario, asegurando valor y precisión en la restauración.  
+[![Captura-de-pantalla-2024-09-06-233721.png](https://i.postimg.cc/yY3bWN81/Captura-de-pantalla-2024-09-06-233721.png)](https://postimg.cc/5613RbzT)
 ### 4.2.3. Domain Message Flows Modeling.
-
+[![Captura-de-pantalla-2024-09-06-233844.png](https://i.postimg.cc/C53JbjxF/Captura-de-pantalla-2024-09-06-233844.png)](https://postimg.cc/QKqp3K7P)
 ### 4.2.4. Bounded Context Canvases.
 
 ### 4.2.5. Context Mapping.

@@ -191,6 +191,57 @@ En este apartado se presentan refinamientos de los escenarios relacionados con l
     <td class="tg-0pky">Necesidad de diseñar una interfaz suficientemente intuitiva para minimizar la curva de aprendizaje.</td>
   </tr>
 </tbody></table>  
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0pky" colspan="3">Scenario Refinement for Scenario 4</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky" colspan="2">Scenario(s)</td>
+    <td class="tg-0pky">Un usuario intenta acceder a la aplicación en cualquier momento del día (Availability)</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky" colspan="2">Business Goals</td>
+    <td class="tg-0pky">Asegurar que la aplicación esté disponible en todo momento para maximizar la satisfacción del usuario.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky" colspan="2">Relevant Quality Attributes</td>
+    <td class="tg-0pky">Disponibilidad del sistema durante todo el ciclo de uso.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky" rowspan="6">Scenario Components</td>
+    <td class="tg-0pky">Stimulus</td>
+    <td class="tg-0pky">Usuario accede a la aplicación desde su dispositivo móvil.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Stimulus Source</td>
+    <td class="tg-0pky">Usuario conectado a Internet a través de un dispositivo móvil.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Environment</td>
+    <td class="tg-0pky">Dispositivo móvil con conexión a Internet.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Artifact (if Known)</td>
+    <td class="tg-0pky">Sistema de aplicación móvil y backend.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Response</td>
+    <td class="tg-0pky">La aplicación debe estar disponible el 99.9% del tiempo durante un período de 12 meses.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Response Measure</td>
+    <td class="tg-0pky">Tiempo de inactividad anual debe ser inferior a 8.76 horas.</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky" colspan="2">Questions</td>
+    <td class="tg-0pky">¿Qué estrategias de redundancia se han implementado para reducir el tiempo de inactividad?</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky" colspan="2">Issues</td>
+    <td class="tg-0pky">Asegurar que las actualizaciones y el mantenimiento no afecten la disponibilidad.</td>
+  </tr>
+</tbody></table>  
 
 ## 4.2. Strategic-Level Domain-Driven Design.
 ### 4.2.1. EventStorming.

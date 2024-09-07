@@ -418,15 +418,22 @@ Los estudiantes de Historia y Arte tienen una necesidad crítica de herramientas
 ### 2.3.1. User Personas.
 **Segmento:** Ciudadanos Aficionados al arte
 
-![](Aspose.Words.3203ea23-6f75-427f-9405-dc5d38af05e6.001.png)
+<div class="container" style="text-align: center">
+    <img src="https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/user1.png?raw=true" width="200" alt="Imagen de user 1">
+</div>
 
 **Segmento:** Historiadores e Investigadores
 
-![](Aspose.Words.3203ea23-6f75-427f-9405-dc5d38af05e6.002.png)
+<div class="container" style="text-align: center">
+    <img src="https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/user2.png?raw=true" width="200" alt="Imagen de user 2">
+</div>
+
 
 **Segmento:** Estudiantes de Historia y Arte
 
-![](Aspose.Words.3203ea23-6f75-427f-9405-dc5d38af05e6.003.png)
+<div class="container" style="text-align: center">
+    <img src="https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/user3.png?raw=true" width="200" alt="Imagen de user 3">
+</div>
 
 
 ### 2.3.2. User Task Matrix.

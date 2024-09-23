@@ -61,7 +61,8 @@ En el Diccionario de Clases del User Account, se han identificado cuatro clases 
 ### 5.1.1. Domain Layer
 Dentro del dominio de User Account, se encuentran entidades clave como User, Subscription, Notification, y UserRole. Estas entidades desempeñan un papel fundamental en la gestión del ciclo de vida de las cuentas de usuario, suscripciones y roles, permitiendo que los usuarios interactúen de manera efectiva con la plataforma, ya sea a través de la creación de cuentas, la suscripción a servicios, o la gestión de sus permisos y notificaciones. En este dominio, el User es el agregado principal, ya que encapsula la lógica de negocio central relacionada con la administración de cuentas de usuario, controlando la activación de cuentas, validación de credenciales y asignación de roles. A continuación, se describen los objetos y entidades relacionados con este dominio.
 
-![Domain Layer Diagram](../recursos/imagenes/51.png)
+![Descripción de la imagen](https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/51.png?raw=true)
+
 
 
 ### 5.1.2. Interface Layer
@@ -78,7 +79,8 @@ Los controladores principales son: **UserController**, **SubscriptionController*
 
 **RoleController:** Maneja la asignación, actualización y eliminación de roles de usuario.
 
-![Domain Layer Diagram](../recursos/imagenes/52.png)
+![Descripción de la imagen 52](https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/52.png?raw=true)
+
 
 ### 5.1.3. Application Layer
 En esta sección, presentamos la Capa de Aplicación (Application Layer) dentro del contexto del enfoque de diseño Domain-Driven Design (DDD) para el sistema de gestión de cuentas de usuario. La Capa de Aplicación es responsable de coordinar las acciones y el flujo de datos entre la Capa de Dominio y la Capa de Infraestructura, actuando como intermediario y gestionando las interacciones entre estas capas. Esta capa garantiza que la lógica de negocio representada en la Capa de Dominio se ejecute de manera eficiente y coherente.
@@ -86,7 +88,7 @@ En esta sección, presentamos la Capa de Aplicación (Application Layer) dentro 
 La Capa de Aplicación se compone de Application Services, Command Handlers y Event Handlers. Los Command Handlers gestionan las operaciones de escritura, como la creación, actualización o eliminación de usuarios y suscripciones. Los Event Handlers procesan los eventos que ocurren en el sistema, como el envío de notificaciones al usuario o cambios en sus suscripciones.
 
 A continuación se describen los principales Command Handlers del sistema:
-![Domain Layer Diagram](../recursos/imagenes/53.png)
+![Descripción de la imagen 53](https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/53.png?raw=true)
 
 ### 5.1.4. Infrastructure Layer
 
@@ -98,7 +100,7 @@ Además, la Capa de Infraestructura incluye servicios que interactúan con siste
 
 Finalmente, se incluye la configuración de la base de datos a través del componente DatabaseConfig, que define los detalles técnicos para la conexión y gestión de la persistencia de datos en la plataforma. Esto asegura que las operaciones relacionadas con usuarios, suscripciones y notificaciones se manejen de forma eficiente y segura
 
-![Domain Layer Diagram](../recursos/imagenes/54.png)
+![Descripción de la imagen 54](https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/54.png?raw=true)
 
 
 ### 5.1.6. Bounded Context Software Architecture Component Level Diagrams
@@ -109,7 +111,7 @@ Las aplicaciones móviles y los sistemas externos interactúan con la plataforma
 
 Cada controlador se comunica con sus correspondientes Application Services, que implementan la lógica de negocio y coordinan las operaciones con los Repositories para la persistencia de datos. Los Repositories, a su vez, gestionan el almacenamiento de información de usuarios, suscripciones y notificaciones, interactuando con la base de datos central.
 
-![Domain Layer Diagram](../recursos/imagenes/55.png)
+![Descripción de la imagen 55](https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/55.png?raw=true)
 
 
 ### 5.1.7. Bounded Context Software Architecture Code Level Diagrams
@@ -117,13 +119,13 @@ Cada controlador se comunica con sus correspondientes Application Services, que 
 #### 5.X.7.1. Bounded Context Domain Layer Class Diagrams
 Estos diagramas, específicamente modelan la capa de dominio dentro de un bounded context particular en DDD. Estos diagramas están diseñados para proporcionar una vista estructurada del modelo de dominio y cómo se organiza y se relaciona dentro de los límites del contexto delimitado. Son herramientas valiosas para asegurar que el equipo de desarrollo tenga una comprensión común y precisa de cómo se implementará la lógica de negocio en el código, y cómo cada parte del dominio interactúa dentro del contexto acotado.
 
-![Domain Layer Diagram](../recursos/imagenes/56.png)
+![Descripción de la imagen 56](https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/56.png?raw=true)
 
 #### 5.1.7.2. Bounded Context Database Design Diagram
 
 Es una representación gráfica que muestra cómo se organiza la base de datos en relación con un "Bounded Context" en el Diseño Guiado por el Dominio (DDD). Este tipo de diagrama se enfoca en los aspectos de almacenamiento de datos de un modelo de dominio particular y cómo los datos son estructurados y manejados dentro de los límites de un contexto específico.
 
-![Domain Layer Diagram](../recursos/imagenes/57.png)
+![Descripción de la imagen 57](https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/57.png?raw=true)
 
 
 ## 5.X. Bounded Context: \<Bounded Context Name\>

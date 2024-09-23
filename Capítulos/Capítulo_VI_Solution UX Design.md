@@ -4,23 +4,24 @@
 
 ### 6.1.1. General Style Guidelines
 Con conocimientos previos de cursos anteriores, se determina estilos fundamentales para la implementación de las responsive web interfaces: Branding: Se presenta el logo de nuestro producto:
-![Domain Layer Diagram](../recursos/imagenes/logo.png)
+![Descripción de la imagen logo](https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/logo.png?raw=true)
 
 
 - Colors:  decidimos utilizar principalmente el color Azul. A continuación, se mostrará la combinación de colores con sus respectivos códigos
-![Domain Layer Diagram](../recursos/imagenes/61.png)
+![Descripción de la imagen 61](https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/61.png?raw=true)
 
 ### 6.1.2. Web, Mobile & Devices Style Guidelines
 - Paleta de Colores: En este apartado se muestra la guía de la paleta de colores, tantos primarios, secundarios y grises. 
 - Colores Primarios: Optamos por escoger el color azul ya que es señal de confianza, seguridad y etc. A continuación, se mostrará el color principal
+![Descripción de la imagen 62](https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/62.png?raw=true)
 
 - **Typography** 
   
-![Domain Layer Diagram](../recursos/imagenes/62.png)
+![Descripción de la imagen 63](https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/63.png?raw=true)
 
 - **Button** 
   
-![Domain Layer Diagram](../recursos/imagenes/63.png)
+![Descripción de la imagen 64](https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/64.png?raw=true)
 
 ## 6.2. Information Architecture
 ### 6.2.1. Organization Systems

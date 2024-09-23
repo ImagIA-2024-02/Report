@@ -1,0 +1,181 @@
+# Capítulo V: Tactical-Level Software Design
+
+## 5.1. Bounded Context: Bounded User Account
+
+El dominio de **User Account** se enfoca en la gestión y administración de cuentas de usuario dentro de la plataforma. Este dominio es responsable de manejar el ciclo de vida de las cuentas de usuario, la gestión de suscripciones y notificaciones, y asegurar que las reglas de negocio relacionadas con los usuarios y sus interacciones con la plataforma se apliquen correctamente.
+**Diccionario de Clases:**
+
+El **Diccionario de Clases** es una herramienta fundamental en el diseño del contexto "User Account". Proporciona una descripción detallada de las clases clave que forman la base del modelo de dominio del sistema, facilitando la comunicación entre los miembros del equipo y asegurando una base sólida para la solución propuesta. En esta sección, documentamos las entidades principales, sus atributos, métodos y relaciones con otros objetos.
+
+El **Diccionario de Clases** en este contexto juega un papel clave en el diseño y desarrollo de nuestra solución, ya que proporciona una descripción detallada de las entidades fundamentales relacionadas con la administración de usuarios, suscripciones y notificaciones. Estas clases definen los atributos y comportamientos que permiten gestionar el ciclo de vida de una cuenta de usuario, incluyendo la creación de cuentas, validación de credenciales, manejo de suscripciones, y la gestión de notificaciones personalizadas.
+
+En el Diccionario de Clases del User Account, se han identificado cuatro clases principales: User, Notification, Subscription, y UserRole. Estas clases forman el núcleo de este bounded context y permiten gestionar usuarios, suscripciones y notificaciones de manera eficaz.
+
+<table><tr><th valign="top"><b>Nombre</b></th><th colspan="3" valign="top"><b>User</b></th></tr>
+<tr><td valign="top"><b>Relaciones</b></td><td colspan="3" valign="top">Clase Subscription, Notification, UserRole</td></tr>
+<tr><td valign="top"><b>Descripción</b></td><td colspan="3" valign="top">Esta clase representa a los usuarios dentro del sistema, gestionando su información de registro, estado de cuenta y suscripción.</td></tr>
+<tr><td colspan="3"><b>Atributos</b></td><td rowspan="1"><b>Métodos</b></td></tr>
+<tr><td valign="top"><b>Nombre</b></td><td><b>Tipo de dato</b></td><td><b>Visibilidad</b></td></tr>
+<tr><td valign="top">Id</td><td valign="top">string</td><td valign="top">private</td><td rowspan="6" valign="top"><p>createAccount()</p><p>validateCredentials()</p><p>updateStatus()</p><p>updateStatus()</p><p>changeSubscription()</p></td></tr>
+<tr><td valign="top">Username</td><td valign="top">string</td><td valign="top">private</td></tr>
+<tr><td valign="top">email</td><td valign="top">string</td><td valign="top">private</td></tr>
+<tr><td valign="top">password</td><td valign="top">string</td><td valign="top">private</td></tr>
+<tr><td valign="top">subscriptionType</td><td valign="top">string</td><td valign="top">private</td></tr>
+<tr><td valign="top">status</td><td valign="top">string</td><td valign="top">private</td></tr>
+</table>
+
+<table><tr><th valign="top"><b>Nombre</b></th><th colspan="3" valign="top"><b>Notification</b></th></tr>
+<tr><td valign="top"><b>Relaciones</b></td><td colspan="3" valign="top">Clase User</td></tr>
+<tr><td valign="top"><b>Descripción</b></td><td colspan="3" valign="top">Gestiona las notificaciones que el sistema envía a los usuarios sobre eventos importantes (cambio de suscripción, notificaciones de sistema, etc.).</td></tr>
+<tr><td colspan="3"><b>Atributos</b></td><td rowspan="1"><b>Métodos</b></td></tr>
+<tr><td valign="top"><b>Nombre</b></td><td><b>Tipo de dato</b></td><td><b>Visibilidad</b></td></tr>
+<tr><td valign="top">id</td><td valign="top">string</td><td valign="top">private</td><td rowspan="4" valign="top">sendNotification()<br>scheduleNotification()</td></tr>
+<tr><td valign="top">message</td><td valign="top">string</td><td valign="top">private</td></tr>
+<tr><td valign="top">timestamp</td><td valign="top">string</td><td valign="top">private</td></tr>
+<tr><td valign="top">userId</td><td valign="top">string</td><td valign="top">private</td></tr>
+</table>
+
+<table><tr><th valign="top"><b>Nombre</b></th><th colspan="3" valign="top"><b>Subscription</b></th></tr>
+<tr><td valign="top"><b>Relaciones</b></td><td colspan="3" valign="top">Clase User</td></tr>
+<tr><td valign="top"><b>Descripción</b></td><td colspan="3" valign="top">Gestiona las suscripciones que los usuarios pueden adquirir en la plataforma, permitiendo el cambio, activación y cancelación de las mismas.</td></tr>
+<tr><td colspan="3"><b>Atributos</b></td><td rowspan="1"><b>Métodos</b></td></tr>
+<tr><td valign="top"><b>Nombre</b></td><td><b>Tipo de dato</b></td><td><b>Visibilidad</b></td></tr>
+<tr><td valign="top">id</td><td valign="top">string</td><td valign="top">private</td><td rowspan="5" valign="top"><p>activateSubscription()</p><p>renewSubscription()</p><p>cancelSubscription()</p></td></tr>
+<tr><td valign="top">type</td><td valign="top">string</td><td valign="top">private</td></tr>
+<tr><td valign="top">startDate</td><td valign="top">string</td><td valign="top">private</td></tr>
+<tr><td valign="top">endDate</td><td valign="top">string</td><td valign="top">private</td></tr>
+<tr><td valign="top">userId</td><td valign="top">string</td><td valign="top">private</td></tr>
+</table>
+
+<table><tr><th valign="top"><b>Nombre</b></th><th colspan="3" valign="top"><b>UserRole</b></th></tr>
+<tr><td valign="top"><b>Relaciones</b></td><td colspan="3" valign="top">Clase User</td></tr>
+<tr><td valign="top"><b>Descripción</b></td><td colspan="3" valign="top">Define los diferentes roles que los usuarios pueden tener en el sistema (por ejemplo, administrador, usuario regular) y gestiona los permisos asociados a cada rol.</td></tr>
+<tr><td colspan="3"><b>Atributos</b></td><td rowspan="1"><b>Métodos</b></td></tr>
+<tr><td valign="top"><b>Nombre</b></td><td><b>Tipo de dato</b></td><td><b>Visibilidad</b></td></tr>
+<tr><td valign="top">id</td><td valign="top">string</td><td valign="top">private</td><td rowspan="3" valign="top"><p>assignRole()</p><p>changePermissions()</p><p>validatePermission()</p></td></tr>
+<tr><td valign="top">roleName</td><td valign="top">string</td><td valign="top">private</td></tr>
+<tr><td valign="top">permissions</td><td valign="top">List<string></td><td valign="top">private</td></tr>
+</table>
+
+
+### 5.1.1. Domain Layer
+Dentro del dominio de User Account, se encuentran entidades clave como User, Subscription, Notification, y UserRole. Estas entidades desempeñan un papel fundamental en la gestión del ciclo de vida de las cuentas de usuario, suscripciones y roles, permitiendo que los usuarios interactúen de manera efectiva con la plataforma, ya sea a través de la creación de cuentas, la suscripción a servicios, o la gestión de sus permisos y notificaciones. En este dominio, el User es el agregado principal, ya que encapsula la lógica de negocio central relacionada con la administración de cuentas de usuario, controlando la activación de cuentas, validación de credenciales y asignación de roles. A continuación, se describen los objetos y entidades relacionados con este dominio.
+
+![Domain Layer Diagram](../recursos/imagenes/51.png)
+
+
+### 5.1.2. Interface Layer
+
+En esta sección, presentamos la **Capa de Interfaz** de nuestro sistema de gestión de cuentas de usuario, que actúa como punto de entrada para las interacciones con los usuarios. Está compuesta por controladores que gestionan las solicitudes y envían las respuestas adecuadas, permitiendo una comunicación eficiente entre la plataforma y los usuarios.
+
+Los controladores principales son: **UserController**, **SubscriptionController**, **NotificationController**, y **RoleController**. Cada uno maneja operaciones específicas: gestión de usuarios, suscripciones, notificaciones y roles, respectivamente.
+
+**UserController:** Gestiona la creación, activación, desactivación de cuentas, cambio de contraseñas, y asignación de roles.
+
+**SubscriptionController:** Gestiona la activación, renovación y cancelación de suscripciones de usuarios.
+
+**NotificationController:** Envía y programa notificaciones en función de eventos clave del sistema.
+
+**RoleController:** Maneja la asignación, actualización y eliminación de roles de usuario.
+
+![Domain Layer Diagram](../recursos/imagenes/52.png)
+
+### 5.1.3. Application Layer
+En esta sección, presentamos la Capa de Aplicación (Application Layer) dentro del contexto del enfoque de diseño Domain-Driven Design (DDD) para el sistema de gestión de cuentas de usuario. La Capa de Aplicación es responsable de coordinar las acciones y el flujo de datos entre la Capa de Dominio y la Capa de Infraestructura, actuando como intermediario y gestionando las interacciones entre estas capas. Esta capa garantiza que la lógica de negocio representada en la Capa de Dominio se ejecute de manera eficiente y coherente.
+
+La Capa de Aplicación se compone de Application Services, Command Handlers y Event Handlers. Los Command Handlers gestionan las operaciones de escritura, como la creación, actualización o eliminación de usuarios y suscripciones. Los Event Handlers procesan los eventos que ocurren en el sistema, como el envío de notificaciones al usuario o cambios en sus suscripciones.
+
+A continuación se describen los principales Command Handlers del sistema:
+![Domain Layer Diagram](../recursos/imagenes/53.png)
+
+### 5.1.4. Infrastructure Layer
+
+En esta sección, presentamos la Capa de Infraestructura (Infrastructure Layer) dentro del contexto del enfoque de diseño Domain-Driven Design (DDD) para el bounded context User Account Management. La Capa de Infraestructura es responsable de proporcionar los componentes técnicos y de soporte necesarios para que las otras capas del sistema funcionen correctamente. Esta capa incluye la implementación de repositorios, servicios que se conectan con sistemas externos, y otros componentes de infraestructura, como la configuración de bases de datos.
+
+Los repositorios en la Capa de Infraestructura implementan las interfaces definidas en la Capa de Dominio y se encargan de la persistencia y gestión de datos. En este sistema, utilizamos repositorios basados en tecnologías como JPA para manejar la interacción con la base de datos. Entre los repositorios clave se encuentran el UserRepositoryImpl, que gestiona la información de los usuarios; el SubscriptionRepositoryImpl, encargado de las suscripciones de los usuarios; y el NotificationRepositoryImpl, que gestiona las notificaciones enviadas a los usuarios.
+
+Además, la Capa de Infraestructura incluye servicios que interactúan con sistemas externos y proporcionan funcionalidades adicionales para la plataforma. El NotificationServiceImpl es uno de estos servicios clave, ya que maneja el envío y la programación de notificaciones para eventos importantes, como la entrada a un museo o la finalización de una mejora de foto. Otro componente esencial es el EmailServiceImpl, que facilita el envío de correos electrónicos a los usuarios, permitiendo notificaciones y confirmaciones relacionadas con sus cuentas.
+
+Finalmente, se incluye la configuración de la base de datos a través del componente DatabaseConfig, que define los detalles técnicos para la conexión y gestión de la persistencia de datos en la plataforma. Esto asegura que las operaciones relacionadas con usuarios, suscripciones y notificaciones se manejen de forma eficiente y segura
+
+![Domain Layer Diagram](../recursos/imagenes/54.png)
+
+
+### 5.1.6. Bounded Context Software Architecture Component Level Diagrams
+
+En esta sección, presentamos los Diagramas de Componentes a nivel de Arquitectura de Software del bounded context User Account Management. Estos diagramas proporcionan una visión general de cómo los diferentes componentes interactúan entre sí en el contexto de la gestión de usuarios, suscripciones y notificaciones, tanto para aplicaciones móviles como para sistemas externos.
+
+Las aplicaciones móviles y los sistemas externos interactúan con la plataforma a través de una serie de controladores que manejan las peticiones entrantes y devuelven las respuestas adecuadas. Los controladores clave incluyen UserController, SubscriptionController, NotificationController y RoleController, cada uno encargado de gestionar operaciones específicas como la creación de usuarios, manejo de suscripciones, envío de notificaciones y asignación de roles.
+
+Cada controlador se comunica con sus correspondientes Application Services, que implementan la lógica de negocio y coordinan las operaciones con los Repositories para la persistencia de datos. Los Repositories, a su vez, gestionan el almacenamiento de información de usuarios, suscripciones y notificaciones, interactuando con la base de datos central.
+
+![Domain Layer Diagram](../recursos/imagenes/55.png)
+
+
+### 5.1.7. Bounded Context Software Architecture Code Level Diagrams
+
+#### 5.X.7.1. Bounded Context Domain Layer Class Diagrams
+Estos diagramas, específicamente modelan la capa de dominio dentro de un bounded context particular en DDD. Estos diagramas están diseñados para proporcionar una vista estructurada del modelo de dominio y cómo se organiza y se relaciona dentro de los límites del contexto delimitado. Son herramientas valiosas para asegurar que el equipo de desarrollo tenga una comprensión común y precisa de cómo se implementará la lógica de negocio en el código, y cómo cada parte del dominio interactúa dentro del contexto acotado.
+
+![Domain Layer Diagram](../recursos/imagenes/56.png)
+
+#### 5.1.7.2. Bounded Context Database Design Diagram
+
+Es una representación gráfica que muestra cómo se organiza la base de datos en relación con un "Bounded Context" en el Diseño Guiado por el Dominio (DDD). Este tipo de diagrama se enfoca en los aspectos de almacenamiento de datos de un modelo de dominio particular y cómo los datos son estructurados y manejados dentro de los límites de un contexto específico.
+
+![Domain Layer Diagram](../recursos/imagenes/57.png)
+
+
+## 5.X. Bounded Context: \<Bounded Context Name\>
+
+### 5.X.1. Domain Layer
+
+### 5.X.2. Interface Layer
+
+### 5.X.3. Application Layer
+
+### 5.X.4. Infrastructure Layer
+
+### 5.X.6. Bounded Context Software Architecture Component Level Diagrams
+
+### 5.X.7. Bounded Context Software Architecture Code Level Diagrams
+
+#### 5.X.7.1. Bounded Context Domain Layer Class Diagrams
+
+#### 5.X.7.2. Bounded Context Database Design Diagram
+
+## 5.X. Bounded Context: \<Bounded Context Name\>
+
+### 5.X.1. Domain Layer
+
+### 5.X.2. Interface Layer
+
+### 5.X.3. Application Layer
+
+### 5.X.4. Infrastructure Layer
+
+### 5.X.6. Bounded Context Software Architecture Component Level Diagrams
+
+### 5.X.7. Bounded Context Software Architecture Code Level Diagrams
+
+#### 5.X.7.1. Bounded Context Domain Layer Class Diagrams
+
+#### 5.X.7.2. Bounded Context Database Design Diagram
+
+## 5.X. Bounded Context: \<Bounded Context Name\>
+
+### 5.X.1. Domain Layer
+
+### 5.X.2. Interface Layer
+
+### 5.X.3. Application Layer
+
+### 5.X.4. Infrastructure Layer
+
+### 5.X.6. Bounded Context Software Architecture Component Level Diagrams
+
+### 5.X.7. Bounded Context Software Architecture Code Level Diagrams
+
+#### 5.X.7.1. Bounded Context Domain Layer Class Diagrams
+
+#### 5.X.7.2. Bounded Context Database Design Diagram

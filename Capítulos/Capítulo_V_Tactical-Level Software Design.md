@@ -128,21 +128,286 @@ Es una representación gráfica que muestra cómo se organiza la base de datos e
 ![Descripción de la imagen 57](https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/57.png?raw=true)
 
 
-## 5.X. Bounded Context: \<Bounded Context Name\>
-
+## 5.2. Bounded Context: Image Recognition
+El dominio de Image recognition se enfoca en la interacción con el servicio de reconocimiento de imágenes creado en Tensorflow y la gestión del ciclo de vida de las restauraciones recibidas.
 ### 5.X.1. Domain Layer
+En la capa de dominio, se identificaron las Entities, Value Objects, Aggregates, Factories y Domain Services necesarios para el funcionamiento del Bounded context.
+#### Entities
+| Nombre      | RawImage                                                                                                                                                         |
+|-------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Descripción | Representa la imagen que el usuario escanea o carga antes de ser reconocida por el sistema. Contiene metadatos como la ubicación, fecha, y calidad de la imagen. |  
 
-### 5.X.2. Interface Layer
+| Nombre      | RecognizedImage                                                                                                                          |
+|-------------|------------------------------------------------------------------------------------------------------------------------------------------|
+| Descripción | Clase que representa la imagen que ha sido procesada y reconocida mediante IA, con detalles sobre la obra de arte u objeto identificado. |  
+
+| Nombre      | RecognitionProcess                                                                                                                                      |
+|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Descripción | Controla el ciclo de vida del proceso de reconocimiento, incluyendo los diferentes estados: iniciado, en proceso, completado, errores y notificaciones. |  
+
+#### Value Objects
+| Nombre      | RecognitionType                                                                                                                       |
+|-------------|---------------------------------------------------------------------------------------------------------------------------------------|
+| Descripción | Valor que indica si el proceso de reconocimiento es automático o requiere intervención manual para la confirmación de los resultados. |
+
+| Nombre      | RecognitionSettings                                                                                                   |
+|-------------|-----------------------------------------------------------------------------------------------------------------------|
+| Descripción | Configuraciones aplicadas al proceso de reconocimiento, como la precisión del algoritmo o el tiempo de procesamiento. |
+
+| Nombre      | ErrorNotification                                                                                      |
+|-------------|--------------------------------------------------------------------------------------------------------|
+| Descripción | Notificación generada en caso de que haya algún problema técnico durante el proceso de reconocimiento. |
+
+| Nombre      | RecognitionMetadata                                                                                          |
+|-------------|--------------------------------------------------------------------------------------------------------------|
+| Descripción | Metadatos asociados con la imagen antes del reconocimiento, como la ubicación, formato de archivo, y tamaño. |
+
+#### Aggregates
+| Nombre      | ImageRecognitionAggregate                                                                                                                                            |
+|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Descripción | Responsable de gestionar las acciones relacionadas con el reconocimiento de imágenes, como la selección de parámetros del reconocimiento, notificaciones, y ajustes. |
+
+#### Factories
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0pky">Nombre</th>
+    <th class="tg-0pky">ImageFactory</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky" rowspan="2">Methods</td>
+    <td class="tg-0pky">createRawImage(filePath: string, user: User): RawImage  <br></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">createRecognizedImage(rawImage: RawImage, recognitionProcess: RecognitionProcess): RecognizedImage</td>
+  </tr>
+</tbody>
+</table>
+
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0pky">Nombre</th>
+    <th class="tg-0pky">RecognitionProcessFactory</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">Methods</td>
+    <td class="tg-0pky">createRecognitionProcess(rawImage: RawImage, settings: RecognitionSettings): RecognitionProcess</td>
+  </tr>
+</tbody>
+</table>
+
+#### Domain Services
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0pky">Nombre</th>
+    <th class="tg-0pky">ImageRecognitionService</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">Dependencies</td>
+    <td class="tg-0pky">AITensorflowService</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax" rowspan="3">Methods</td>
+    <td class="tg-0lax">recognizeImage(rawImage: RawImage, settings: RecognitionSettings): RecognitionProcess: Invoca el AIService para enviar la imagen y procesarla usando TensorFlow, luego utiliza el resultado para completar el proceso de reconocimiento.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">optimizeRecognition(rawImage: RawImage): RecognitionSettings</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">validateRecognitionFeasibility(rawImage: RawImage): boolean</td>
+  </tr>
+</tbody>
+</table>
+
+### 5.2.2. Interface Layer
+#### Controllers 
+<table><thead>
+  <tr>
+    <th>Nombre</th>
+    <th>ImageRecognitionController</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td>Description</td>
+    <td>Controlador que permite al usuario interactuar con el proceso de reconocimiento.</td>
+  </tr>
+  <tr>
+    <td rowspan="5">Methods</td>
+    <td>selectRecognitionType(): Selección del tipo de reconocimiento.</td>
+  </tr>
+  <tr>
+    <td>applyManualRecognition(): Iniciar reconocimiento manual.</td>
+  </tr>
+  <tr>
+    <td>applyAutomaticRecognition(): Iniciar reconocimiento automático.</td>
+  </tr>
+  <tr>
+    <td>finalizeRecognition(): Finalizar el proceso de reconocimiento.</td>
+  </tr>
+  <tr>
+    <td>undoRedoAction(): Rehacer o deshacer acciones de reconocimiento.</td>
+  </tr>
+</tbody>
+</table>
+
+##### Endpoints planteados:
+-	POST /api/images/upload
+-	GET /api/images/{id}
+-	POST /api/images/{id}/recognize
+-	GET /api/recognitions/{id}
+-	PUT /api/recognitions/{id}/pause
+-	PUT /api/recognitions/{id}/resume
+-	PUT /api/recognitions/{id}/cancel
+-	GET /api/recognized-images/{id}
+-	GET /api/raw-images/{id}/recognized-versions
 
 ### 5.X.3. Application Layer
+#### Command Handlers
+| Nombre       | ImageRecognitionController        |
+|--------------|-----------------------------------|
+| Dependencies | IRawImageRepository, ImageFactory |
+| Method       | handle(UploadRawImageCommand)     |
 
-### 5.X.4. Infrastructure Layer
+| Nombre       | InitiateRecognitionCommandHandler                                                                                                                                                       |
+|--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Dependencies | IRecognitionProcessRepository, RecognitionProcessFactory, ImageRecognitionService                                                                                                       |
+| Method       | handle(InitiateRecognitionCommand): Este comando invoca el proceso de reconocimiento llamando al ImageRecognitionService, que a su vez invoca el AIService para el procesamiento de IA. |
 
-### 5.X.6. Bounded Context Software Architecture Component Level Diagrams
+| Nombre       | PauseRecognitionCommandHandler  |
+|--------------|---------------------------------|
+| Dependencies | IRecognitionProcessRepository   |
+| Method       | handle(PauseRecognitionCommand) |
 
-### 5.X.7. Bounded Context Software Architecture Code Level Diagrams
+| Nombre       | ResumeRecognitionCommandHandler  |
+|--------------|----------------------------------|
+| Dependencies | IRecognitionProcessRepository    |
+| Method       | handle(ResumeRecognitionCommand) |
 
-#### 5.X.7.1. Bounded Context Domain Layer Class Diagrams
+| Nombre       | CancelRecognitionCommandHandler  |
+|--------------|----------------------------------|
+| Dependencies | IRecognitionProcessRepository    |
+| Method       | handle(CancelRecognitionCommand) |
+
+| Nombre       | SaveRecognitionCommandHandler  |
+|--------------|--------------------------------|
+| Dependencies | IRecognitionProcessRepository  |
+| Method       | handle(SaveRecognitionCommand) |
+
+#### Event Handlers
+| Nombre           | RecognitionProcessStartedEventHandler |
+|------------------|---------------------------------------|
+| Dependencies     | handle(RecognitionProcessStarted)     |
+| Responsibilities | Update UI, send notifications         |
+
+| Nombre           | RecognitionProcessCompletedEventHandler                |
+|------------------|--------------------------------------------------------|
+| Dependencies     | handle(RecognitionProcessCompleted)                    |
+| Responsibilities | Update UI, send notifications, trigger post-processing |
+
+| Nombre           | RecognitionProcessFailedEventHandler      |
+|------------------|-------------------------------------------|
+| Dependencies     | handle(RecognitionProcessFailed)          |
+| Responsibilities | Update UI, send notifications, log errors |
+
+### 5.2.4. Infrastructure Layer
+#### Repositories Implementations
+<table><thead>
+  <tr>
+    <th>Nombre</th>
+    <th>RawImageRepository</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td>Implements</td>
+    <td>IRawImageRepository</td>
+  </tr>
+  <tr>
+    <td>Dependencies</td>
+    <td>Database context or ORM</td>
+  </tr>
+  <tr>
+    <td rowspan="4">Methods</td>
+    <td>save(rawImage: RawImage): void</td>
+  </tr>
+  <tr>
+    <td>getById(id: UUID): RawImage</td>
+  </tr>
+  <tr>
+    <td>getByUserId(userId: UUID): RawImage[]</td>
+  </tr>
+  <tr>
+    <td>delete(id: UUID): void</td>
+  </tr>
+</tbody>
+</table>
+
+<table><thead>
+  <tr>
+    <th>Nombre</th>
+    <th>RecognizedImageRepository</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td>Implements</td>
+    <td>IRecognizedImageRepository</td>
+  </tr>
+  <tr>
+    <td>Dependencies</td>
+    <td>Database context or ORM</td>
+  </tr>
+  <tr>
+    <td rowspan="4">Methods</td>
+    <td>save(recognizedImage: RecognizedImage): void</td>
+  </tr>
+  <tr>
+    <td>getById(id: UUID): RecognizedImage</td>
+  </tr>
+  <tr>
+    <td>getByOriginalImageId(originalImageId: UUID): RecognizedImage[]</td>
+  </tr>
+  <tr>
+    <td>delete(id: UUID): void</td>
+  </tr>
+</tbody>
+</table>
+
+<table><thead>
+  <tr>
+    <th>Nombre</th>
+    <th>RecognitionProcessRepository</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td>Implements</td>
+    <td>IRecognitionProcessRepository</td>
+  </tr>
+  <tr>
+    <td>Dependencies</td>
+    <td>Database context or ORM</td>
+  </tr>
+  <tr>
+    <td rowspan="4">Methods</td>
+    <td>save(recognitionProcess: RecognitionProcess): void</td>
+  </tr>
+  <tr>
+    <td>getById(id: UUID): RecognitionProcess</td>
+  </tr>
+  <tr>
+    <td>getByStatus(status: RecognitionStatus): RecognitionProcess[]</td>
+  </tr>
+  <tr>
+    <td>updateStatus(id: UUID, status: RecognitionStatus): void</td>
+  </tr>
+</tbody>
+</table>
+
+### 5.2.6. Bounded Context Software Architecture Component Level Diagrams
+
+### 5.2.7. Bounded Context Software Architecture Code Level Diagrams
+
+#### 5.2.7.1. Bounded Context Domain Layer Class Diagrams
 
 #### 5.X.7.2. Bounded Context Database Design Diagram
 

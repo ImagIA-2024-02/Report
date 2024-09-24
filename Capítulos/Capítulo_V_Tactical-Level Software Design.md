@@ -404,13 +404,12 @@ En la capa de dominio, se identificaron las Entities, Value Objects, Aggregates,
 </table>
 
 ### 5.2.6. Bounded Context Software Architecture Component Level Diagrams
-
+[![Bounded-Context-Software-Architecture-Component-Level-Diagrams.png](https://i.postimg.cc/Ls0rVZR8/Bounded-Context-Software-Architecture-Component-Level-Diagrams.png)](https://postimg.cc/JyZ6r0Gf)
 ### 5.2.7. Bounded Context Software Architecture Code Level Diagrams
-
 #### 5.2.7.1. Bounded Context Domain Layer Class Diagrams
-
+[![Arch-code-lvl-diagram.png](https://i.postimg.cc/L8QCdKWy/Arch-code-lvl-diagram.png)](https://postimg.cc/BjDcDy4D)
 #### 5.X.7.2. Bounded Context Database Design Diagram
-
+[![databs-diagram.png](https://i.postimg.cc/8P1tjzQK/databs-diagram.png)](https://postimg.cc/c6bQzZJw)
 ## 5.X. Bounded Context: \<Bounded Context Name\>
 
 ### 5.X.1. Domain Layer

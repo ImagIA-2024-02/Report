@@ -845,7 +845,7 @@ La Infrastructure Layer es responsable de la persistencia de los datos, la integ
 ### 5.3.6. Bounded Context Software Architecture Component Level Diagrams
 
 <div class="container" style="text-align: center">
-    <img src="https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/5.3.6.png?raw=true" width="200" alt="Bounded Context Software Architecture Component Level Diagrams">
+    <img src="https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/5.3.6.png?raw=true"  alt="Bounded Context Software Architecture Component Level Diagrams">
 </div>
 
 ### 5.3.7. Bounded Context Software Architecture Code Level Diagrams
@@ -853,13 +853,13 @@ La Infrastructure Layer es responsable de la persistencia de los datos, la integ
 #### 5.3.7.1. Bounded Context Domain Layer Class Diagrams
 
 <div class="container" style="text-align: center">
-    <img src="https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/5.3.7.1.png?raw=true" width="200" alt="Bounded Context Software Architecture Code Level Diagrams">
+    <img src="https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/5.3.7.1.png?raw=true" alt="Bounded Context Software Architecture Code Level Diagrams">
 </div>
 
 #### 5.3.7.2. Bounded Context Database Design Diagram
 
 <div class="container" style="text-align: center">
-    <img src="https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/5.3.7.2.png?raw=true" width="200" alt="Bounded Context Software Architecture Code Level Diagrams">
+    <img src="https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/5.3.7.2.png?raw=true"  alt="Bounded Context Software Architecture Code Level Diagrams">
 </div>
 
 ## 5.X. Bounded Context: \<Bounded Context Name\>

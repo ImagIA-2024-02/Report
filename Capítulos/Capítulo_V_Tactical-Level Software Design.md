@@ -57,13 +57,11 @@ En el Diccionario de Clases del User Account, se han identificado cuatro clases 
 <tr><td valign="top">permissions</td><td valign="top">List<string></td><td valign="top">private</td></tr>
 </table>
 
-
 ### 5.1.1. Domain Layer
+
 Dentro del dominio de User Account, se encuentran entidades clave como User, Subscription, Notification, y UserRole. Estas entidades desempeñan un papel fundamental en la gestión del ciclo de vida de las cuentas de usuario, suscripciones y roles, permitiendo que los usuarios interactúen de manera efectiva con la plataforma, ya sea a través de la creación de cuentas, la suscripción a servicios, o la gestión de sus permisos y notificaciones. En este dominio, el User es el agregado principal, ya que encapsula la lógica de negocio central relacionada con la administración de cuentas de usuario, controlando la activación de cuentas, validación de credenciales y asignación de roles. A continuación, se describen los objetos y entidades relacionados con este dominio.
 
 ![Descripción de la imagen](https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/51.png?raw=true)
-
-
 
 ### 5.1.2. Interface Layer
 
@@ -81,8 +79,8 @@ Los controladores principales son: **UserController**, **SubscriptionController*
 
 ![Descripción de la imagen 52](https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/52.png?raw=true)
 
-
 ### 5.1.3. Application Layer
+
 En esta sección, presentamos la Capa de Aplicación (Application Layer) dentro del contexto del enfoque de diseño Domain-Driven Design (DDD) para el sistema de gestión de cuentas de usuario. La Capa de Aplicación es responsable de coordinar las acciones y el flujo de datos entre la Capa de Dominio y la Capa de Infraestructura, actuando como intermediario y gestionando las interacciones entre estas capas. Esta capa garantiza que la lógica de negocio representada en la Capa de Dominio se ejecute de manera eficiente y coherente.
 
 La Capa de Aplicación se compone de Application Services, Command Handlers y Event Handlers. Los Command Handlers gestionan las operaciones de escritura, como la creación, actualización o eliminación de usuarios y suscripciones. Los Event Handlers procesan los eventos que ocurren en el sistema, como el envío de notificaciones al usuario o cambios en sus suscripciones.
@@ -102,7 +100,6 @@ Finalmente, se incluye la configuración de la base de datos a través del compo
 
 ![Descripción de la imagen 54](https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/54.png?raw=true)
 
-
 ### 5.1.6. Bounded Context Software Architecture Component Level Diagrams
 
 En esta sección, presentamos los Diagramas de Componentes a nivel de Arquitectura de Software del bounded context User Account Management. Estos diagramas proporcionan una visión general de cómo los diferentes componentes interactúan entre sí en el contexto de la gestión de usuarios, suscripciones y notificaciones, tanto para aplicaciones móviles como para sistemas externos.
@@ -113,10 +110,10 @@ Cada controlador se comunica con sus correspondientes Application Services, que 
 
 ![Descripción de la imagen 55](https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/55.png?raw=true)
 
-
 ### 5.1.7. Bounded Context Software Architecture Code Level Diagrams
 
 #### 5.X.7.1. Bounded Context Domain Layer Class Diagrams
+
 Estos diagramas, específicamente modelan la capa de dominio dentro de un bounded context particular en DDD. Estos diagramas están diseñados para proporcionar una vista estructurada del modelo de dominio y cómo se organiza y se relaciona dentro de los límites del contexto delimitado. Son herramientas valiosas para asegurar que el equipo de desarrollo tenga una comprensión común y precisa de cómo se implementará la lógica de negocio en el código, y cómo cada parte del dominio interactúa dentro del contexto acotado.
 
 ![Descripción de la imagen 56](https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/56.png?raw=true)
@@ -127,47 +124,54 @@ Es una representación gráfica que muestra cómo se organiza la base de datos e
 
 ![Descripción de la imagen 57](https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/57.png?raw=true)
 
-
 ## 5.2. Bounded Context: Image Recognition
+
 El dominio de Image recognition se enfoca en la interacción con el servicio de reconocimiento de imágenes creado en Tensorflow y la gestión del ciclo de vida de las restauraciones recibidas.
-### 5.X.1. Domain Layer
+
+### 5.2.1. Domain Layer
+
 En la capa de dominio, se identificaron las Entities, Value Objects, Aggregates, Factories y Domain Services necesarios para el funcionamiento del Bounded context.
+
 #### Entities
+
 | Nombre      | RawImage                                                                                                                                                         |
-|-------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Descripción | Representa la imagen que el usuario escanea o carga antes de ser reconocida por el sistema. Contiene metadatos como la ubicación, fecha, y calidad de la imagen. |  
+| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Descripción | Representa la imagen que el usuario escanea o carga antes de ser reconocida por el sistema. Contiene metadatos como la ubicación, fecha, y calidad de la imagen. |
 
 | Nombre      | RecognizedImage                                                                                                                          |
-|-------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| Descripción | Clase que representa la imagen que ha sido procesada y reconocida mediante IA, con detalles sobre la obra de arte u objeto identificado. |  
+| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| Descripción | Clase que representa la imagen que ha sido procesada y reconocida mediante IA, con detalles sobre la obra de arte u objeto identificado. |
 
 | Nombre      | RecognitionProcess                                                                                                                                      |
-|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Descripción | Controla el ciclo de vida del proceso de reconocimiento, incluyendo los diferentes estados: iniciado, en proceso, completado, errores y notificaciones. |  
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Descripción | Controla el ciclo de vida del proceso de reconocimiento, incluyendo los diferentes estados: iniciado, en proceso, completado, errores y notificaciones. |
 
 #### Value Objects
+
 | Nombre      | RecognitionType                                                                                                                       |
-|-------------|---------------------------------------------------------------------------------------------------------------------------------------|
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------------- |
 | Descripción | Valor que indica si el proceso de reconocimiento es automático o requiere intervención manual para la confirmación de los resultados. |
 
 | Nombre      | RecognitionSettings                                                                                                   |
-|-------------|-----------------------------------------------------------------------------------------------------------------------|
+| ----------- | --------------------------------------------------------------------------------------------------------------------- |
 | Descripción | Configuraciones aplicadas al proceso de reconocimiento, como la precisión del algoritmo o el tiempo de procesamiento. |
 
 | Nombre      | ErrorNotification                                                                                      |
-|-------------|--------------------------------------------------------------------------------------------------------|
+| ----------- | ------------------------------------------------------------------------------------------------------ |
 | Descripción | Notificación generada en caso de que haya algún problema técnico durante el proceso de reconocimiento. |
 
 | Nombre      | RecognitionMetadata                                                                                          |
-|-------------|--------------------------------------------------------------------------------------------------------------|
+| ----------- | ------------------------------------------------------------------------------------------------------------ |
 | Descripción | Metadatos asociados con la imagen antes del reconocimiento, como la ubicación, formato de archivo, y tamaño. |
 
 #### Aggregates
+
 | Nombre      | ImageRecognitionAggregate                                                                                                                                            |
-|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Descripción | Responsable de gestionar las acciones relacionadas con el reconocimiento de imágenes, como la selección de parámetros del reconocimiento, notificaciones, y ajustes. |
 
 #### Factories
+
 <table class="tg"><thead>
   <tr>
     <th class="tg-0pky">Nombre</th>
@@ -198,6 +202,7 @@ En la capa de dominio, se identificaron las Entities, Value Objects, Aggregates,
 </table>
 
 #### Domain Services
+
 <table class="tg"><thead>
   <tr>
     <th class="tg-0pky">Nombre</th>
@@ -222,7 +227,9 @@ En la capa de dominio, se identificaron las Entities, Value Objects, Aggregates,
 </table>
 
 ### 5.2.2. Interface Layer
-#### Controllers 
+
+#### Controllers
+
 <table><thead>
   <tr>
     <th>Nombre</th>
@@ -253,66 +260,72 @@ En la capa de dominio, se identificaron las Entities, Value Objects, Aggregates,
 </table>
 
 ##### Endpoints planteados:
--	POST /api/images/upload
--	GET /api/images/{id}
--	POST /api/images/{id}/recognize
--	GET /api/recognitions/{id}
--	PUT /api/recognitions/{id}/pause
--	PUT /api/recognitions/{id}/resume
--	PUT /api/recognitions/{id}/cancel
--	GET /api/recognized-images/{id}
--	GET /api/raw-images/{id}/recognized-versions
 
-### 5.X.3. Application Layer
+- POST /api/images/upload
+- GET /api/images/{id}
+- POST /api/images/{id}/recognize
+- GET /api/recognitions/{id}
+- PUT /api/recognitions/{id}/pause
+- PUT /api/recognitions/{id}/resume
+- PUT /api/recognitions/{id}/cancel
+- GET /api/recognized-images/{id}
+- GET /api/raw-images/{id}/recognized-versions
+
+### 5.2.3. Application Layer
+
 #### Command Handlers
+
 | Nombre       | ImageRecognitionController        |
-|--------------|-----------------------------------|
+| ------------ | --------------------------------- |
 | Dependencies | IRawImageRepository, ImageFactory |
 | Method       | handle(UploadRawImageCommand)     |
 
 | Nombre       | InitiateRecognitionCommandHandler                                                                                                                                                       |
-|--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Dependencies | IRecognitionProcessRepository, RecognitionProcessFactory, ImageRecognitionService                                                                                                       |
 | Method       | handle(InitiateRecognitionCommand): Este comando invoca el proceso de reconocimiento llamando al ImageRecognitionService, que a su vez invoca el AIService para el procesamiento de IA. |
 
 | Nombre       | PauseRecognitionCommandHandler  |
-|--------------|---------------------------------|
+| ------------ | ------------------------------- |
 | Dependencies | IRecognitionProcessRepository   |
 | Method       | handle(PauseRecognitionCommand) |
 
 | Nombre       | ResumeRecognitionCommandHandler  |
-|--------------|----------------------------------|
+| ------------ | -------------------------------- |
 | Dependencies | IRecognitionProcessRepository    |
 | Method       | handle(ResumeRecognitionCommand) |
 
 | Nombre       | CancelRecognitionCommandHandler  |
-|--------------|----------------------------------|
+| ------------ | -------------------------------- |
 | Dependencies | IRecognitionProcessRepository    |
 | Method       | handle(CancelRecognitionCommand) |
 
 | Nombre       | SaveRecognitionCommandHandler  |
-|--------------|--------------------------------|
+| ------------ | ------------------------------ |
 | Dependencies | IRecognitionProcessRepository  |
 | Method       | handle(SaveRecognitionCommand) |
 
 #### Event Handlers
+
 | Nombre           | RecognitionProcessStartedEventHandler |
-|------------------|---------------------------------------|
+| ---------------- | ------------------------------------- |
 | Dependencies     | handle(RecognitionProcessStarted)     |
 | Responsibilities | Update UI, send notifications         |
 
 | Nombre           | RecognitionProcessCompletedEventHandler                |
-|------------------|--------------------------------------------------------|
+| ---------------- | ------------------------------------------------------ |
 | Dependencies     | handle(RecognitionProcessCompleted)                    |
 | Responsibilities | Update UI, send notifications, trigger post-processing |
 
 | Nombre           | RecognitionProcessFailedEventHandler      |
-|------------------|-------------------------------------------|
+| ---------------- | ----------------------------------------- |
 | Dependencies     | handle(RecognitionProcessFailed)          |
 | Responsibilities | Update UI, send notifications, log errors |
 
 ### 5.2.4. Infrastructure Layer
+
 #### Repositories Implementations
+
 <table><thead>
   <tr>
     <th>Nombre</th>
@@ -404,29 +417,450 @@ En la capa de dominio, se identificaron las Entities, Value Objects, Aggregates,
 </table>
 
 ### 5.2.6. Bounded Context Software Architecture Component Level Diagrams
+
 [![Bounded-Context-Software-Architecture-Component-Level-Diagrams.png](https://i.postimg.cc/Ls0rVZR8/Bounded-Context-Software-Architecture-Component-Level-Diagrams.png)](https://postimg.cc/JyZ6r0Gf)
+
 ### 5.2.7. Bounded Context Software Architecture Code Level Diagrams
+
 #### 5.2.7.1. Bounded Context Domain Layer Class Diagrams
+
 [![Arch-code-lvl-diagram.png](https://i.postimg.cc/L8QCdKWy/Arch-code-lvl-diagram.png)](https://postimg.cc/BjDcDy4D)
-#### 5.X.7.2. Bounded Context Database Design Diagram
+
+#### 5.2.7.2. Bounded Context Database Design Diagram
+
 [![databs-diagram.png](https://i.postimg.cc/8P1tjzQK/databs-diagram.png)](https://postimg.cc/c6bQzZJw)
-## 5.X. Bounded Context: \<Bounded Context Name\>
 
-### 5.X.1. Domain Layer
+## 5.3. Bounded Context: Image Restauration
 
-### 5.X.2. Interface Layer
+Se centra en la interacción con el servicio de restauración de imágenes creado en Tensorflow.
 
-### 5.X.3. Application Layer
+### 5.3.1. Domain Layer
 
-### 5.X.4. Infrastructure Layer
+#### Entities
 
-### 5.X.6. Bounded Context Software Architecture Component Level Diagrams
+- **RawImage**  
+  Clase que representa la imagen tal como fue cargada por el usuario, incluyendo sus metadatos y características sin restaurar.
 
-### 5.X.7. Bounded Context Software Architecture Code Level Diagrams
+- **RestoredImage**  
+  Clase que representa la imagen que ha sido ajustada mediante los procesos de restauración, ya sea automáticamente o con intervención manual.
 
-#### 5.X.7.1. Bounded Context Domain Layer Class Diagrams
+- **RestorationProcess**  
+  Clase que controla el ciclo de vida del proceso de restauración, representando los diferentes estados del proceso, como la restauración iniciada, errores, notificaciones, ajustes y finalización.
 
-#### 5.X.7.2. Bounded Context Database Design Diagram
+- **User**  
+  Clase que representa al usuario que carga imágenes y utiliza las funciones de restauración.
+
+#### Value Objects
+
+- **RestorationType**  
+  Valor que indica si el proceso de restauración es completamente automático o incluye intervención manual del usuario.
+
+- **RestorationSettings**  
+  Configuraciones aplicadas a la restauración, como potencia, contraste y tonalidad.
+
+- **ErrorNotification**  
+  Notificación que se genera en caso de un problema técnico durante la restauración.
+
+- **RestorationHistory**  
+  Mantiene un registro de todas las versiones restauradas de una imagen.
+
+- **ImageMetadata**  
+  Información relacionada con los metadatos de la imagen.
+
+- **ComparisonResult**  
+  Resultado de la comparación entre imágenes.
+
+- **ImageDifference**  
+  Diferencias encontradas entre imágenes.
+
+#### Aggregates
+
+- **ImageRestorationAggregate**  
+  Responsable de gestionar las acciones del proceso de restauración, como la selección del tipo de restauración (manual o automática), los ajustes y las notificaciones.
+
+##### Raíz:
+
+- **RestorationProcess**
+
+##### Entidades:
+
+- **RawImage**, **RestoredImage**
+
+##### Value Objects:
+
+- **RestorationSettings**, **ComparisonResult**
+
+#### Factories
+
+- **ImageFactory**
+
+  - **Métodos:**
+    - `createRawImage(filePath: string, user: User): RawImage`
+    - `createRestoredImage(rawImage: RawImage, restorationProcess: RestorationProcess): RestoredImage`
+
+- **RestorationProcessFactory**
+  - **Métodos:**
+    - `createRestorationProcess(rawImage: RawImage, settings: RestorationSettings): RestorationProcess`
+
+#### Domain Services
+
+- **ImageRestorationService**
+
+  - **Métodos:**
+    - `restoreImage(rawImage: RawImage, settings: RestorationSettings): RestorationProcess`
+    - `optimizeRestoration(rawImage: RawImage): RestorationSettings`
+    - `validateRestorationFeasibility(rawImage: RawImage): boolean`
+
+- **ImageComparisonService**
+
+  - **Métodos:**
+    - `compareImages(rawImage: RawImage, restoredImage: RestoredImage): ComparisonResult`
+    - `analyzeDifferences(comparisonResult: ComparisonResult): ImageAnalysis`
+
+- **RestorationQualityService**
+  - **Métodos:**
+    - `assessRestorationQuality(restoredImage: RestoredImage): QualityScore`
+    - `suggestImprovements(restoredImage: RestoredImage): RestorationSuggestions`
+
+#### Repository Interfaces
+
+- **IRawImageRepository**
+
+  - **Métodos:**
+    - `save(rawImage: RawImage): void`
+    - `getById(id: UUID): RawImage`
+    - `getByUserId(userId: UUID): RawImage[]`
+    - `delete(id: UUID): void`
+
+- **IRestoredImageRepository**
+
+  - **Métodos:**
+    - `save(restoredImage: RestoredImage): void`
+    - `getById(id: UUID): RestoredImage`
+    - `getByOriginalImageId(originalImageId: UUID): RestoredImage[]`
+    - `delete(id: UUID): void`
+
+- **IRestorationProcessRepository**
+  - **Métodos:**
+    - `save(restorationProcess: RestorationProcess): void`
+    - `getById(id: UUID): RestorationProcess`
+    - `getByStatus(status: RestorationStatus): RestorationProcess[]`
+    - `updateStatus(id: UUID, status: RestorationStatus): void`
+
+### 5.3.2. Interface Layer
+
+Controllers a tomar en cuenta
+
+##### ImageRestorationController
+
+Controlador que permite al usuario interactuar con el proceso de restauración.
+
+###### Métodos:
+
+- `selectRestorationType()`: Selección del tipo de restauración.
+- `applyManualRestoration()`: Iniciar restauración manual.
+- `applyAutomaticRestoration()`: Iniciar restauración automática.
+- `finalizeRestoration()`: Finalizar el proceso de restauración.
+- `undoRedoAction()`: Rehacer o deshacer acciones de edición.
+
+##### ImageUploadController
+
+###### Endpoints:
+
+- `POST /api/images/upload`
+- `GET /api/images/{id}`
+
+#### ImageRestorationController
+
+##### Endpoints:
+
+- `POST /api/images/{id}/restore`
+- `GET /api/restorations/{id}`
+- `PUT /api/restorations/{id}/pause`
+- `PUT /api/restorations/{id}/resume`
+- `PUT /api/restorations/{id}/cancel`
+
+##### RestoredImageController
+
+###### Endpoints:
+
+- `GET /api/restored-images/{id}`
+- `GET /api/raw-images/{id}/restored-versions`
+
+##### ImageComparisonController
+
+###### Endpoints:
+
+- `GET /api/images/{rawId}/compare/{restoredId}`
+- `POST /api/images/side-by-side-comparison`
+
+#### Presenters
+
+##### ImagePresenter
+
+###### Métodos:
+
+- `presentRawImage(RawImage): RawImageViewModel`
+- `presentRestorationOptions(RawImage): RestorationOptionsViewModel`
+
+##### RestorationProcessPresenter
+
+###### Métodos:
+
+- `presentRestorationStatus(RestorationProcess): RestorationStatusViewModel`
+- `presentRestorationProgress(RestorationProcess): RestorationProgressViewModel`
+
+##### RestoredImagePresenter
+
+###### Métodos:
+
+- `presentRestoredImage(RestoredImage): RestoredImageViewModel`
+- `presentComparisonResult(ComparisonResult): ComparisonResultViewModel`
+
+#### View Models
+
+##### RawImageViewModel
+
+###### Properties:
+
+- `id`
+- `url`
+- `thumbnailUrl`
+- `metadata`
+- `uploadedAt`
+
+##### RestorationOptionsViewModel
+
+###### Properties:
+
+- `availableAlgorithms`
+- `qualityLevels`
+- `applicableFilters`
+
+##### RestorationStatusViewModel
+
+###### Properties:
+
+- `id`
+- `status`
+- `progress`
+- `estimatedTimeRemaining`
+
+##### RestoredImageViewModel
+
+###### Properties:
+
+- `id`
+- `url`
+- `thumbnailUrl`
+- `originalImageId`
+- `restorationDetails`
+
+##### ComparisonResultViewModel
+
+###### Properties:
+
+- `rawImageUrl`
+- `restoredImageUrl`
+- `sideBySideUrl`
+- `similarityScore`
+- `highlightedDifferences`
+
+### 5.3.3. Application Layer
+
+#### Command Handlers
+
+##### UploadRawImageCommandHandler
+
+- **Dependencies:**
+  - `IRawImageRepository`
+  - `ImageFactory`
+- **Method:**
+  - `handle(UploadRawImageCommand)`
+
+##### InitiateRestorationCommandHandler
+
+- **Dependencies:**
+  - `IRestorationProcessRepository`
+  - `RestorationProcessFactory`
+  - `ImageRestorationService`
+- **Method:**
+  - `handle(InitiateRestorationCommand)`
+
+##### PauseRestorationCommandHandler
+
+- **Dependencies:**
+  - `IRestorationProcessRepository`
+- **Method:**
+  - `handle(PauseRestorationCommand)`
+
+##### ResumeRestorationCommandHandler
+
+- **Dependencies:**
+  - `IRestorationProcessRepository`
+- **Method:**
+  - `handle(ResumeRestorationCommand)`
+
+##### CancelRestorationCommandHandler
+
+- **Dependencies:**
+  - `IRestorationProcessRepository`
+- **Method:**
+  - `handle(CancelRestorationCommand)`
+
+##### SaveRestorationCommandHandler
+
+- **Dependencies:**
+  - `IRestorationProcessRepository`
+- **Method:**
+  - `handle(SaveRestorationCommand)`
+
+#### Event Handlers
+
+##### RestorationProcessStartedEventHandler
+
+- **Method:**
+  - `handle(RestorationProcessStarted)`
+- **Responsibilities:**
+  - Update UI
+  - Send notifications
+
+##### RestorationProcessCompletedEventHandler
+
+- **Method:**
+  - `handle(RestorationProcessCompleted)`
+- **Responsibilities:**
+  - Update UI
+  - Send notifications
+  - Trigger post-processing
+
+##### RestorationProcessFailedEventHandler
+
+- **Method:**
+  - `handle(RestorationProcessFailed)`
+- **Responsibilities:**
+  - Update UI
+  - Send notifications
+  - Log errors
+
+### 5.3.4. Infrastructure Layer
+
+La Infrastructure Layer es responsable de la persistencia de los datos, la integración con servicios externos, y la interacción con bases de datos. Aquí se implementan los repositorios que permiten la recuperación y el almacenamiento de las entidades del dominio.
+
+##### Repository Implementations
+
+###### RawImageRepository (implements IRawImageRepository)
+
+- **Dependencies:**
+  - Database context or ORM
+- **Methods:**
+  - `save(rawImage: RawImage): void`
+  - `getById(id: UUID): RawImage`
+  - `getByUserId(userId: UUID): RawImage[]`
+  - `delete(id: UUID): void`
+
+###### RestoredImageRepository (implements IRestoredImageRepository)
+
+- **Dependencies:**
+  - Database context or ORM
+- **Methods:**
+  - `save(restoredImage: RestoredImage): void`
+  - `getById(id: UUID): RestoredImage`
+  - `getByOriginalImageId(originalImageId: UUID): RestoredImage[]`
+  - `delete(id: UUID): void`
+
+###### RestorationProcessRepository (implements IRestorationProcessRepository)
+
+- **Dependencies:**
+  - Database context or ORM
+- **Methods:**
+  - `save(restorationProcess: RestorationProcess): void`
+  - `getById(id: UUID): RestorationProcess`
+  - `getByStatus(status: RestorationStatus): RestorationProcess[]`
+  - `updateStatus(id: UUID, status: RestorationStatus): void`
+
+##### Database Context
+
+###### ImageRestorationDbContext
+
+- **Entities:**
+  - RawImage, RestoredImage, RestorationProcess, User
+- **Methods:**
+  - `SaveChanges(): void`
+  - `BeginTransaction(): IDbContextTransaction`
+
+##### File Storage
+
+###### FileStorageService (implements IFileStorageService)
+
+- **Dependencies:**
+  - Cloud storage SDK (e.g., AWS S3, Azure Blob Storage)
+- **Methods:**
+  - `uploadFile(file: File, path: string): string`
+  - `getFileUrl(path: string): string`
+  - `deleteFile(path: string): void`
+
+##### Image Processing
+
+###### ImageProcessingService (implements IImageProcessingService)
+
+- **Dependencies:**
+  - Image processing library (e.g., OpenCV, Pillow)
+- **Methods:**
+  - `applyFilter(image: Image, filter: RestorationFilter): Image`
+  - `resize(image: Image, dimensions: Dimensions): Image`
+  - `convertFormat(image: Image, format: ImageFormat): Image`
+
+###### AIRestorationService (implements IAIRestorationService)
+
+- **Dependencies:**
+  - AI/ML framework (e.g., TensorFlow, PyTorch)
+- **Methods:**
+  - `restoreImage(rawImage: RawImage, settings: RestorationSettings): RestoredImage`
+  - `trainModel(dataset: ImageDataset): void`
+  - `evaluateModel(testSet: ImageDataset): ModelPerformance`
+
+##### Caching
+
+###### CacheService (implements ICacheService)
+
+- **Dependencies:**
+  - Caching system (e.g., Redis, Memcached)
+- **Methods:**
+  - `set(key: string, value: any, expiration: number): void`
+  - `get(key: string): any`
+  - `delete(key: string): void`
+
+##### Repositories
+
+###### ImageRestorationRepository
+
+- **Descripción:** Maneja el acceso y la persistencia de las imágenes restauradas, así como el historial de versiones.
+- **Métodos principales:**
+  - `saveRestoredImage():` Guarda una imagen restaurada en la base de datos.
+  - `findOriginalImageById():` Recupera una imagen original antes de su restauración.
+  - `findRestorationHistory():` Recupera el historial de restauraciones de una imagen específica.
+  - `findUserByCredentials():` Recupera un usuario basado en sus credenciales de acceso.
+
+### 5.3.6. Bounded Context Software Architecture Component Level Diagrams
+
+<div class="container" style="text-align: center">
+    <img src="https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/5.3.6.png?raw=true" width="200" alt="Bounded Context Software Architecture Component Level Diagrams">
+</div>
+
+### 5.3.7. Bounded Context Software Architecture Code Level Diagrams
+
+#### 5.3.7.1. Bounded Context Domain Layer Class Diagrams
+
+<div class="container" style="text-align: center">
+    <img src="https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/5.3.7.1.png?raw=true" width="200" alt="Bounded Context Software Architecture Code Level Diagrams">
+</div>
+
+#### 5.3.7.2. Bounded Context Database Design Diagram
+
+<div class="container" style="text-align: center">
+    <img src="https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/5.3.7.2.png?raw=true" width="200" alt="Bounded Context Software Architecture Code Level Diagrams">
+</div>
 
 ## 5.X. Bounded Context: \<Bounded Context Name\>
 

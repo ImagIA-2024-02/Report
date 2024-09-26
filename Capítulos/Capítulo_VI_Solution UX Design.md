@@ -98,4 +98,54 @@ En esta sección, hemos trabajado para crear Mock-ups de nuestra solución que r
 
 ### 6.4.3. Applications User Flow Diagrams
 
+En esta sección, hemos detallado los principales flujos de usuario de nuestra aplicación. Estos diagramas de flujo de usuario sirven como una representación visual de cómo los usuarios navegarán por las diferentes funcionalidades de la aplicación, destacando los puntos clave de decisión, interacciones y transiciones entre las pantallas. Proveen una guía paso a paso para el equipo de desarrollo y los stakeholders, asegurando que la experiencia del usuario esté alineada con la funcionalidad prevista.
+
+Cada diagrama representa un aspecto específico de la interacción del usuario, capturando la estructura lógica y garantizando que todos los requisitos funcionales se cumplan de manera coherente.
+
+**Art Exploration Flow**
+
+Este flujo ilustra los pasos que sigue un usuario para explorar o reconocer obras de arte. Comenzando por escanear o reconocer una obra, el usuario puede interactuar con funciones que le permiten ver el proceso de restauración, explorar una galería de obras restauradas y visualizar múltiples piezas restauradas. Este flujo destaca el recorrido del usuario desde el reconocimiento inicial hasta una exploración más profunda de las obras en restauración.
+
+![Art Exploration Flow](https://blogger.googleusercontent.com/img/a/AVvXsEgo30Nzuz23o7UPhcle0AtdUlFqIF58iHilrk2YzULA8OMLHThOUQRH0lFaVJr6x4ZuuH4tXQqvUyzSJ2EY5xEuDYT7Ig8okhXH2GPRRAdhWcW3nNHMMFz52-9VERMGBTJDZrb4mwqbOYwS40Hw37QOEQ0xOxijZ9FRyzXqXiPeN6WOH2TnShoFO-agXv8 "Art Exploration Flow")
+
+**Subscription Purchase Flow**
+
+Este diagrama se centra en el proceso de incorporación para usuarios que ingresan a la aplicación por primera vez. Después de registrarse o iniciar sesión, los usuarios pueden gestionar su perfil, acceder a galerías y recibir notificaciones. Este flujo también ofrece opciones para que los usuarios exploren museos, reciban recomendaciones y naveguen por el contenido en función de sus preferencias, lo cual es clave para que los nuevos usuarios se familiaricen con las funciones principales de la plataforma.
+
+![Subscription Purchase Flow](https://blogger.googleusercontent.com/img/a/AVvXsEhlzwTw8_iz87UsL5w8POdZoJZDGQY8UP4ZgleaecwT6L3RPk3WvsT0479DWM760FVwlqx3mNqW4zl7Web38nbHnf5WhtADorQWF4-616b765mwWTtHsdaMetKHE61vVMOL7LURZ7lS7Vt_t5nPsqcQQ4_7NiwlejzAxiO59IwBoCXZt9qBUXOuRWVAh-E "Subscription Purchase Flow")
+
+**Profile and Settings Flow**
+
+El flujo de inicio de sesión/registro describe cómo los usuarios pueden iniciar sesión en su cuenta o crear una nueva. Las opciones incluyen el inicio de sesión con correo electrónico, redes sociales (Google/Facebook) y recuperación de contraseña. Es un flujo simple que permite a los usuarios acceder rápidamente a las funciones de la plataforma o registrarse de forma ágil si son nuevos.
+
+![Profile and Settings Flow](https://blogger.googleusercontent.com/img/a/AVvXsEiB3xVX7JM0DS-2nUKjnYCSMROgS2yvkFPbUZfPTt3tcYyR-WoAT0npAlxAOVzTxrn_pRQINKWK1ZO2zR3zGgcyk_l_fM2EyuBzX_kDQd4TiHF2M-xpnM5aEGOzmNtCtUlD83s32HnMpz4qHSCSnJVzmGDkuslOS78sOUjhPZAenK8H-R69s2OK7p6ipBA "Profile and Settings Flow")
+
+**Login/Signup Flow** <br>
+
+Este flujo muestra cómo los usuarios pueden gestionar su perfil y configuraciones. Incluye secciones para editar información del usuario (nombre, correo, ubicación), gestionar métodos de pago, acceder a detalles de suscripción y ver notificaciones. Los usuarios también pueden modificar sus planes de cuenta, ya sea premium o básico, asegurándose de personalizar su experiencia según sus preferencias.
+
+![Login/Signup Flow](https://blogger.googleusercontent.com/img/a/AVvXsEhxBIrwrLP_Ltrl0HH6M2EvEYc9yFqgt_x-t2DWtf1s-l1WEM-yB0lZ7Ls9rkTrsMh9rGOMBOQx_6n34z2aGWgQqA2ysuGwYMSOF1OW5Bx_ddDEiPbRUfQH2NY3UzbtXNddZtjryI4Uk15PtMGyOAg5qmkzfEldJg3G1Qk_2mQC4AWJvw4h7Q1nEb4wCJM "Login/Signup Flow")
+
+**Exploration/User Onboarding Flow**
+
+Este flujo guía a los usuarios a través del proceso de compra de una suscripción. Comienza con la selección del plan de suscripción, seguido de la introducción de los datos de la tarjeta de crédito, revisión del pago y finalización de la transacción. El flujo asegura un proceso de suscripción fluido y fácil de usar, con una confirmación clara del estado de la suscripción una vez completada.
+
+![Exploration/User Onboarding Flow](https://blogger.googleusercontent.com/img/a/AVvXsEi1AwLj7CN3znCcwSgpY9hqETM2NiYB54YuMkGmUwAbOUcCV_o3c0lUhoWXdNcWYrdpJ8X4d94K5hgxvrqLPP1_sH7o1_5BfcU9ZVovgeELwcuD-z2Mi7vXiv2TesNDuAwkAn_pTtexWyz3DnxkXlOUvOUPyWPYrqByVQok1uHbBajfxH2wO1DkvIJv3WI "Exploration/User Onboarding Flow")
+
 ## 6.5. Applications Prototyping
+
+En esta sección, hemos desarrollado prototipos interactivos que representan la funcionalidad y el diseño de la aplicación. A través del uso de herramientas de prototipado, hemos podido simular la experiencia del usuario final, permitiendo visualizar el flujo entre las distintas pantallas y validar la usabilidad de la interfaz antes del desarrollo. Estos prototipos sirven como una referencia esencial para los equipos de diseño y desarrollo, asegurando que las decisiones sobre la interfaz de usuario y la experiencia de usuario (UI/UX) se alineen con los objetivos del proyecto y las expectativas del usuario.
+
+Los prototipos interactivos también facilitan la colaboración entre los diferentes equipos involucrados, proporcionando un entorno de pruebas que permite realizar ajustes tempranos, optimizando así el tiempo y los recursos durante el proceso de desarrollo.
+
+**Prototipo del Landing Page**
+
+![Prototipo del Landing Page](https://blogger.googleusercontent.com/img/a/AVvXsEgLs3Kkpwkn1wDWDpBzBJgjaD-K94IstQTC3vHcVTVfky_B7jd-4rh2SnSazrWvNQy7d3ZkcaT_rftyfRg2IkqmKl38jbQw0_1lQalllzaGr_34HLM12Njdjn2Wq-lzTBUzhhliL7JSic5eNaAFtjfzZTRWDLqYhWSXR0tG5CyMuKcuxzq4T5vorlV2xZw "Prototipo del Landing Page")
+
+[**Link del prototipo**](https://www.figma.com/proto/jss1Ws3HeYBhMSgHKdkD6Y/Emergentes?page-id=25%3A2&node-id=40-69&node-type=canvas&viewport=430%2C493%2C0.1&t=sI0sXldw6msTY4Ob-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=40%3A69)
+
+**Prototipo de la Aplicación Móvil**
+
+![Prototipo de la aplicación móvil](https://blogger.googleusercontent.com/img/a/AVvXsEjbObks73Tx97nmbVCgvHxyF_OI_pXf-J7uO1zJ2Nb-Mv4cGVvQlzbX_HmesAYEc5PmJor_kExyj0vATc8dKmOcXJeZD7I5uJaOZYBwFQgEIE2GwbhDM94SAMj-QTVvCqkTbnjNBYyX396plphTJJGTaMl0HhEAysJ6-VFAaAUvR9Z6ovn9Ax3bcrcabrg "Prototipo de la aplicación móvil")
+
+[**Link del prototipo**](https://www.figma.com/proto/jss1Ws3HeYBhMSgHKdkD6Y/Emergentes?page-id=23%3A2&node-id=130-797&node-type=canvas&viewport=2464%2C370%2C0.2&t=FCjd8DUVLkj4fIeV-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=130%3A797&show-proto-sidebar=1)

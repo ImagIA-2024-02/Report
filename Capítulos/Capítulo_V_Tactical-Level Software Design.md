@@ -862,20 +862,117 @@ La Infrastructure Layer es responsable de la persistencia de los datos, la integ
     <img src="https://github.com/ImagIA-2024-02/Report/blob/main/Recursos/imagenes/5.3.7.2.png?raw=true"  alt="Bounded Context Software Architecture Code Level Diagrams">
 </div>
 
-## 5.X. Bounded Context: \<Bounded Context Name\>
+## 5.4. Bounded Context: Filter, search and favorites
 
-### 5.X.1. Domain Layer
+Este contexto está centrado en las funcionalidades que permiten a los usuarios buscar obras de arte dentro del catálogo de la aplicación, aplicar filtros personalizados, y gestionar una lista de obras favoritas.
 
-### 5.X.2. Interface Layer
+### 5.4.1. Domain Layer
 
-### 5.X.3. Application Layer
+#### Entidades
 
-### 5.X.4. Infrastructure Layer
+- **Search**  
+  Representa una búsqueda realizada por el usuario para encontrar obras de arte.
 
-### 5.X.6. Bounded Context Software Architecture Component Level Diagrams
+- **Favorites**  
+  Representa una colección de obras que un usuario ha marcado como favoritas.
 
-### 5.X.7. Bounded Context Software Architecture Code Level Diagrams
+- **Artworks**  
+  Representa las obras disponibles en el catálogo de la aplicación, las cuales pueden ser buscadas y añadidas a los favoritos.
 
-#### 5.X.7.1. Bounded Context Domain Layer Class Diagrams
+#### Objetos de Valor
 
-#### 5.X.7.2. Bounded Context Database Design Diagram
+- **SearchCriteria**  
+  Contiene los parámetros y filtros utilizados para la búsqueda de obras, como el nombre, categoría y etiquetas.
+
+- **ArtworkMetadata**  
+  Contiene información relevante sobre una obra de arte, como el autor, el museo y la fecha de creación.
+
+#### Repositorios
+
+- **SearchRepository**  
+  Maneja la persistencia de las búsquedas realizadas por los usuarios.
+
+- **FavoritesRepository**  
+  Maneja la persistencia de las colecciones de obras favoritas de los usuarios.
+
+- **ArtworkRepository**  
+  Maneja la persistencia de las obras de arte y sus metadatos.
+
+### 5.4.2. Interface Layer
+
+#### Controladores
+
+- **SearchController**  
+  Gestiona las operaciones relacionadas con la búsqueda de obras de arte. Permite a los usuarios aplicar filtros, ver resultados y seleccionar obras específicas.
+
+- **FavoritesController**  
+  Se encarga de gestionar las colecciones de favoritos de los usuarios, permitiendo agregar, eliminar y visualizar las obras favoritas.
+
+- **ArtworkController**  
+  Proporciona acceso a la información detallada de las obras de arte, incluyendo metadatos y opciones para añadirlas a favoritos.
+
+### 5.4.3. Application Layer
+
+La capa de aplicación para "Filtro, Búsqueda y Favoritos" proporciona funcionalidades que permiten a los usuarios buscar y filtrar obras en un catálogo digital, así como organizar sus favoritas en colecciones personales. Esta capa interactúa con los repositorios y maneja la lógica relacionada con las búsquedas avanzadas, el filtrado, y la gestión de favoritos.
+
+#### Command Handlers
+
+- **InitiateSearchCommandHandler**  
+  Procesa las solicitudes de búsqueda de los usuarios, aplicando los filtros seleccionados y mostrando los resultados.
+
+- **AddToFavoritesCommandHandler**  
+  Procesa la adición de una obra a la lista de favoritos del usuario.
+
+- **RemoveFromFavoritesCommandHandler**  
+  Se encarga de eliminar una obra de la lista de favoritos del usuario.
+
+#### Event Handlers
+
+- **SearchCompletedEventHandler**  
+  Maneja eventos que indican que una búsqueda ha sido completada. Envía notificaciones o actualiza el estado de la búsqueda en la aplicación.
+
+- **FavoriteAddedEventHandler**  
+  Maneja eventos que indican que una obra ha sido añadida a los favoritos.
+
+- **FavoriteRemovedEventHandler**  
+  Maneja eventos que indican que una obra ha sido eliminada de los favoritos.
+
+### 5.4.4. Infrastructure Layer
+
+La capa de infraestructura para este contexto se encarga de la gestión de la base de datos para almacenar las búsquedas realizadas, las colecciones de favoritos y la información de las obras de arte. Además, implementa conexiones con servicios externos, si es necesario, para obtener más información sobre las obras o mejorar los resultados de búsqueda.
+
+#### Gestión de bases de datos
+
+- **Tablas**  
+  Creación y gestión de tablas relacionadas con las búsquedas, favoritos y obras de arte.
+
+- **Caché**  
+  Implementación de almacenamiento en caché para mejorar la velocidad de las búsquedas.
+
+- **Copias de seguridad**  
+  Mantenimiento de copias de seguridad de las preferencias del usuario (favoritos).
+
+#### Seguridad
+
+- **Autenticación**  
+  Implementación de autenticación para garantizar que solo los usuarios registrados puedan realizar búsquedas avanzadas y gestionar sus colecciones de favoritos.
+
+### 5.4.6. Bounded Context Software Architecture Component Level Diagrams
+
+<div class="container" style="text-align: center">
+    <img src="https://blogger.googleusercontent.com/img/a/AVvXsEgb0naEPD38CMwVFDv7p3thcRobH7UyDP93ktm1-slp0yIyzfxRr9sPrwUmCDe9yBIjPQBtnWhYez6jZL19cEeinEFlYPjL8mkKtZUFLs5gImduMNr_hJYhzTDSAkJ3-uLoR2NSTKSk_ZZUeSkglwwhD6M0-g4cIbeEHyTzAdl6sZpOk5SbFJrX6i9VihU"  alt="Bounded Context Software Architecture Component Level Diagrams">
+</div>
+
+### 5.4.7. Bounded Context Software Architecture Code Level Diagrams
+
+#### 5.4.7.1. Bounded Context Domain Layer Class Diagrams
+
+<div class="container" style="text-align: center">
+    <img src="https://blogger.googleusercontent.com/img/a/AVvXsEj8S0uUwChcseIBrvnuCdrXrASmEaMeUiIi4aRkMW6AsYG_NShKxEi-zIIusfC9Ftahv_jHAoXttOHfTG6aFmdp-AUXwhYI_ueY2j0XboNZpMoJuKXQKCbFGTlN3JYxFfgDXxbsrbkZMtREm3MJycIO0uRFE_4DwWMCVcU_RMpgbzJKoXoU-iI00aZOUqA" alt="Bounded Context Software Architecture Code Level Diagrams">
+</div>
+
+#### 5.4.7.2. Bounded Context Database Design Diagram
+
+<div class="container" style="text-align: center">
+    <img src="https://blogger.googleusercontent.com/img/a/AVvXsEgTgd4zF59u-q5R8RycGvQVbN_VAC6CcNrBFXaCUamntrkPdJiYzoQ5n75knxymxIAlR7TLGoydVdJPnYNfTgAA--ghFVoNEdKSlD2eIy7rEE4hutQ8BXM8TZ5GAF9GfHW7s4PoLoRwlUeGkaancg1giakZIN2WD8YAku6nYV6fusuPUuipTpFQNrW0S70"  alt="Bounded Context Software Architecture Code Level Diagrams">
+</div>

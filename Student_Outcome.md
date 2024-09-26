@@ -22,6 +22,8 @@ Aquí está la tabla ajustada según tus indicaciones:
                 <b>Primo Estrada, Rafael Wimmer</b><br>
                 <b>TB1</b><br>
                 Utilicé herramientas de colaboración en línea para compartir documentos, seguimiento de tareas y comunicación entre los miembros del equipo.<br>
+                <b>TP</b><br>
+                Trabajé con un equipo multidisciplinario utilizando Figma para diseñar la interfaz de usuario y herramientas de colaboración en línea para coordinar tareas y reuniones. Esto nos permitió mantener una comunicación fluida y trabajar de manera eficiente hacia los objetivos del proyecto.<br>
                 <b>Template</b><br>
                 Realicé sesiones de lluvia de ideas (brainstorming) para generar soluciones creativas a los desafíos del proyecto.<br>
                 <b>Template</b><br>
@@ -48,6 +50,8 @@ Aquí está la tabla ajustada según tus indicaciones:
                 <b>Primo Estrada, Rafael Wimmer</b><br>
                 <b>TB1</b><br>
                 Analicé datos y estadísticas relevantes sobre el rendimiento y las tendencias del sector de transporte para identificar oportunidades de mejora y áreas de enfoque para nuestro proyecto.<br>
+                <b>TP</b><br>
+                Apliqué conocimientos de C4, diagramas de base de datos y diagramas de clases en el proyecto PictorIA para diseñar una solución de software eficiente. También seguí principios de diseño para asegurar que la arquitectura fuera adecuada para el sector de museos y preservación del arte.<br>
                 <b>Template</b><br>
                 Realicé investigaciones de mercado para comprender las necesidades y tendencias en el sector de transporte público y la gestión de flotas de autobuses.<br>
                 <b>Template</b><br>

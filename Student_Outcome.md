@@ -31,6 +31,8 @@ Aquí está la tabla ajustada según tus indicaciones:
                 <b>Gonzales Gomez Antonella</b><br>
                 <b>TB1</b><br>
                 Realice las tareas asiganadas y organicé reuniones regulares de equipo para discutir el progreso del proyecto y asignar tareas de manera eficiente.<br>
+                <b>TP</b><br>
+                Realice las tareas asignadas asi como el  bounded context de user se realizo los diagramas como el de la base de datos.<br>
                 <b>Jaramillo Almora, Jesica Rut</b><br>
                 <b>TB1</b><br>
                 Organicé reuniones regulares de equipo para discutir el progreso del proyecto y hacer el seguimiento de las tareas asignadas  .<br>

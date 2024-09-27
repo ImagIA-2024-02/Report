@@ -61,6 +61,7 @@ Aquí está la tabla ajustada según tus indicaciones:
                 <b>Gonzales Gomez Antonella</b><br>
                 <b>TB1</b><br>
                 Estudié casos de estudio y buenas prácticas en el desarrollo de soluciones de software aplicadas al sector de transporte para obtener ideas y conocimientos.<br>
+                 <br> Analice las arquitecturas que se van a utilizar al momento de desarrollar la aplicacion como hacer los diagramas de contenedores y los diagramas de base de datos.<br>
                  <b>Jaramillo Almora, Jesica Rut</b><br>
                 <b>TB1</b><br>
                 Analicé datos y estadísticas relevantes sobre el rendimiento y las tendencias del sector que tienen que ver con la autenticidad de las artes de los museos para identificar oportunidades de mejora y áreas de enfoque para nuestro proyecto.<br>

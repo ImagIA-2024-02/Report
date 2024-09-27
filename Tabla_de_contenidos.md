@@ -65,3 +65,48 @@
   - [4.3.2. Software Architecture Context Level Diagrams](./Capítulos/Capítulo_IV_Strategic-Level_Software_Design.md#432-software-architecture-context-level-diagrams)
   - [4.3.3. Software Architecture Container Level Diagrams](./Capítulos/Capítulo_IV_Strategic-Level_Software_Design.md#433-software-architecture-container-level-diagrams)
   - [4.3.4. Software Architecture Deployment Diagrams](./Capítulos/Capítulo_IV_Strategic-Level_Software_Design.md#434-software-architecture-deployment-diagrams)
+
+[Capítulo V: Tactical-Level Software Design](./Capítulos/Capítulo_V_Tactical-Level_Software_Design.md)
+
+- [5.1. Bounded Context: Bounded User Account](./Capítulos/Capítulo_V_Tactical-Level_Software_Design.md#51-bounded-context-bounded-user-account)
+
+  - [5.1.1. Domain Layer](./Capítulos/Capítulo_V_Tactical-Level_Software_Design.md#511-domain-layer)
+  - [5.1.2. Interface Layer](./Capítulos/Capítulo_V_Tactical-Level_Software_Design.md#512-interface-layer)
+  - [5.1.3. Application Layer](./Capítulos/Capítulo_V_Tactical-Level_Software_Design.md#513-application-layer)
+  - [5.1.4. Infrastructure Layer](./Capítulos/Capítulo_V_Tactical-Level_Software_Design.md#514-infrastructure-layer)
+  - [5.1.6. Deployment and Runtime Components](./Capítulos/Capítulo_V_Tactical-Level_Software_Design.md#516-bounded-context-software-architecture-component-level-diagrams)
+  - [5.1.7. Deployment and Runtime Components](./Capítulos/Capítulo_V_Tactical-Level_Software_Design.md#517)
+    - [5.1.7.1 Bounded context domain layer class diagrams](./Capítulos/Capítulo_V_Tactical-Level_Software_Design.md#5171-bounded-context-domain-layer-class-diagrams)
+    - [5.1.7.2 Bounded context database design diagrams](./Capítulos/Capítulo_V_Tactical-Level_Software_Design.md#5172-bounded-context-database-design-diagram)
+
+- [5.2. Bounded Context: Image Recognition](./Capítulos/Capítulo_V_Tactical-Level_Software_Design.md#52-bounded-context-image-recognition)
+
+  - [5.2.1. Domain Layer](./Capítulos/Capítulo_V_Tactical-Level_Software_Design.md#521-domain-layer)
+  - [5.2.2. Interface Layer](./Capítulos/Capítulo_V_Tactical-Level_Software_Design.md#522-interface-layer)
+  - [5.2.3. Application Layer](./Capítulos/Capítulo_V_Tactical-Level_Software_Design.md#513-application-layer)
+  - [5.2.4. Infrastructure Layer](./Capítulos/Capítulo_V_Tactical-Level_Software_Design.md#514-infrastructure-layer)
+  - [5.2.6. Deployment and Runtime Components](./Capítulos/Capítulo_V_Tactical-Level_Software_Design.md#516-bounded-context-software-architecture-component-level-diagrams)
+  - [5.2.7. Deployment and Runtime Components](./Capítulos/Capítulo_V_Tactical-Level_Software_Design.md#527)
+    - [5.1.7.1 Bounded context domain layer class diagrams](./Capítulos/Capítulo_V_Tactical-Level_Software_Design.md#5271-bounded-context-domain-layer-class-diagrams)
+    - [5.1.7.2 Bounded context database design diagrams](./Capítulos/Capítulo_V_Tactical-Level_Software_Design.md#5272-bounded-context-database-design-diagram)
+
+- [5.3. Bounded Context: Image Restauration](./Capítulos/Capítulo_V_Tactical-Level_Software_Design.md#53-bounded-context-image-restauration)
+
+  - [5.3.1. Domain Layer](./Capítulos/Capítulo_V_Tactical-Level_Software_Design.md#531-domain-layer)
+  - [5.3.2. Interface Layer](./Capítulos/Capítulo_V_Tactical-Level_Software_Design.md#532-interface-layer)
+  - [5.3.3. Application Layer](./Capítulos/Capítulo_V_Tactical-Level_Software_Design.md#533-application-layer)
+  - [5.3.4. Infrastructure Layer](./Capítulos/Capítulo_V_Tactical-Level_Software_Design.md#534-infrastructure-layer)
+  - [5.3.6. Deployment and Runtime Components](./Capítulos/Capítulo_V_Tactical-Level_Software_Design.md#536-bounded-context-software-architecture-component-level-diagrams)
+  - [5.3.7. Deployment and Runtime Components](./Capítulos/Capítulo_V_Tactical-Level_Software_Design.md#537)
+    - [5.3.7.1 Bounded context domain layer class diagrams](./Capítulos/Capítulo_V_Tactical-Level_Software_Design.md#5371-bounded-context-domain-layer-class-diagrams)
+    - [5.3.7.2 Bounded context database design diagrams](./Capítulos/Capítulo_V_Tactical-Level_Software_Design.md#5372-bounded-context-database-design-diagram)
+
+- [5.4. Bounded Context: Filter, search and favorites](./Capítulos/Capítulo_V_Tactical-Level_Software_Design.md#54-bounded-context-filter-search-and-favorites)
+  - [5.4.1. Domain Layer](./Capítulos/Capítulo_V_Tactical-Level_Software_Design.md#541-domain-layer)
+  - [5.4.2. Interface Layer](./Capítulos/Capítulo_V_Tactical-Level_Software_Design.md#542-interface-layer)
+  - [5.4.3. Application Layer](./Capítulos/Capítulo_V_Tactical-Level_Software_Design.md#543-application-layer)
+  - [5.4.4. Infrastructure Layer](./Capítulos/Capítulo_V_Tactical-Level_Software_Design.md#544-infrastructure-layer)
+  - [5.4.6. Deployment and Runtime Components](./Capítulos/Capítulo_V_Tactical-Level_Software_Design.md#546-bounded-context-software-architecture-component-level-diagrams)
+  - [5.4.7. Deployment and Runtime Components](./Capítulos/Capítulo_V_Tactical-Level_Software_Design.md#547)
+    - [5.4.7.1 Bounded context domain layer class diagrams](./Capítulos/Capítulo_V_Tactical-Level_Software_Design.md#5471-bounded-context-domain-layer-class-diagrams)
+    - [5.4.7.2 Bounded context database design diagrams](./Capítulos/Capítulo_V_Tactical-Level_Software_Design.md#5472-bounded-context-database-design-diagram)

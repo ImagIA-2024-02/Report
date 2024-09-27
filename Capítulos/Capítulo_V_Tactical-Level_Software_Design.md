@@ -112,7 +112,7 @@ Cada controlador se comunica con sus correspondientes Application Services, que 
 
 ### 5.1.7. Bounded Context Software Architecture Code Level Diagrams
 
-#### 5.X.7.1. Bounded Context Domain Layer Class Diagrams
+#### 5.1.7.1. Bounded Context Domain Layer Class Diagrams
 
 Estos diagramas, específicamente modelan la capa de dominio dentro de un bounded context particular en DDD. Estos diagramas están diseñados para proporcionar una vista estructurada del modelo de dominio y cómo se organiza y se relaciona dentro de los límites del contexto delimitado. Son herramientas valiosas para asegurar que el equipo de desarrollo tenga una comprensión común y precisa de cómo se implementará la lógica de negocio en el código, y cómo cada parte del dominio interactúa dentro del contexto acotado.
 

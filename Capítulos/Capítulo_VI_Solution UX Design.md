@@ -190,8 +190,12 @@ Los prototipos interactivos también facilitan la colaboración entre los difere
 
 [**Link del prototipo**](https://www.figma.com/proto/jss1Ws3HeYBhMSgHKdkD6Y/Emergentes?page-id=25%3A2&node-id=40-69&node-type=canvas&viewport=430%2C493%2C0.1&t=sI0sXldw6msTY4Ob-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=40%3A69)
 
+[**Link de video del prototipo**](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202023137_upc_edu_pe/ETv_inb9a7ZGsTw8zkaxSkcBIDP-L9huoxLkb9cT1WH07g?e=vlk1ae&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
 **Prototipo de la Aplicación Móvil**
 
 ![Prototipo de la aplicación móvil](https://blogger.googleusercontent.com/img/a/AVvXsEjbObks73Tx97nmbVCgvHxyF_OI_pXf-J7uO1zJ2Nb-Mv4cGVvQlzbX_HmesAYEc5PmJor_kExyj0vATc8dKmOcXJeZD7I5uJaOZYBwFQgEIE2GwbhDM94SAMj-QTVvCqkTbnjNBYyX396plphTJJGTaMl0HhEAysJ6-VFAaAUvR9Z6ovn9Ax3bcrcabrg "Prototipo de la aplicación móvil")
 
 [**Link del prototipo**](https://www.figma.com/proto/jss1Ws3HeYBhMSgHKdkD6Y/Emergentes?page-id=23%3A2&node-id=130-797&node-type=canvas&viewport=2464%2C370%2C0.2&t=FCjd8DUVLkj4fIeV-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=130%3A797&show-proto-sidebar=1)
+
+[**Link de video del prototipo**](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202023137_upc_edu_pe/ETyhv7Zk401OvUul-TyZkDwBaTdF2OmvhmbpMlOU1RqoRQ?e=6BxKFO&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)

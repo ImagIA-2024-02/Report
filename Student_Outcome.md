@@ -1,5 +1,3 @@
-Aquí está la tabla ajustada según tus indicaciones:
-
 <table border="2">
     <tr>
         <td>

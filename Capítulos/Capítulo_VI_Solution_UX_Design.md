@@ -56,21 +56,32 @@ La página principal de la aplicación presentará la información más relevant
 ## 6.3. Landing Page UI Design
 
 ### 6.3.1. Landing Page Wireframe
+
 En esta sección, se realizaron los wireframes para la estructura de la Landing Page. Teniendo en cuenta los siguientes:
+
 #### Principios de diseño:
+
 - **Simplicidad y claridad:** El diseño es limpio, con un enfoque en la usabilidad. Se usa una estructura de información clara y jerarquizada para facilitar la navegación del usuario. Los textos breves y concisos explican las funcionalidades de la app sin sobrecargar al usuario de información.
 - **Consistencia:** El diseño sigue un esquema consistente en cuanto a la distribución de contenido, con títulos claros, íconos reconocibles y botones de acción destacados, que guían al usuario a través de la página de manera intuitiva.
+
 #### Elementos de diseño:
+
 - **Tipografía:** Se utilizan fuentes grandes y fáciles de leer para los títulos y subtítulos, mientras que el cuerpo de texto es más pequeño, optimizando la legibilidad y evitando el desorden visual.
 - **Espaciado y alineación:** El uso adecuado del espaciado entre secciones y componentes mejora la experiencia del usuario, permitiendo una lectura cómoda y destacando los elementos interactivos, como los botones de descarga.
 - **Uso del color:** El contraste entre el fondo oscuro y los elementos blancos del texto y los botones genera un enfoque visual claro y atractivo, dirigiendo la atención a las áreas clave de la landing page.
+
 #### Diseño inclusivo:
+
 - **Accesibilidad:** El uso de tipografía clara y suficientemente contrastante ayuda a que el diseño sea accesible para personas con baja visión. Además, la simplicidad de la navegación y la estructura lógica asegura que usuarios con distintos niveles de habilidad tecnológica puedan interactuar con la landing page sin dificultades.
 - **Contenido multimedia:** Se incluyen enlaces de descarga y videos, para ofrecer múltiples formas de interactuar con la app, adaptándose a las preferencias y necesidades de distintos usuarios.
+
 #### Arquitectura de información:
+
 - **Jerarquía visual:** La landing page comienza con un título destacado que resume la propuesta de valor de la app, seguido de secciones que detallan las funcionalidades y casos de uso. Esta estructura guía al usuario desde la información más general a la más específica.
 - **Llamadas a la acción (CTAs):** Los botones de "Download for free" están estratégicamente ubicados para incentivar al usuario a descargar la app después de haber explorado las características clave. Se da prioridad a la conversión del usuario.
+
 #### Diseño realizado en figma:
+
 [![Captura-de-pantalla-2024-09-26-105849.png](https://i.postimg.cc/wT1VJHd5/Captura-de-pantalla-2024-09-26-105849.png)](https://postimg.cc/mtGCfvkh)  
 [![Captura-de-pantalla-2024-09-26-105936.png](https://i.postimg.cc/9fmwdt73/Captura-de-pantalla-2024-09-26-105936.png)](https://postimg.cc/G4fprDKz)  
 [![Captura-de-pantalla-2024-09-26-105958.png](https://i.postimg.cc/rmzdbVjQ/Captura-de-pantalla-2024-09-26-105958.png)](https://postimg.cc/zbZXH19g)  
@@ -78,25 +89,39 @@ En esta sección, se realizaron los wireframes para la estructura de la Landing 
 [![Captura-de-pantalla-2024-09-26-110057.png](https://i.postimg.cc/P5k61xQG/Captura-de-pantalla-2024-09-26-110057.png)](https://postimg.cc/XpQcbnPx)  
 [![Captura-de-pantalla-2024-09-26-110112.png](https://i.postimg.cc/T1D9DMyY/Captura-de-pantalla-2024-09-26-110112.png)](https://postimg.cc/sG3SkL9t)  
 Enlace al Figma: [https://www.figma.com/design/jss1Ws3HeYBhMSgHKdkD6Y/Emergentes?node-id=25-2&t=7IqOuAQ9mYBcaVFW-1](https://www.figma.com/design/jss1Ws3HeYBhMSgHKdkD6Y/Emergentes?node-id=25-2&t=7IqOuAQ9mYBcaVFW-1)
+
 ### 6.3.2. Landing Page Mock-up
+
 En esta sección, se realizaron los Mok-ups de la Landing page de Pictoria, donde se evidencia que los principios de diseño, accesibilidad y arquitectura de la información están alineados con las guías proporcionadas por el design system. Tales como:
+
 #### Principios de diseño aplicados:
+
 - Jerarquía visual: Se sigue una estructura jerárquica clara. En la parte superior de la página, se presenta el valor principal de la app ("Historical Restoration with AI"), seguido de subtítulos que explican las funcionalidades. La información se va desglosando gradualmente para mantener el interés del usuario.
 - Llamadas a la acción (CTAs): Los botones de acción, como "Download for free", se presentan de manera prominente con colores contrastantes para guiar al usuario hacia la conversión. Estos elementos están alineados de forma coherente para destacar su importancia.
+
 #### Elementos de diseño:
+
 - Tipografía: Se utiliza la tipografía Inter y Mulish, tal como se indica en el design system proporcionado. La elección de estas fuentes asegura una lectura limpia y profesional, adecuada para una audiencia de arte e historia. Los títulos y subtítulos usan estilos en negrita para mejorar la visibilidad y el énfasis en la jerarquía.
 - Colores: El esquema de colores está basado en la guía de diseño, con el azul oscuro (Dark Blue #002540) como color principal y el blanco como color de texto para asegurar un alto contraste y mejorar la legibilidad. Los colores secundarios, como el naranja para las llamadas a la acción, ayudan a dirigir la atención del usuario a puntos clave, como el botón de descarga.
 - Proporciones de color: Se sigue el balance indicado en el design system con 60% de uso del azul oscuro, 20% del blanco, y toques de colores secundarios (naranja y amarillo) para generar un contraste visual atractivo sin sobrecargar la vista del usuario.
+
 #### Diseño inclusivo:
+
 - Accesibilidad: Se consideró el uso de tipografías legibles, altos contrastes entre texto y fondo, y una navegación intuitiva para asegurar que la página sea accesible para personas con discapacidades visuales o tecnológicas. El diseño está optimizado para usuarios que puedan tener dificultades para distinguir colores o leer textos pequeños.
 - Diseño responsive: Aunque aquí se muestra la versión de escritorio, el diseño está pensado para adaptarse también a dispositivos móviles. Las secciones están organizadas en bloques verticales que pueden colapsarse de manera efectiva en pantallas más pequeñas, mejorando la experiencia de los usuarios móviles.
+
 #### Arquitectura de la información:
+
 - Organización lógica: La información está dispuesta de manera que el usuario entienda primero el propósito de la app, seguido por sus funcionalidades y casos de uso. Esto asegura que el usuario tenga un recorrido fluido desde el descubrimiento de la app hasta la decisión de descarga.
 - Flujo del usuario: Se inicia con la propuesta de valor de la app en la parte superior de la página, atrayendo al usuario con una descripción clara y el video introductorio. Luego, se presentan las funcionalidades clave y los casos de uso, para finalmente dirigir al usuario al Pricing, donde puede tomar la decisión de descarga.
+
 #### Design System aplicado:
+
 - Tipografía: Se usó el sistema de jerarquía de texto proporcionado por el design system. Display 1 y Heading 1 para títulos, mientras que Heading 3 se utiliza para subtítulos, manteniendo una estructura clara y legible.
 - Colores: Se sigue estrictamente el sistema de color, utilizando los colores primarios y secundarios de acuerdo con las proporciones definidas. El uso del Jonguil (amarillo) y el naranja sirve para destacar los elementos interactivos, como los botones de acción y títulos de secciones.
+
 #### Diseño realizado en figma:
+
 [![Captura-de-pantalla-2024-09-26-111732.png](https://i.postimg.cc/jSNprmZT/Captura-de-pantalla-2024-09-26-111732.png)](https://postimg.cc/sMj6YnkH)  
 [![Captura-de-pantalla-2024-09-26-111811.png](https://i.postimg.cc/hG1NXmk3/Captura-de-pantalla-2024-09-26-111811.png)](https://postimg.cc/v1D0j4HW)  
 [![Captura-de-pantalla-2024-09-26-111829.png](https://i.postimg.cc/wvWPVpTX/Captura-de-pantalla-2024-09-26-111829.png)](https://postimg.cc/7G2mHjzh)  
@@ -105,6 +130,7 @@ En esta sección, se realizaron los Mok-ups de la Landing page de Pictoria, dond
 [![Captura-de-pantalla-2024-09-26-111943.png](https://i.postimg.cc/bJsX4J5C/Captura-de-pantalla-2024-09-26-111943.png)](https://postimg.cc/xJDFz0nM)  
 [![Captura-de-pantalla-2024-09-26-111958.png](https://i.postimg.cc/jqn0XDPC/Captura-de-pantalla-2024-09-26-111958.png)](https://postimg.cc/3WhcrJLH)  
 Enlace al Figma: [https://www.figma.com/design/jss1Ws3HeYBhMSgHKdkD6Y/Emergentes?node-id=25-2&t=7IqOuAQ9mYBcaVFW-1](https://www.figma.com/design/jss1Ws3HeYBhMSgHKdkD6Y/Emergentes?node-id=25-2&t=7IqOuAQ9mYBcaVFW-1)
+
 ## 6.4. Applications UX/UI Design
 
 ### 6.4.1. Applications Wireframes
@@ -190,7 +216,7 @@ Los prototipos interactivos también facilitan la colaboración entre los difere
 
 [**Link del prototipo**](https://www.figma.com/proto/jss1Ws3HeYBhMSgHKdkD6Y/Emergentes?page-id=25%3A2&node-id=40-69&node-type=canvas&viewport=430%2C493%2C0.1&t=sI0sXldw6msTY4Ob-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=40%3A69)
 
-[**Link de video del prototipo**](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202023137_upc_edu_pe/ETv_inb9a7ZGsTw8zkaxSkcBIDP-L9huoxLkb9cT1WH07g?e=vlk1ae&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+[**Link de video del prototipo**](https://upcedupe-my.sharepoint.com/%3Av%3A/g/personal/u202023137_upc_edu_pe/ETv_inb9a7ZGsTw8zkaxSkcBIDP-L9huoxLkb9cT1WH07g?e=vlk1ae&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 **Prototipo de la Aplicación Móvil**
 
@@ -198,4 +224,4 @@ Los prototipos interactivos también facilitan la colaboración entre los difere
 
 [**Link del prototipo**](https://www.figma.com/proto/jss1Ws3HeYBhMSgHKdkD6Y/Emergentes?page-id=23%3A2&node-id=130-797&node-type=canvas&viewport=2464%2C370%2C0.2&t=FCjd8DUVLkj4fIeV-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=130%3A797&show-proto-sidebar=1)
 
-[**Link de video del prototipo**](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202023137_upc_edu_pe/ETyhv7Zk401OvUul-TyZkDwBaTdF2OmvhmbpMlOU1RqoRQ?e=6BxKFO&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+[**Link de video del prototipo**](https://upcedupe-my.sharepoint.com/%3Av%3A/g/personal/u202023137_upc_edu_pe/ETyhv7Zk401OvUul-TyZkDwBaTdF2OmvhmbpMlOU1RqoRQ?e=6BxKFO&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)

@@ -9,44 +9,44 @@ Source Code Management, Development Environment Configuration y Deployment Confi
 
 ### 7.1.1. Software Development Environment Configuration.
 
-* **Project Management**:
-Para la gestión del proyecto se utilizará [Nombre de la herramienta] ya que [breve justificación de 1-2 razones principales]. Esta herramienta nos permite [principal beneficio para el equipo].
+* **Project Management**:  
+Para la gestión del proyecto se utilizará [Nombre de la herramienta] ya que [breve justificación de 1-2 razones principales]. Esta herramienta nos permite [principal beneficio para el equipo].  
 **Enlace:** [URL de la herramienta]
 
-* **Requirements Management**
-Para la gestión de requerimientos hemos seleccionado [Nombre de la herramienta] debido a [breve justificación]. Esta herramienta es fundamental para nuestro equipo ya que [principal beneficio].
+* **Requirements Management**  
+Para la gestión de requerimientos hemos seleccionado [Nombre de la herramienta] debido a [breve justificación]. Esta herramienta es fundamental para nuestro equipo ya que [principal beneficio].  
 **Enlace:** [URL de la herramienta]
 
-* **Product UX/UI Design**
-Para el diseño UX/UI de nuestro producto utilizaremos [Nombre de la herramienta] porque [breve justificación]. Esta herramienta nos proporciona [principales beneficios].
+* **Product UX/UI Design**  
+Para el diseño UX/UI de nuestro producto utilizaremos [Nombre de la herramienta] porque [breve justificación]. Esta herramienta nos proporciona [principales beneficios].  
 **Enlace:** [URL de la herramienta]
 
-* **Software Development**
-Para el desarrollo de software, utilizaremos las siguientes herramientas:
-Para [componente específico] utilizaremos **[Nombre del IDE/herramienta]** ya que [breve justificación]. [Principal beneficio].
+* **Software Development**  
+Para el desarrollo de software, utilizaremos las siguientes herramientas:  
+Para [componente específico] utilizaremos **[Nombre del IDE/herramienta]** ya que [breve justificación]. [Principal beneficio].  
 **Enlace**: [URL de la herramienta]
 
-Para [otro componente] usaremos **[Nombre del IDE/herramienta]** debido a [breve justificación]. [Principal beneficio].
+Para [otro componente] usaremos **[Nombre del IDE/herramienta]** debido a [breve justificación]. [Principal beneficio].  
 **Enlace**: [URL de la herramienta]
 
-* **Software Testing**
-Para testing, implementaremos las siguientes herramientas:
-Para [componente específico], utilizaremos **[Nombre de la herramienta]**, ya que [breve justificación].
+* **Software Testing**  
+Para testing, implementaremos las siguientes herramientas:  
+Para [componente específico], utilizaremos **[Nombre de la herramienta]**, ya que [breve justificación].  
 **Enlace**: [URL de la herramienta]
 
-Para [otro componente] emplearemos **[Nombre de la herramienta]** porque [breve justificación].
+Para [otro componente] emplearemos **[Nombre de la herramienta]** porque [breve justificación].  
 **Enlace**: [URL de la herramienta]
 
-* **Software Deployment**
-Para el despliegue de nuestras soluciones utilizaremos:
-**[Nombre de la herramienta]** para [componente específico] porque [breve justificación].
+* **Software Deployment**  
+Para el despliegue de nuestras soluciones utilizaremos:  
+**[Nombre de la herramienta]** para [componente específico] porque [breve justificación].  
 **Enlace**: [URL de la herramienta]
 
-**[Nombre de la herramienta]** para [otro componente] ya que [breve justificación].
+**[Nombre de la herramienta]** para [otro componente] ya que [breve justificación].  
 **Enlace**: [URL de la herramienta]
 
-* **Software Documentation**
-La documentación del software será realizada en **[Nombre de la herramienta]** mediante [método específico], elegimos esta herramienta porque [breve justificación].
+* **Software Documentation**  
+La documentación del software será realizada en **[Nombre de la herramienta]** mediante [método específico], elegimos esta herramienta porque [breve justificación].  
 **Enlace:** [URL de la herramienta]
 
 ### 7.1.2. Source Code Management.

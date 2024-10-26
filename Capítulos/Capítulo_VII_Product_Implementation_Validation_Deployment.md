@@ -75,26 +75,35 @@ Enlace de la organización: [https://github.com/ImagIA-2024-02/](https://github.
 
 __Gitflow__
 
-Para la implementación del flujo de trabajo Gitflow, usando la herramienta de control de versiones Git, se usó de referencia la entrada de blog “A successful Git branching model” de Vincent Driessen, que nos ayudó a detallar las siguientes convenciones que se usarán en el proyecto:
+Para la implementación del flujo de trabajo Gitflow, usando la herramienta de control de versiones Git, se usó de referencia la entrada de blog "A successful Git branching model" de Vincent Driessen, que nos ayudó a detallar las siguientes convenciones que se usarán en el proyecto:  
 
-Main branch La Main branch es la principal rama de desarrollo del proyecto. En esta rama se encontrará el código que se encuentra actualmente en producción. Notación: main
+**Main branch**  
+La Main branch es la principal rama de desarrollo del proyecto. En esta rama se encontrará el código que se encuentra actualmente en producción.  
+Notación: main
 
-Develop branch La Develop branch será la rama que contendrá las últimas actualizaciones y cambios agregados que se entregarán en la siguiente versión del proyecto. Notación: develop Creación: git checkout -b develop main
+**Develop branch**  
+La Develop branch será la rama que contendrá las últimas actualizaciones y cambios agregados que se entregarán en la siguiente versión del proyecto.  
+Notación: develop  
+Creación: git checkout -b develop main
 
-Feature branches Las Feature branches se usarán para desarrollar nuevas características del producto que se agregarán en versiones futuras. Estas funcionalidades se deberán reunir o juntar eventualmente a la rama Develop.
+**Feature branches**  
+Las Feature branches se usarán para desarrollar nuevas características del producto que se agregarán en versiones futuras. Estas funcionalidades se deberán reunir o juntar eventualmente a la rama Develop.
 
-Debe derivarse de la rama Develop.
-Debe fusionarse de vuelta a la rama Develop. Notación: feature/[name of feature] Creación: git checkout -b feature/[name of feature] develop
-Conventional Commits Para la redacción de las siguientes convenciones de commits se utilizó de referencia el artículo Conventional Commits 1.0.0.
+Debe derivarse de la rama Develop.  
+Debe fusionarse de vuelta a la rama Develop.  
+Notación: feature/[name of feature]  
+Creación: git checkout -b feature/[name of feature] develop
 
-Types:
+**Conventional Commits**  
+Para la redacción de las siguientes convenciones de commits se utilizó de referencia el artículo Conventional Commits 1.0.0.
 
-add: se usará para indicar que se añadieron archivos o carpetas.
-fix: este tipo de commit se utilizará para la confirmación de una corrección de un error en el código.
-feat: este tipo de commit se utilizará para la confirmación de que se ha añadido una nueva funcionalidad.
-test: se usará para indicar que se añadieron archivos de test .
-docs: se usará para indicar que se añadieron actualizaciones a la documentación
-BREAKING CHANGE: este tipo de commit se utilizará para confirmar la introducción de un cambio importante en el código.
+Types:  
+- add: se usará para indicar que se añadieron archivos o carpetas.  
+- fix: este tipo de commit se utilizará para la confirmación de una corrección de un error en el código.  
+- feat: este tipo de commit se utilizará para la confirmación de que se ha añadido una nueva funcionalidad.  
+- test: se usará para indicar que se añadieron archivos de test.  
+- docs: se usará para indicar que se añadieron actualizaciones a la documentación.  
+- BREAKING CHANGE: este tipo de commit se utilizará para confirmar la introducción de un cambio importante en el código.
 
 ### 7.1.3. Source Code Style Guide & Conventions.
 <!-- RESUMEN DEL PUNTO:
@@ -109,78 +118,77 @@ __ATENCION___
 __TEMPLATE COPIADO DE OTRO PROYECTO, CAMBIAR/AJUSTAR/MEJORAR__
 -->
 
-Guía de Estilo y convenciones de codificación HTML
+**Guía de Estilo y convenciones de codificación HTML**  
 Para las convenciones de codificación HTML, adoptaremos las pautas delineadas en las referencias "Guía de Estilo y Convenciones de Codificación HTML" y "Guía de Estilo HTML/CSS de Google". Aquí algunos puntos clave:
 
-Convenciones de Nomenclatura:
+**Convenciones de Nomenclatura:**  
+- Aplicar nomenclatura en inglés  
+- Utilizar letras minúsculas para todos los nombres de elementos HTML  
+- Separar palabras en nombres de ID y clases con guiones (-)  
+- Utilizar nombres significativos y descriptivos para IDs y clases
 
-Aplicar nomenclatura en inglés
-Utilizar letras minúsculas para todos los nombres de elementos HTML.
-Separar palabras en nombres de ID y clases con guiones (-).
-Utilizar nombres significativos y descriptivos para IDs y clases.
-Formato:
+**Formato:**  
+- Sangrar elementos anidados para mejorar la legibilidad  
+- Utilizar comillas dobles para los valores de atributos  
+- Emplear etiquetas auto-cerradas para elementos
 
-Sangrar elementos anidados para mejorar la legibilidad.
-Utilizar comillas dobles para los valores de atributos.
-Emplear etiquetas auto-cerradas para elementos.
-Comentarios:
+**Comentarios:**  
+- Agregar comentarios para explicar secciones complejas o proporcionar contexto a futuros desarrolladores  
+- Utilizar la sintaxis de comentarios HTML
 
-Agregar comentarios para explicar secciones complejas o proporcionar contexto a futuros desarrolladores.
-Utilizar la sintaxis de comentarios HTML .
-Guía de Estilo y convenciones de codificación CSS
+**Guía de Estilo y convenciones de codificación CSS**  
 Para las convenciones de codificación CSS, seguiremos las pautas proporcionadas en la referencia "Google HTML/CSS Style Guide". Aquí tienes algunos puntos clave:
 
-Convenciones de nomenclatura:
+**Convenciones de nomenclatura:**  
+- Aplicar nomenclatura en inglés  
+- Usar letras minúsculas para todos los selectores CSS y nombres de propiedades  
+- Separar palabras en nombres de clases con guiones (-)  
+- Utilizar nombres significativos y descriptivos para las clases
 
-Aplicar nomenclatura en inglés
-Usa letras minúsculas para todos los selectores CSS y nombres de propiedades.
-Separa palabras en nombres de clases con guiones (-).
-Utiliza nombres significativos y descriptivos para las clases.
-Formato:
+**Formato:**  
+- Indentar estilos anidados para mejorar la legibilidad  
+- Utilizar un estilo de indentación consistente, como dos espacios  
+- Usar propiedades abreviadas cuando sea posible para mantener el código conciso
 
-Indenta estilos anidados para mejorar la legibilidad.
-Utiliza un estilo de indentación consistente, como dos espacios.
-Usa propiedades abreviadas cuando sea posible para mantener el código conciso.
-Comentarios:
+**Comentarios:**  
+- Agregar comentarios para explicar estilos complejos o proporcionar contexto para futuros desarrolladores  
+- Utilizar la sintaxis de comentarios CSS /* */
 
-Agrega comentarios para explicar estilos complejos o proporcionar contexto para futuros desarrolladores.
-Utiliza la sintaxis de comentarios CSS /* */.
-Guía de Estilo y convenciones de codificación JavaScript/TypeScript
+**Guía de Estilo y convenciones de codificación JavaScript/TypeScript**  
 Para las convenciones de codificación JavaScript/TypeScript, adoptaremos las pautas proporcionadas en las referencias "Google JavaScript Style Guide" y "Google TypeScript Style Guide". Aquí tienes algunos puntos clave:
 
-Convenciones de nomenclatura:
+**Convenciones de nomenclatura:**  
+- Aplicar nomenclatura en inglés  
+- Utilizar camelCase para nombres de variables y funciones  
+- Utilizar PascalCase para nombres de clases  
+- Utilizar letras mayúsculas para constantes
 
-Aplicar nomenclatura en inglés
-Utiliza camelCase para nombres de variables y funciones.
-Utiliza PascalCase para nombres de clases.
-Utiliza letras mayúsculas para constantes.
-Formato:
+**Formato:**  
+- Utilizar un estilo de indentación consistente, como dos o cuatro espacios  
+- Utilizar punto y coma al final de las sentencias  
+- Evitar el uso de variables globales siempre que sea posible
 
-Utiliza un estilo de indentación consistente, como dos o cuatro espacios.
-Utiliza punto y coma al final de las sentencias.
-Evita el uso de variables globales siempre que sea posible.
-Comentarios:
+**Comentarios:**  
+- Agregar comentarios para explicar lógica compleja o proporcionar contexto para futuros desarrolladores  
+- Utilizar la sintaxis de comentarios JavaScript/TypeScript // para comentarios de una sola línea y /* */ para comentarios de varias líneas
 
-Agrega comentarios para explicar lógica compleja o proporcionar contexto para futuros desarrolladores.
-Utiliza la sintaxis de comentarios JavaScript/TypeScript // para comentarios de una sola línea y /* */ para comentarios de varias líneas.
-Guía de Estilo y convenciones de codificación Java
+**Guía de Estilo y convenciones de codificación Java**  
 Para las convenciones de codificación Java, nos adheriremos a las pautas descritas en la referencia "Google Java Style Guide". Aquí tienes algunos puntos clave:
 
-Convenciones de nomenclatura:
+**Convenciones de nomenclatura:**  
+- Aplicar nomenclatura en inglés  
+- Utilizar camelCase para nombres de variables y métodos  
+- Utilizar PascalCase para nombres de clases  
+- Utilizar letras mayúsculas para constantes
 
-Aplicar nomenclatura en inglés
-Utiliza camelCase para nombres de variables y métodos.
-Utiliza PascalCase para nombres de clases.
-Utiliza letras mayúsculas para constantes.
-Formato:
+**Formato:**  
+- Utilizar un estilo de indentación consistente, como cuatro espacios  
+- Colocar las llaves de apertura en la misma línea que la declaración  
+- Utilizar nombres significativos para variables y métodos para mayor claridad
 
-Utiliza un estilo de indentación consistente, como cuatro espacios.
-Coloca las llaves de apertura en la misma línea que la declaración.
-Utiliza nombres significativos para variables y métodos para mayor claridad.
-Comentarios:
-
-Agrega comentarios para explicar algoritmos complejos o proporcionar contexto para futuros desarrolladores.
-Utiliza la sintaxis de comentarios Java // para comentarios de una sola línea y /* */ para comentarios de varias líneas.
+**Comentarios:**  
+- Agregar comentarios para explicar algoritmos complejos o proporcionar contexto para futuros desarrolladores  
+- Utilizar la sintaxis de comentarios Java // para comentarios de una sola línea y /* */ para comentarios de varias líneas
 
 
 ### 7.1.4. Software Deployment Configuration.

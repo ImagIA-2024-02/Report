@@ -9,45 +9,45 @@ Source Code Management, Development Environment Configuration y Deployment Confi
 
 ### 7.1.1. Software Development Environment Configuration.
 
-* **Project Management**:  
-Para la gestión del proyecto se utilizará [Nombre de la herramienta] ya que [breve justificación de 1-2 razones principales]. Esta herramienta nos permite [principal beneficio para el equipo].  
-**Enlace:** [URL de la herramienta]
+- **Project Management**:  
+  Para la gestión del proyecto se utilizará [Nombre de la herramienta] ya que [breve justificación de 1-2 razones principales]. Esta herramienta nos permite [principal beneficio para el equipo].  
+  **Enlace:** [URL de la herramienta]
 
-* **Requirements Management**  
-Para la gestión de requerimientos hemos seleccionado [Nombre de la herramienta] debido a [breve justificación]. Esta herramienta es fundamental para nuestro equipo ya que [principal beneficio].  
-**Enlace:** [URL de la herramienta]
+- **Requirements Management**  
+  Para la gestión de requerimientos hemos seleccionado [Nombre de la herramienta] debido a [breve justificación]. Esta herramienta es fundamental para nuestro equipo ya que [principal beneficio].  
+  **Enlace:** [URL de la herramienta]
 
-* **Product UX/UI Design**  
-Para el diseño UX/UI de nuestro producto utilizaremos [Nombre de la herramienta] porque [breve justificación]. Esta herramienta nos proporciona [principales beneficios].  
-**Enlace:** [URL de la herramienta]
+- **Product UX/UI Design**  
+  Para el diseño UX/UI de nuestro producto utilizaremos [Nombre de la herramienta] porque [breve justificación]. Esta herramienta nos proporciona [principales beneficios].  
+  **Enlace:** [URL de la herramienta]
 
-* **Software Development**  
-Para el desarrollo de software, utilizaremos las siguientes herramientas:  
-Para [componente específico] utilizaremos **[Nombre del IDE/herramienta]** ya que [breve justificación]. [Principal beneficio].  
-**Enlace**: [URL de la herramienta]
+- **Software Development**  
+  Para el desarrollo de software, utilizaremos las siguientes herramientas:  
+  Para [componente específico] utilizaremos **[Nombre del IDE/herramienta]** ya que [breve justificación]. [Principal beneficio].  
+  **Enlace**: [URL de la herramienta]
 
 Para [otro componente] usaremos **[Nombre del IDE/herramienta]** debido a [breve justificación]. [Principal beneficio].  
 **Enlace**: [URL de la herramienta]
 
-* **Software Testing**  
-Para testing, implementaremos las siguientes herramientas:  
-Para [componente específico], utilizaremos **[Nombre de la herramienta]**, ya que [breve justificación].  
-**Enlace**: [URL de la herramienta]
+- **Software Testing**  
+  Para testing, implementaremos las siguientes herramientas:  
+  Para [componente específico], utilizaremos **[Nombre de la herramienta]**, ya que [breve justificación].  
+  **Enlace**: [URL de la herramienta]
 
 Para [otro componente] emplearemos **[Nombre de la herramienta]** porque [breve justificación].  
 **Enlace**: [URL de la herramienta]
 
-* **Software Deployment**  
-Para el despliegue de nuestras soluciones utilizaremos:  
-**[Nombre de la herramienta]** para [componente específico] porque [breve justificación].  
-**Enlace**: [URL de la herramienta]
+- **Software Deployment**  
+  Para el despliegue de nuestras soluciones utilizaremos:  
+  **[Nombre de la herramienta]** para [componente específico] porque [breve justificación].  
+  **Enlace**: [URL de la herramienta]
 
 **[Nombre de la herramienta]** para [otro componente] ya que [breve justificación].  
 **Enlace**: [URL de la herramienta]
 
-* **Software Documentation**  
-La documentación del software será realizada en **[Nombre de la herramienta]** mediante [método específico], elegimos esta herramienta porque [breve justificación].  
-**Enlace:** [URL de la herramienta]
+- **Software Documentation**  
+  La documentación del software será realizada en **[Nombre de la herramienta]** mediante [método específico], elegimos esta herramienta porque [breve justificación].  
+  **Enlace:** [URL de la herramienta]
 
 ### 7.1.2. Source Code Management.
 
@@ -62,20 +62,20 @@ las convenciones para Release branches y Hotfix branches. Aplique semantic versi
 de Referencias).
 -->
 
-__Repositorios__
+**Repositorios**
 Se creó una organización llamada ImagIA-2024-02 en Github, en la cual el equipo cuenta con los repositorios donde se trabajarán las soluciones propuestas.
 Enlace de la organización: [https://github.com/ImagIA-2024-02/](https://github.com/ImagIA-2024-02/)
 
-| **Solución** | **Nombre del repositorio** | **Enlace** |
-|--------------|---------------------------|------------|
-| Landing Page | art-vision-landing | https://github.com/ImagIA-2024-02/<TDB> |
-| Web Services (Backend) | art-vision-backend | https://github.com/ImagIA-2024-02/<TDB> |
-| Mobile Application | art-vision-mobile | https://github.com/ImagIA-2024-02/<TDB> |
-| AI Models | art-vision-ml-models | https://github.com/ImagIA-2024-02/<TDB> |
+| **Solución**           | **Nombre del repositorio** | **Enlace**                              |
+| ---------------------- | -------------------------- | --------------------------------------- |
+| Landing Page           | art-vision-landing         | https://github.com/ImagIA-2024-02/<TDB> |
+| Web Services (Backend) | art-vision-backend         | https://github.com/ImagIA-2024-02/<TDB> |
+| Mobile Application     | art-vision-mobile          | https://github.com/ImagIA-2024-02/<TDB> |
+| AI Models              | art-vision-ml-models       | https://github.com/ImagIA-2024-02/<TDB> |
 
-__Gitflow__
+**Gitflow**
 
-Para la implementación del flujo de trabajo Gitflow, usando la herramienta de control de versiones Git, se usó de referencia la entrada de blog "A successful Git branching model" de Vincent Driessen, que nos ayudó a detallar las siguientes convenciones que se usarán en el proyecto:  
+Para la implementación del flujo de trabajo Gitflow, usando la herramienta de control de versiones Git, se usó de referencia la entrada de blog "A successful Git branching model" de Vincent Driessen, que nos ayudó a detallar las siguientes convenciones que se usarán en el proyecto:
 
 **Main branch**  
 La Main branch es la principal rama de desarrollo del proyecto. En esta rama se encontrará el código que se encuentra actualmente en producción.  
@@ -97,15 +97,17 @@ Creación: git checkout -b feature/[name of feature] develop
 **Conventional Commits**  
 Para la redacción de las siguientes convenciones de commits se utilizó de referencia el artículo Conventional Commits 1.0.0.
 
-Types:  
-- add: se usará para indicar que se añadieron archivos o carpetas.  
-- fix: este tipo de commit se utilizará para la confirmación de una corrección de un error en el código.  
-- feat: este tipo de commit se utilizará para la confirmación de que se ha añadido una nueva funcionalidad.  
-- test: se usará para indicar que se añadieron archivos de test.  
-- docs: se usará para indicar que se añadieron actualizaciones a la documentación.  
+Types:
+
+- add: se usará para indicar que se añadieron archivos o carpetas.
+- fix: este tipo de commit se utilizará para la confirmación de una corrección de un error en el código.
+- feat: este tipo de commit se utilizará para la confirmación de que se ha añadido una nueva funcionalidad.
+- test: se usará para indicar que se añadieron archivos de test.
+- docs: se usará para indicar que se añadieron actualizaciones a la documentación.
 - BREAKING CHANGE: este tipo de commit se utilizará para confirmar la introducción de un cambio importante en el código.
 
 ### 7.1.3. Source Code Style Guide & Conventions.
+
 <!-- RESUMEN DEL PUNTO:
 Aquí el equipo resume e indica las referencias que adoptará para nombrar elementos y programar en los lenguajes que se utilizan en la solución (como por
 ejemplo C#, Java, TypeScript, Kotlin, Swift, u otros según los constraints del proyecto; así como Gherkin para los archivos .feature). Para todos los lenguajes debe aplicar la
@@ -121,75 +123,86 @@ __TEMPLATE COPIADO DE OTRO PROYECTO, CAMBIAR/AJUSTAR/MEJORAR__
 **Guía de Estilo y convenciones de codificación HTML**  
 Para las convenciones de codificación HTML, adoptaremos las pautas delineadas en las referencias "Guía de Estilo y Convenciones de Codificación HTML" y "Guía de Estilo HTML/CSS de Google". Aquí algunos puntos clave:
 
-**Convenciones de Nomenclatura:**  
-- Aplicar nomenclatura en inglés  
-- Utilizar letras minúsculas para todos los nombres de elementos HTML  
-- Separar palabras en nombres de ID y clases con guiones (-)  
+**Convenciones de Nomenclatura:**
+
+- Aplicar nomenclatura en inglés
+- Utilizar letras minúsculas para todos los nombres de elementos HTML
+- Separar palabras en nombres de ID y clases con guiones (-)
 - Utilizar nombres significativos y descriptivos para IDs y clases
 
-**Formato:**  
-- Sangrar elementos anidados para mejorar la legibilidad  
-- Utilizar comillas dobles para los valores de atributos  
+**Formato:**
+
+- Sangrar elementos anidados para mejorar la legibilidad
+- Utilizar comillas dobles para los valores de atributos
 - Emplear etiquetas auto-cerradas para elementos
 
-**Comentarios:**  
-- Agregar comentarios para explicar secciones complejas o proporcionar contexto a futuros desarrolladores  
+**Comentarios:**
+
+- Agregar comentarios para explicar secciones complejas o proporcionar contexto a futuros desarrolladores
 - Utilizar la sintaxis de comentarios HTML
 
 **Guía de Estilo y convenciones de codificación CSS**  
 Para las convenciones de codificación CSS, seguiremos las pautas proporcionadas en la referencia "Google HTML/CSS Style Guide". Aquí tienes algunos puntos clave:
 
-**Convenciones de nomenclatura:**  
-- Aplicar nomenclatura en inglés  
-- Usar letras minúsculas para todos los selectores CSS y nombres de propiedades  
-- Separar palabras en nombres de clases con guiones (-)  
+**Convenciones de nomenclatura:**
+
+- Aplicar nomenclatura en inglés
+- Usar letras minúsculas para todos los selectores CSS y nombres de propiedades
+- Separar palabras en nombres de clases con guiones (-)
 - Utilizar nombres significativos y descriptivos para las clases
 
-**Formato:**  
-- Indentar estilos anidados para mejorar la legibilidad  
-- Utilizar un estilo de indentación consistente, como dos espacios  
+**Formato:**
+
+- Indentar estilos anidados para mejorar la legibilidad
+- Utilizar un estilo de indentación consistente, como dos espacios
 - Usar propiedades abreviadas cuando sea posible para mantener el código conciso
 
-**Comentarios:**  
-- Agregar comentarios para explicar estilos complejos o proporcionar contexto para futuros desarrolladores  
-- Utilizar la sintaxis de comentarios CSS /* */
+**Comentarios:**
+
+- Agregar comentarios para explicar estilos complejos o proporcionar contexto para futuros desarrolladores
+- Utilizar la sintaxis de comentarios CSS /\* \*/
 
 **Guía de Estilo y convenciones de codificación JavaScript/TypeScript**  
 Para las convenciones de codificación JavaScript/TypeScript, adoptaremos las pautas proporcionadas en las referencias "Google JavaScript Style Guide" y "Google TypeScript Style Guide". Aquí tienes algunos puntos clave:
 
-**Convenciones de nomenclatura:**  
-- Aplicar nomenclatura en inglés  
-- Utilizar camelCase para nombres de variables y funciones  
-- Utilizar PascalCase para nombres de clases  
+**Convenciones de nomenclatura:**
+
+- Aplicar nomenclatura en inglés
+- Utilizar camelCase para nombres de variables y funciones
+- Utilizar PascalCase para nombres de clases
 - Utilizar letras mayúsculas para constantes
 
-**Formato:**  
-- Utilizar un estilo de indentación consistente, como dos o cuatro espacios  
-- Utilizar punto y coma al final de las sentencias  
+**Formato:**
+
+- Utilizar un estilo de indentación consistente, como dos o cuatro espacios
+- Utilizar punto y coma al final de las sentencias
 - Evitar el uso de variables globales siempre que sea posible
 
-**Comentarios:**  
-- Agregar comentarios para explicar lógica compleja o proporcionar contexto para futuros desarrolladores  
-- Utilizar la sintaxis de comentarios JavaScript/TypeScript // para comentarios de una sola línea y /* */ para comentarios de varias líneas
+**Comentarios:**
+
+- Agregar comentarios para explicar lógica compleja o proporcionar contexto para futuros desarrolladores
+- Utilizar la sintaxis de comentarios JavaScript/TypeScript // para comentarios de una sola línea y /\* \*/ para comentarios de varias líneas
 
 **Guía de Estilo y convenciones de codificación Java**  
 Para las convenciones de codificación Java, nos adheriremos a las pautas descritas en la referencia "Google Java Style Guide". Aquí tienes algunos puntos clave:
 
-**Convenciones de nomenclatura:**  
-- Aplicar nomenclatura en inglés  
-- Utilizar camelCase para nombres de variables y métodos  
-- Utilizar PascalCase para nombres de clases  
+**Convenciones de nomenclatura:**
+
+- Aplicar nomenclatura en inglés
+- Utilizar camelCase para nombres de variables y métodos
+- Utilizar PascalCase para nombres de clases
 - Utilizar letras mayúsculas para constantes
 
-**Formato:**  
-- Utilizar un estilo de indentación consistente, como cuatro espacios  
-- Colocar las llaves de apertura en la misma línea que la declaración  
+**Formato:**
+
+- Utilizar un estilo de indentación consistente, como cuatro espacios
+- Colocar las llaves de apertura en la misma línea que la declaración
 - Utilizar nombres significativos para variables y métodos para mayor claridad
 
-**Comentarios:**  
-- Agregar comentarios para explicar algoritmos complejos o proporcionar contexto para futuros desarrolladores  
-- Utilizar la sintaxis de comentarios Java // para comentarios de una sola línea y /* */ para comentarios de varias líneas
+**Comentarios:**
 
+- Agregar comentarios para explicar algoritmos complejos o proporcionar contexto para futuros desarrolladores
+- Utilizar la sintaxis de comentarios Java // para comentarios de una sola línea y /\* \*/ para comentarios de varias líneas
 
 ### 7.1.4. Software Deployment Configuration.
 
@@ -199,7 +212,7 @@ fuente, se pueda lograr el despliegue o publicación satisfactorio de cada uno d
 el equipo incluye aquí el Deployment Diagram de C4 Model.
 -->
 
-__Despliegue de la landing page en GitHub Pages__ 
+**Despliegue de la landing page en GitHub Pages**
 
 <!--
 Imagen despues de cada paso y añadir el enlace
@@ -209,7 +222,6 @@ Ir a la configuración del repositorio
 Seleccionar la opción "Pages"
 Elegir la rama que se desea desplegar y dar click en "Save"
 Se mostrará el enlace de la página en la parte superior
-
 
 ## 7.2. Solution Implementation.
 
@@ -236,7 +248,7 @@ Se mostrará el enlace de la página en la parte superior
            <p>Date</p>
         </td>
         <td>
-          <p>[DD-MM-YYYY]</p>
+          <p>27-10-2024</p>
         </td>
     </tr>
     <tr>
@@ -244,7 +256,7 @@ Se mostrará el enlace de la página en la parte superior
            <p>Time</p>
         </td>
         <td>
-          <p>[HH:MM]</p>
+          <p>08:00</p>
         </td>
     </tr>
     <tr>
@@ -252,7 +264,7 @@ Se mostrará el enlace de la página en la parte superior
            <p>Location</p>
         </td>
         <td>
-          <p>[Virtual/Physical location]</p>
+          <p>Reunión virtual vía Discord</p>
         </td>
     </tr>
     <tr>
@@ -260,7 +272,7 @@ Se mostrará el enlace de la página en la parte superior
            <p>Prepared By</p>
         </td>
         <td>
-          <p>[Team Member Name]</p>
+          <p>Antonella Gonzales</p>
         </td>
     </tr>
     <tr>
@@ -268,7 +280,7 @@ Se mostrará el enlace de la página en la parte superior
            <p>Attendees</p>
         </td>
         <td>
-          <p>[List of team member names]</p>
+          <p>Antonella Frida Gonzales Gomez, Jesica Rut Jaramillo Almora, Diego Martin Merino Mas, Rafael Wimmer Primo Estrada</p>
         </td>
     </tr>
     <tr>
@@ -276,7 +288,7 @@ Se mostrará el enlace de la página en la parte superior
            <p>Sprint 0 Review Summary</p>
         </td>
         <td>
-          <p>[Summary of previous sprint review]</p>
+          <p>[-]</p>
         </td>
     </tr>
     <tr>
@@ -284,7 +296,7 @@ Se mostrará el enlace de la página en la parte superior
            <p>Sprint 0 Retrospective Summary</p>
         </td>
         <td>
-          <p>[Summary of previous sprint retrospective]</p>
+          <p>[-]</p>
         </td>
     </tr>
     <tr>
@@ -297,7 +309,7 @@ Se mostrará el enlace de la página en la parte superior
            <p>Sprint 1 Goal</p>
         </td>
         <td>
-          <p>[Define sprint goal]</p>
+          <p>Desarrollar la landing page, unos primeros modelos funcionales e integrarlos en una primera versión de la aplicación móvil y desplegarlas</p>
         </td>
     </tr>
     <tr>
@@ -331,22 +343,24 @@ el equipo:
 
 Asimismo, se presenta la tabla de nuestro primer sprint con las respectivas user stories a trabajar:
 
-| Sprint # | Sprint 1 | | | | | | |
-|----------|----------|---|---|---|---|---|---|
-| User Story | Work-Item/Task | | | | | | |
-| Id | Title | Id | Title | Description | Estimation (Hours) | Assigned To | Status |
-| US[XX] | [User Story Title] | 1 | [Task Title] | [Task Description] | [X] | [Team Member] | [Status] |
-| US[XX] | [User Story Title] | 2 | [Task Title] | [Task Description] | [X] | [Team Member] | [Status] |
+| Sprint #   | Sprint 1           |     |              |                    |                    |               |          |
+| ---------- | ------------------ | --- | ------------ | ------------------ | ------------------ | ------------- | -------- |
+| User Story | Work-Item/Task     |     |              |                    |                    |               |          |
+| Id         | Title              | Id  | Title        | Description        | Estimation (Hours) | Assigned To   | Status   |
+| US[XX]     | [User Story Title] | 1   | [Task Title] | [Task Description] | [X]                | [Team Member] | [Status] |
+| US[XX]     | [User Story Title] | 2   | [Task Title] | [Task Description] | [X]                | [Team Member] | [Status] |
+
 [...continuar según necesidades del proyecto]
 
 #### 7.2.1.3. Development Evidence for Sprint Review.
 
 [Descripción general del desarrollo realizado en el Sprint]
 
-| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Commited on (Date) |
-|------------|---------|------------|----------------|-------------------|-------------------|
-| [Repo Name] | [Branch Name] | [ID] | [Message] | [Body] | [DD-MM-YYYY] |
-| [Repo Name] | [Branch Name] | [ID] | [Message] | [Body] | [DD-MM-YYYY] |
+| Repository  | Branch        | Commit ID | Commit Message | Commit Message Body | Commited on (Date) |
+| ----------- | ------------- | --------- | -------------- | ------------------- | ------------------ |
+| [Repo Name] | [Branch Name] | [ID]      | [Message]      | [Body]              | [DD-MM-YYYY]       |
+| [Repo Name] | [Branch Name] | [ID]      | [Message]      | [Body]              | [DD-MM-YYYY]       |
+
 [...continuar según necesidad]
 
 **Network**
@@ -361,9 +375,9 @@ Asimismo, se presenta la tabla de nuestro primer sprint con las respectivas user
 
 #### 7.2.1.4. Testing Suite Evidence for Sprint Review.
 
-| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Commited on (Date) |
-|------------|---------|------------|----------------|-------------------|-------------------|
-| [Test Repo] | [Branch] | [ID] | [Message] | [Body] | [DD-MM-YYYY] |
+| Repository  | Branch   | Commit ID | Commit Message | Commit Message Body | Commited on (Date) |
+| ----------- | -------- | --------- | -------------- | ------------------- | ------------------ |
+| [Test Repo] | [Branch] | [ID]      | [Message]      | [Body]              | [DD-MM-YYYY]       |
 
 [Descripción de la estrategia de testing utilizada y justificación]
 
@@ -447,13 +461,13 @@ Asimismo, se presenta la tabla de nuestro primer sprint con las respectivas user
 
 - **[Componente 1]**
 
- _Pulse_
+_Pulse_
 
  <div align="center">
  <img src="[ruta-imagen-pulse-1]" width=500 alt="Pulse Sprint 1">
  </div>
 
- _Contributors_
+_Contributors_
 
  <div align="center">
    <img src="[ruta-imagen-contributors-1]" width=500 alt="Contributors Sprint 1">
@@ -461,13 +475,13 @@ Asimismo, se presenta la tabla de nuestro primer sprint con las respectivas user
 
 - **[Componente 2]**
 
- _Pulse_
+_Pulse_
 
  <div align="center">
    <img src="[ruta-imagen-pulse-2]" width=500 alt="Pulse Sprint 1">
  </div>
 
- _Contributors_
+_Contributors_
 
  <div align="center">
    <img src="[ruta-imagen-contributors-2]" width=500 alt="Contributors Sprint 1">
@@ -480,6 +494,5 @@ Asimismo, se presenta la tabla de nuestro primer sprint con las respectivas user
 ### 7.3.2. Registro de Entrevistas.
 
 ### 7.3.3. Evaluaciones según heurísticas.
-
 
 ## 7.4. Video About-the-Product.

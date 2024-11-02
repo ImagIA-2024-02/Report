@@ -409,6 +409,50 @@ Landing page:
 
 ### 7.3.1. Diseño de Entrevistas.
 
+A continuación, se presenta el diseño de las entrevistas de validación para los diferentes segmentos de usuarios de la aplicación móvil de restauración de obras de arte famosas.<br><br>
+
+**Preguntas Generales (para todos los segmentos)**<br>
+
+- ¿Qué opinas de la interfaz principal de la aplicación?
+- ¿Qué tan intuitivo te resultó el proceso de registro y login?
+- ¿Cómo evalúas la funcionalidad de escaneo de obras de arte?
+- ¿Qué te parece la calidad de las restauraciones generadas?
+- ¿Te resultó fácil comparar la obra original con la versión restaurada?
+- ¿Encontraste algún aspecto confuso o difícil de usar en la aplicación?
+- ¿Qué características adicionales te gustaría ver en la aplicación?<br><br>
+
+**Preguntas para Turistas**<br>
+
+- ¿Con qué frecuencia visitas museos durante tus viajes?
+- ¿Qué te pareció el proceso de reconocimiento de obras famosas?
+- ¿Te resultó útil la información proporcionada sobre las obras reconocidas?
+- ¿Utilizarías esta aplicación en futuros viajes a museos?
+- ¿Compartirías las obras restauradas en tus redes sociales?
+- ¿Qué información adicional sobre las obras te gustaría ver?<br><br>
+
+**Preguntas para Estudiantes**<br>
+
+- ¿Cómo utilizarías esta aplicación en tus estudios de arte?
+- ¿Qué te parece la precisión del reconocimiento de obras famosas?
+- ¿Te resulta útil la funcionalidad de restauración para estudiar detalles de las obras?
+- ¿Considerarías usar la aplicación para proyectos académicos?
+- ¿Qué herramientas adicionales necesitarías para tus estudios?
+- ¿Te gustaría poder exportar o compartir las restauraciones de alguna manera específica?<br><br>
+
+**Preguntas para Aficionados al Arte**<br>
+
+- ¿Qué aspectos de la restauración digital te parecen más interesantes?
+- ¿Cómo evalúas la calidad del proceso de restauración?
+- ¿Te gustaría tener más control sobre los parámetros de restauración?
+- ¿Qué opinas de la biblioteca de obras famosas reconocibles?
+- ¿Utilizarías esta aplicación para explorar obras en diferentes museos?
+- ¿Qué funcionalidades adicionales te ayudarían a apreciar mejor las obras?<br><br>
+
+**Pregunta de Cierre (para todos los segmentos)**<br>
+
+- Después de probar la aplicación, ¿la recomendarías a otras personas? ¿Por qué sí o por qué no?
+- ¿Hay algún comentario adicional o sugerencia que quieras compartir sobre tu experiencia con la aplicación?
+
 ### 7.3.2. Registro de Entrevistas.
 
 ### 7.3.3. Evaluaciones según heurísticas.

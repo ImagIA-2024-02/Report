@@ -52,7 +52,7 @@ Evidencias de colaboración y commits - Github:
 - Contributors Image of Github Insights
 
 <div align="center">
-  <img src="./Recursos/imagenes/commits/tp1/todos-commits.jpeg" width=80% alt="Execution">   
+  <img src="./Recursos/imagenes/commits/tp1/contributtors_report_tb2.jpeg" width=80% alt="Execution">   
 </div>
 
 <div class="page"/>
@@ -107,13 +107,15 @@ Evidencias de colaboración y commits - Github:
 <div align="center">
   <img src="./Recursos/imagenes/commits/tb1/jesica-commit-tb1.jpeg" width=80% alt="Execution">   
 </div>
-  - Diego Martin Merino Mas
+
+- Diego Martin Merino Mas
 
 <div align="center">
   <img src="./Recursos/imagenes/commits/tb1/diego-commit-tb1.jpeg" width=80% alt="Execution">   
 </div>
-  - Rafael Wimmer Primo Estrada
-  
+
+- Rafael Wimmer Primo Estrada
+
 <div align="center">
   <img src="./Recursos/imagenes/commits/tb1/rafael-commit-tb1.jpeg" width=80% alt="Execution">   
 </div>
@@ -124,6 +126,39 @@ Evidencias de colaboración y commits - Github:
 
 <div align="center">
   <img src="./Recursos/imagenes/commits/software-usado/wasap-tp1.png" width=80% alt="Execution">   
+</div>
+
+#### Entrega TB2
+
+- Commits realizados por integrante
+
+  - Antonella Frida Gonzales Gomez
+
+<div align="center">
+  <img src="./Recursos/imagenes/commits/tb2/commits-antonella-tb2.jpeg" width=80% alt="Execution">   
+</div>
+
+- Jesica Rut Jaramillo Almora
+
+<div align="center">
+  <img src="./Recursos/imagenes/commits/tb2/commits-rut-tb2.jpeg" width=80% alt="Execution">   
+</div>
+
+- Diego Martin Merino Mas
+
+<div align="center">
+  <img src="./Recursos/imagenes/commits/tb2/commits-diego-tb2.jpeg" width=80% alt="Execution">   
+</div>
+<div align="center">
+  <img src="./Recursos/imagenes/commits/tb2/commits-diego-2-tb2.jpeg" width=80% alt="Execution">   
+</div>
+
+- Evidencias de colaboración - otras herramientas
+  - Whatsapp: Principal medio de comunicación para preguntar el estado y avance del proyecto.
+  - Discord: Principal medio de reuniones.
+
+<div align="center">
+  <img src="./Recursos/imagenes/commits/software-usado/wasap-tb2.png" width=80% alt="Execution">   
 </div>
 
 ### Tabla de contenidos

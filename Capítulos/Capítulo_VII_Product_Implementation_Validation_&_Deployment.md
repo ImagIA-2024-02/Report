@@ -35,6 +35,8 @@ Cada componente tiene su propio repositorio en GitHub:
 - **Report**: [https://github.com/ImagIA-2024-02/Report](https://github.com/ImagIA-2024-02/Report)
 - **Backend**: [https://github.com/ImagIA-2024-02/backend-Imagia](https://github.com/ImagIA-2024-02/backend-Imagia)
 - **App Móvil**: [https://github.com/ImagIA-2024-02/frontend-app](https://github.com/ImagIA-2024-02/frontend-app)
+- **Landing Page**: [https://github.com/ImagIA-2024-02/LandingPage](https://github.com/ImagIA-2024-02/LandingPage)
+- **AI-models**: [https://github.com/ImagIA-2024-02/AI-models](https://github.com/ImagIA-2024-02/AI-models)
 
 ### 7.1.3 Source Code Style Guide & Conventions
 
@@ -60,6 +62,8 @@ Referencias:
 - **Report**: [https://github.com/ImagIA-2024-02/Report](https://github.com/ImagIA-2024-02/Report)
 - **Backend**: [https://github.com/ImagIA-2024-02/backend-Imagia](https://github.com/ImagIA-2024-02/backend-Imagia)
 - **App Móvil**: [https://github.com/ImagIA-2024-02/frontend-app](https://github.com/ImagIA-2024-02/frontend-app)
+- **Landing Page**: [https://github.com/ImagIA-2024-02/LandingPage](https://github.com/ImagIA-2024-02/LandingPage)
+- **AI-models**: [https://github.com/ImagIA-2024-02/AI-models](https://github.com/ImagIA-2024-02/AI-models)
 
 ## 7.2. Solution Implementation.
 
@@ -216,27 +220,27 @@ Asimismo, se presenta la tabla de nuestro primer sprint con las respectivas user
 
 #### 7.2.1.3. Development Evidence for Sprint Review.
 
-| Repository  | Branch        | Commit ID | Commit Message | Commit Message Body | Commited on (Date) |
-| ----------- | ------------- | --------- | -------------- | ------------------- | ------------------ |
-| frontend-app | main | 0288fdbe14851461b6f22a70ee0eb82116fb5120 | Merge pull request | ... | 02-11-2024 |
-| frontend-app | develop | 5ed08b9ea6234ef610f3fb48116b9da2336f5d6b| added little details | ... | 02-11-2024 |
-| frontend-app | develop | a2829ac15f58c6f6c6e163fbf4e887b07a61ee2b | added icons personalized and optimized models | ... | 01-11-2024 |
-| frontend-app | develop | 3edcb3a0b3810e2423ef6871763c6fa54c613272 | added save gallery and improve UI | ... | 01-11-2024 |
-| frontend-app | develop | 6225f7df6625c098a25425b77d88606f8aa8d06a | updated comments unnecessary | ... | 30-10-2024 |
-| frontend-app | develop | d5cc592668753952afbb539149ed367d2236f0c2 | added configuration android and ios | ... | 30-10-2024 |
-| frontend-app | develop | c374afd9b3ac2ad0b4e08a9a470e633803a8414c | added models from firebase and basic ui | ... | 30-10-2024|
-| backend-Imagia | main | 33a2161b3e72a949ec8cc39c138fc5eb7bd92775 | Merge branch 'develop' | ... | 29-10-2024 |
-| backend-Imagia | develop | ef4b82ecb407de40101fa9c137bd0d88d0c1c412 | Add conection to remote database | ... | 29-10-2024 |
-| backend-Imagia | main | d6d760642e903426e61b176fdefa4900ac316f80 | Add or update the Azure App Service build and deployment workflow config | ... | 28-10-2024 |
-| backend-Imagia | develop | 17cab8b883054f41ba580528b953e43556760ad6 | add registro de obras de arte | ... | 27-10-2024 |
-| backend-Imagia | develop | efa7f6db11de6c2c9994477fd89075c80fadf808 | first commit | ... | 22-10-2024 |
-| LandingPage | main | d1f4cb4f5d29b42bf03d31ba38de5f819378b1bf | Primer commit - Landing page de PictorIA | ... | 02-11-2024 |
-| AI-models | main | 60f9200eba13f0eda947cfd83ab2871e5aea169e | add description for restoration model | ... | 02-11-2024 |
-| AI-models | main | 462a4fd6cf847e6b998971b84d77284b52d5fbb0 | add description for recognition model and notebooks | ... | 02-11-2024 |
-
+| Repository     | Branch  | Commit ID                                | Commit Message                                                           | Commit Message Body | Commited on (Date) |
+| -------------- | ------- | ---------------------------------------- | ------------------------------------------------------------------------ | ------------------- | ------------------ |
+| frontend-app   | main    | 0288fdbe14851461b6f22a70ee0eb82116fb5120 | Merge pull request                                                       | ...                 | 02-11-2024         |
+| frontend-app   | develop | 5ed08b9ea6234ef610f3fb48116b9da2336f5d6b | added little details                                                     | ...                 | 02-11-2024         |
+| frontend-app   | develop | a2829ac15f58c6f6c6e163fbf4e887b07a61ee2b | added icons personalized and optimized models                            | ...                 | 01-11-2024         |
+| frontend-app   | develop | 3edcb3a0b3810e2423ef6871763c6fa54c613272 | added save gallery and improve UI                                        | ...                 | 01-11-2024         |
+| frontend-app   | develop | 6225f7df6625c098a25425b77d88606f8aa8d06a | updated comments unnecessary                                             | ...                 | 30-10-2024         |
+| frontend-app   | develop | d5cc592668753952afbb539149ed367d2236f0c2 | added configuration android and ios                                      | ...                 | 30-10-2024         |
+| frontend-app   | develop | c374afd9b3ac2ad0b4e08a9a470e633803a8414c | added models from firebase and basic ui                                  | ...                 | 30-10-2024         |
+| backend-Imagia | main    | 33a2161b3e72a949ec8cc39c138fc5eb7bd92775 | Merge branch 'develop'                                                   | ...                 | 29-10-2024         |
+| backend-Imagia | develop | ef4b82ecb407de40101fa9c137bd0d88d0c1c412 | Add conection to remote database                                         | ...                 | 29-10-2024         |
+| backend-Imagia | main    | d6d760642e903426e61b176fdefa4900ac316f80 | Add or update the Azure App Service build and deployment workflow config | ...                 | 28-10-2024         |
+| backend-Imagia | develop | 17cab8b883054f41ba580528b953e43556760ad6 | add registro de obras de arte                                            | ...                 | 27-10-2024         |
+| backend-Imagia | develop | efa7f6db11de6c2c9994477fd89075c80fadf808 | first commit                                                             | ...                 | 22-10-2024         |
+| LandingPage    | main    | d1f4cb4f5d29b42bf03d31ba38de5f819378b1bf | Primer commit - Landing page de PictorIA                                 | ...                 | 02-11-2024         |
+| AI-models      | main    | 60f9200eba13f0eda947cfd83ab2871e5aea169e | add description for restoration model                                    | ...                 | 02-11-2024         |
+| AI-models      | main    | 462a4fd6cf847e6b998971b84d77284b52d5fbb0 | add description for recognition model and notebooks                      | ...                 | 02-11-2024         |
 
 **Network**  
-Frontend:  
+Frontend:
+
 <div align="center">
   <img src="/Recursos/imagenes/network_frontend-app.png" width=500 alt="Network">   
 </div>  
@@ -247,18 +251,20 @@ Backend:
 AI-models:
 <div align="center">
   <img src="/Recursos/imagenes/network_AI-models.png" width=500 alt="Network">   
-</div> 
+</div>
 
 #### 7.2.1.4. Testing Suite Evidence for Sprint Review.
 
-| Repository  | Branch   | Commit ID | Commit Message | Commit Message Body | Commited on (Date) |
-| ----------- | -------- | --------- | -------------- | ------------------- | ------------------ |
-| Gherkin | main | e355caf03b659878a50591af018235adea7ca34e | add core US Guerkin | ... | 02-11-2024 |
+| Repository | Branch | Commit ID                                | Commit Message      | Commit Message Body | Commited on (Date) |
+| ---------- | ------ | ---------------------------------------- | ------------------- | ------------------- | ------------------ |
+| Gherkin    | main   | e355caf03b659878a50591af018235adea7ca34e | add core US Guerkin | ...                 | 02-11-2024         |
 
 ##### Estrategia de Testing
+
 La estrategia de testing utilizada para estas historias de usuario se basa en pruebas funcionales utilizando el formato BDD (Behavior-Driven Development), empleando el lenguaje Gherkin para definir escenarios de prueba en un lenguaje claro y comprensible tanto para el equipo técnico como para los stakeholders. Esta estrategia se centra en validar que cada funcionalidad cumpla con los requisitos especificados en las historias de usuario, asegurando así una alta calidad en la experiencia de usuario final.
 
 ###### Justificación
+
 - Claridad y Comunicación: El uso de Gherkin facilita la comprensión de los requisitos y pruebas, ya que permite que todos los involucrados (desarrolladores, testers y stakeholders) puedan leer y entender los casos de prueba sin necesidad de conocimientos técnicos avanzados.
 
 - Orientación a la Funcionalidad: Al estar basada en pruebas funcionales, esta estrategia se enfoca en validar que cada funcionalidad cumpla con las expectativas del usuario final, alineándose con los objetivos de cada historia de usuario.
@@ -338,10 +344,6 @@ Se desplegó exitosamente en Microsoft Azure una API RESTful que gestiona toda l
 
 La integración entre los servicios de IA en la nube y la API de usuarios permite un flujo de trabajo eficiente mientras se mantiene la aplicación móvil ligera y performante.
 
-<div align="center">
- <img src="[ruta-imagen-servicios-1]" width=500 alt="Services"> 
-</div>
-
 #### 7.2.1.7. Software Deployment Evidence for Sprint Review.
 
 Para el Sprint 1, se han conseguido desplegar exitosamente los siguientes componentes del sistema:
@@ -373,20 +375,14 @@ La aplicación móvil desarrollada en Flutter se encuentra actualmente en fase d
 
 La aplicación aún no está disponible online, se terminara desplegando en firebase mas no en tiendas como google play.
 
-<div align="center">
- <img src="[ruta-imagen-deployment-2]" width=500 alt="Deployment">
-</div>
-
 #### 7.2.1.8. Team Collaboration Insights during Sprint.
-
-- **SE NECESITA DE LANDING, API, COLAB, MOVIL: HACERLOS PUBLICOS**
 
 **_Pulse_**
 
 App movil:
 
  <div align="center">
- <img src="../Recursos/imagenes/7.2.1.sprint-1/pulse-movil-1" width=500 alt="Pulse Sprint 1">
+ <img src="../Recursos/imagenes/7.2.1.sprint-1/pulse_movil_tb2.png" width=500 alt="Pulse Sprint 1">
  </div>
 
 Backend:
@@ -398,13 +394,13 @@ Backend:
 Modelos de IA:
 
  <div align="center">
- <img src="../Recursos/imagenes/7.2.1.sprint-1/pulse-model-1" width=500 alt="Pulse Sprint 1">
+ <img src="../Recursos/imagenes/7.2.1.sprint-1/pulse_ai_model_tb2.png" width=500 alt="Pulse Sprint 1">
  </div>
 
 Landing page:
 
  <div align="center">
- <img src="../Recursos/imagenes/7.2.1.sprint-1/pulse-landing-1" width=500 alt="Pulse Sprint 1">
+ <img src="../Recursos/imagenes/7.2.1.sprint-1/pulse_landing_tb2.png" width=500 alt="Pulse Sprint 1">
  </div>
 
 **_Contributors_**
@@ -412,7 +408,7 @@ Landing page:
 App movil:
 
  <div align="center">
- <img src="../Recursos/imagenes/7.2.1.sprint-1/contributors-movil-1" width=500 alt="Pulse Sprint 1">
+ <img src="../Recursos/imagenes/7.2.1.sprint-1/pulse_movil_tb2.png" width=500 alt="Pulse Sprint 1">
  </div>
 
 Backend:
@@ -424,13 +420,13 @@ Backend:
 Modelos de IA:
 
  <div align="center">
- <img src="../Recursos/imagenes/7.2.1.sprint-1/contributors-model-1" width=500 alt="Pulse Sprint 1">
+ <img src="../Recursos/imagenes/7.2.1.sprint-1/pulse_ai_model_tb2.png" width=500 alt="Pulse Sprint 1">
  </div>
 
 Landing page:
 
  <div align="center">
- <img src="../Recursos/imagenes/7.2.1.sprint-1/contributors-landing-1" width=500 alt="Pulse Sprint 1">
+ <img src="../Recursos/imagenes/7.2.1.sprint-1/pulse_landing_tb2.png" width=500 alt="Pulse Sprint 1">
  </div>
 
 ## 7.3. Validation Interviews.

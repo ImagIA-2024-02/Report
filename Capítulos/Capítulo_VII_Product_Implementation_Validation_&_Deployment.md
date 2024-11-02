@@ -218,19 +218,29 @@ Asimismo, se presenta la tabla de nuestro primer sprint con las respectivas user
 
 | Repository  | Branch        | Commit ID | Commit Message | Commit Message Body | Commited on (Date) |
 | ----------- | ------------- | --------- | -------------- | ------------------- | ------------------ |
-| [Repo Name] | [Branch Name] | [ID]      | [Message]      | [Body]              | [DD-MM-YYYY]       |
-| [Repo Name] | [Branch Name] | [ID]      | [Message]      | [Body]              | [DD-MM-YYYY]       |
+| frontend-app | main | 0288fdbe14851461b6f22a70ee0eb82116fb5120 | Merge pull request | ... | 02-11-2024 |
+| frontend-app | develop | 5ed08b9ea6234ef610f3fb48116b9da2336f5d6b| added little details | ... | 02-11-2024 |
+| frontend-app | develop | a2829ac15f58c6f6c6e163fbf4e887b07a61ee2b | added icons personalized and optimized models | ... | 01-11-2024 |
+| frontend-app | develop | 3edcb3a0b3810e2423ef6871763c6fa54c613272 | added save gallery and improve UI | ... | 01-11-2024 |
+| frontend-app | develop | 6225f7df6625c098a25425b77d88606f8aa8d06a | updated comments unnecessary | ... | 30-10-2024 |
+| frontend-app | develop | d5cc592668753952afbb539149ed367d2236f0c2 | added configuration android and ios | ... | 30-10-2024 |
+| frontend-app | develop | c374afd9b3ac2ad0b4e08a9a470e633803a8414c | added models from firebase and basic ui | ... | 30-10-2024|
+| backend-Imagia | main | 33a2161b3e72a949ec8cc39c138fc5eb7bd92775 | Merge branch 'develop' | ... | 29-10-2024 |
+| backend-Imagia | develop | ef4b82ecb407de40101fa9c137bd0d88d0c1c412 | Add conection to remote database | ... | 29-10-2024 |
+| backend-Imagia | main | d6d760642e903426e61b176fdefa4900ac316f80 | Add or update the Azure App Service build and deployment workflow config | ... | 28-10-2024 |
+| backend-Imagia | develop | 17cab8b883054f41ba580528b953e43556760ad6 | add registro de obras de arte | ... | 27-10-2024 |
+| backend-Imagia | develop | efa7f6db11de6c2c9994477fd89075c80fadf808 | first commit | ... | 22-10-2024 |
+| LandingPage | main | d1f4cb4f5d29b42bf03d31ba38de5f819378b1bf | Primer commit - Landing page de PictorIA | ... | 02-11-2024 |
 
-[...continuar según necesidad]
 
-**Network**
-
+**Network**  
+Frontend:  
 <div align="center">
-  <img src="[ruta-imagen-network-1]" width=500 alt="Network">   
-</div>
-
+  <img src="/Recursos/imagenes/network_frontend-app.png" width=500 alt="Network">   
+</div>  
+Backend:  
 <div align="center">
-  <img src="[ruta-imagen-network-2]" width=500 alt="Network">   
+  <img src="/Recursos/imagenes/network_backend-imagia.png" width=500 alt="Network">   
 </div>
 
 #### 7.2.1.4. Testing Suite Evidence for Sprint Review.

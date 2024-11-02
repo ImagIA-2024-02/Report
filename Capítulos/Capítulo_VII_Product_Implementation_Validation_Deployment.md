@@ -248,7 +248,7 @@ Se mostrará el enlace de la página en la parte superior
            <p>Date</p>
         </td>
         <td>
-          <p>[DD-MM-YYYY]</p>
+          <p>27-10-2024</p>
         </td>
     </tr>
     <tr>
@@ -256,7 +256,7 @@ Se mostrará el enlace de la página en la parte superior
            <p>Time</p>
         </td>
         <td>
-          <p>[HH:MM]</p>
+          <p>08:00</p>
         </td>
     </tr>
     <tr>
@@ -264,7 +264,7 @@ Se mostrará el enlace de la página en la parte superior
            <p>Location</p>
         </td>
         <td>
-          <p>[Virtual/Physical location]</p>
+          <p>Reunión virtual vía Discord</p>
         </td>
     </tr>
     <tr>
@@ -272,7 +272,7 @@ Se mostrará el enlace de la página en la parte superior
            <p>Prepared By</p>
         </td>
         <td>
-          <p>[Team Member Name]</p>
+          <p>Antonella Gonzales</p>
         </td>
     </tr>
     <tr>
@@ -280,7 +280,7 @@ Se mostrará el enlace de la página en la parte superior
            <p>Attendees</p>
         </td>
         <td>
-          <p>[List of team member names]</p>
+          <p>Antonella Frida Gonzales Gomez, Jesica Rut Jaramillo Almora, Diego Martin Merino Mas, Rafael Wimmer Primo Estrada</p>
         </td>
     </tr>
     <tr>
@@ -288,7 +288,7 @@ Se mostrará el enlace de la página en la parte superior
            <p>Sprint 0 Review Summary</p>
         </td>
         <td>
-          <p>[Summary of previous sprint review]</p>
+          <p>[-]</p>
         </td>
     </tr>
     <tr>
@@ -296,7 +296,7 @@ Se mostrará el enlace de la página en la parte superior
            <p>Sprint 0 Retrospective Summary</p>
         </td>
         <td>
-          <p>[Summary of previous sprint retrospective]</p>
+          <p>[-]</p>
         </td>
     </tr>
     <tr>
@@ -309,7 +309,7 @@ Se mostrará el enlace de la página en la parte superior
            <p>Sprint 1 Goal</p>
         </td>
         <td>
-          <p>[Define sprint goal]</p>
+          <p>Desarrollar la landing page, unos primeros modelos funcionales e integrarlos en una primera versión de la aplicación móvil y desplegarlas</p>
         </td>
     </tr>
     <tr>
@@ -317,7 +317,7 @@ Se mostrará el enlace de la página en la parte superior
            <p>Sprint 1 Velocity</p>
         </td>
         <td>
-          <p>[Number]</p>
+          <p>80</p>
         </td>
     </tr>
     <tr>
@@ -325,17 +325,39 @@ Se mostrará el enlace de la página en la parte superior
            <p>Sum of Story Points</p>
         </td>
         <td>
-          <p>[Number]</p>
+          <p>21</p>
         </td>
     </tr>
 </table>
 
 #### 7.2.1.2. Sprint Backlog 1.
 
-[Descripción del objetivo principal del Sprint 1]
+El Sprint 1 tiene como objetivo establecer los cimientos fundamentales del proyecto de restauración digital de obras de arte famosas, enfocándose en cuatro pilares principales:
 
-A continuación, se presenta un screenshot del sprint 1 en desarrollo realizado en Jira por
-el equipo:
+**Landing Page**<br>
+Desarrollo de una landing page responsive y funcional que sirva como punto de entrada al proyecto. Esta incluirá una hero section impactante, información clara sobre las características del producto, y enlaces de redirección a las tiendas de aplicaciones, proporcionando así una presencia web profesional y efectiva.<br><br>
+
+**Infraestructura Backend**<br>
+Implementación del sistema base de autenticación y gestión de usuarios, estableciendo la infraestructura necesaria para el manejo seguro de cuentas de usuario mediante JWT, sentando las bases para futuras funcionalidades.<br><br>
+
+**Aplicación Móvil Base**<br>
+Desarrollo de la primera versión de la aplicación móvil con una interfaz de usuario intuitiva, incluyendo las funcionalidades esenciales de navegación, registro/login de usuarios, y la capacidad de escanear obras de arte mediante la cámara del dispositivo.<br><br>
+
+**Modelos de IA Fundamentales**<br>
+Implementación de las primeras versiones de los modelos de inteligencia artificial necesarios para:<br>
+
+- Reconocimiento de obras de arte famosas
+- Restauración digital básica de imágenes
+- Visualización comparativa del antes y después de la restauración<br><br>
+
+Este sprint sienta las bases tecnológicas y funcionales del proyecto, permitiendo validar el concepto principal y obtener feedback temprano de usuarios sobre las funcionalidades core del producto.<br><br>
+
+**Métricas de Éxito**<br>
+
+- Landing page funcional y responsive
+- Sistema de autenticación operativo
+- Capacidad de escanear y reconocer al menos 5 obras famosas predefinidas
+- Generar una versión restaurada básica de las obras escaneadas<br><br>
 
 <div align="center">
   <img src="[ruta-imagen-jira]" alt="Jira Sprint 1 Screenshot">
@@ -343,18 +365,22 @@ el equipo:
 
 Asimismo, se presenta la tabla de nuestro primer sprint con las respectivas user stories a trabajar:
 
-| Sprint #   | Sprint 1           |     |              |                    |                    |               |          |
-| ---------- | ------------------ | --- | ------------ | ------------------ | ------------------ | ------------- | -------- |
-| User Story | Work-Item/Task     |     |              |                    |                    |               |          |
-| Id         | Title              | Id  | Title        | Description        | Estimation (Hours) | Assigned To   | Status   |
-| US[XX]     | [User Story Title] | 1   | [Task Title] | [Task Description] | [X]                | [Team Member] | [Status] |
-| US[XX]     | [User Story Title] | 2   | [Task Title] | [Task Description] | [X]                | [Team Member] | [Status] |
-
-[...continuar según necesidades del proyecto]
+| Sprint #   | Sprint 1                                                 |     |                                                     |                                                                                                                                                                                                                                                                                  |                    |                                |         |
+| ---------- | -------------------------------------------------------- | --- | --------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ | ------------------------------ | ------- |
+| User Story | Work-Item/Task                                           |     |                                                     |                                                                                                                                                                                                                                                                                  |                    |                                |         |
+| Id         | Title                                                    | Id  | Title                                               | Description                                                                                                                                                                                                                                                                      | Estimation (Hours) | Assigned To                    | Status  |
+| US08       | Sección de Inicio de la Landing Page                     | 1   | Diseño inicial de hero section                      | Implementar la estructura HTML y estilos CSS de la hero section con contenido impactante y llamadas a la acción                                                                                                                                                                  | 4                  | Diego Martin Merino Mas        | Pending |
+| US07       | Sección de Características del producto                  | 2   | Implementación de sección de características        | Desarrollar la sección que muestra las funcionalidades principales de la app de restauración de obras famosas                                                                                                                                                                    | 4                  | Diego Martin Merino Mas        | Pending |
+| US05       | Diseño Responsivo de la Landing Page                     | 3   | Adaptación responsive del diseño                    | Implementar media queries y ajustes necesarios para garantizar la correcta visualización en todos los dispositivos                                                                                                                                                               | 6                  | Jesica Rut Jaramillo Almora    | Pending |
+| US01       | Redirección de la landing Page a tiendas de aplicaciones | 4   | Configuración de enlaces a tiendas                  | Implementar la lógica de redirección a App Store o Play Store según el dispositivo del usuario                                                                                                                                                                                   | 3                  | Diego Martin Merino Mas        | Pending |
+| US04       | Navegación y Contenido Informativo en el Footer          | 5   | Desarrollo del footer informativo                   | Crear el footer con links relevantes, información de contacto y navegación secundaria                                                                                                                                                                                            | 3                  | Diego Martin Merino Mas        | Pending |
+| TS06       | Gestión de Usuarios y Autenticación                      | 6   | Implementación del sistema de autenticación         | Desarrollar el backend para registro y login de usuarios con JWT                                                                                                                                                                                                                 | 8                  | Antonella Frida Gonzales Gomez | Done    |
+| US16       | Interfaz de usuario intuitiva                            | 7   | Desarrollo de UI móvil principal                    | Implementar las pantallas principales de la app móvil con navegación básica, incluyendo pantallas de login, registro, galería y visualización de obras                                                                                                                           | 10                 | Rafael Wimmer Primo Estrada    | Done    |
+| US10       | Escaneo y reconocimiento de obras de arte                | 8   | Integración de cámara y reconocimiento              | Desarrollar la funcionalidad de escaneo de obras de arte usando la cámara del dispositivo, incluyendo la integración con los modelos de IA y manejo de errores                                                                                                                   | 16                 | Rafael Wimmer Primo Estrada    | Done    |
+| TS02       | Escaneo y Reconocimiento de Obras de Arte                | 9   | Implementación del modelo de reconocimiento         | Investigación y pruebas de diferentes arquitecturas de ML para reconocimiento de obras famosas. Incluye recopilación de dataset, entrenamiento del modelo inicial, pruebas de precisión y optimización. Desarrollo de API endpoints para el procesamiento de imágenes            | 12                 | Jesica Rut Jaramillo Almora    | Done    |
+| US11       | Visualización de restauración digital                    | 10  | Implementación del sistema de restauración completo | Desarrollo de la interfaz de visualización de restauración y modelo de IA inicial. Incluye investigación de técnicas de restauración digital, pruebas con diferentes algoritmos, implementación del modelo seleccionado y desarrollo de la interfaz de comparación antes/después | 14                 | Jesica Rut Jaramillo Almora    | Done    |
 
 #### 7.2.1.3. Development Evidence for Sprint Review.
-
-[Descripción general del desarrollo realizado en el Sprint]
 
 | Repository  | Branch        | Commit ID | Commit Message | Commit Message Body | Commited on (Date) |
 | ----------- | ------------- | --------- | -------------- | ------------------- | ------------------ |

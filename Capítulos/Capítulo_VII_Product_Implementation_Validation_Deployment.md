@@ -317,7 +317,7 @@ Se mostrará el enlace de la página en la parte superior
            <p>Sprint 1 Velocity</p>
         </td>
         <td>
-          <p>[Number]</p>
+          <p>80</p>
         </td>
     </tr>
     <tr>
@@ -325,7 +325,7 @@ Se mostrará el enlace de la página en la parte superior
            <p>Sum of Story Points</p>
         </td>
         <td>
-          <p>[Number]</p>
+          <p>21</p>
         </td>
     </tr>
 </table>
@@ -334,31 +334,30 @@ Se mostrará el enlace de la página en la parte superior
 
 El Sprint 1 tiene como objetivo establecer los cimientos fundamentales del proyecto de restauración digital de obras de arte famosas, enfocándose en cuatro pilares principales:
 
-Landing Page
-Desarrollo de una landing page responsive y funcional que sirva como punto de entrada al proyecto. Esta incluirá una hero section impactante, información clara sobre las características del producto, y enlaces de redirección a las tiendas de aplicaciones, proporcionando así una presencia web profesional y efectiva.
-Infraestructura Backend
-Implementación del sistema base de autenticación y gestión de usuarios, estableciendo la infraestructura necesaria para el manejo seguro de cuentas de usuario mediante JWT, sentando las bases para futuras funcionalidades.
-Aplicación Móvil Base
-Desarrollo de la primera versión de la aplicación móvil con una interfaz de usuario intuitiva, incluyendo las funcionalidades esenciales de navegación, registro/login de usuarios, y la capacidad de escanear obras de arte mediante la cámara del dispositivo.
-Modelos de IA Fundamentales
-Implementación de las primeras versiones de los modelos de inteligencia artificial necesarios para:
+**Landing Page**<br>
+Desarrollo de una landing page responsive y funcional que sirva como punto de entrada al proyecto. Esta incluirá una hero section impactante, información clara sobre las características del producto, y enlaces de redirección a las tiendas de aplicaciones, proporcionando así una presencia web profesional y efectiva.<br><br>
 
-Reconocimiento de obras de arte famosas
-Restauración digital básica de imágenes
-Visualización comparativa del antes y después de la restauración
+**Infraestructura Backend**<br>
+Implementación del sistema base de autenticación y gestión de usuarios, estableciendo la infraestructura necesaria para el manejo seguro de cuentas de usuario mediante JWT, sentando las bases para futuras funcionalidades.<br><br>
 
-Este sprint sienta las bases tecnológicas y funcionales del proyecto, permitiendo validar el concepto principal y obtener feedback temprano de usuarios sobre las funcionalidades core del producto.
-Métricas de Éxito
+**Aplicación Móvil Base**<br>
+Desarrollo de la primera versión de la aplicación móvil con una interfaz de usuario intuitiva, incluyendo las funcionalidades esenciales de navegación, registro/login de usuarios, y la capacidad de escanear obras de arte mediante la cámara del dispositivo.<br><br>
 
-Landing page funcional y responsive
-Sistema de autenticación operativo
-Capacidad de escanear y reconocer al menos 5 obras famosas predefinidas
-Generar una versión restaurada básica de las obras escaneadas
+**Modelos de IA Fundamentales**<br>
+Implementación de las primeras versiones de los modelos de inteligencia artificial necesarios para:<br>
 
-A continuación, se presenta un screenshot del sprint 1 en desarrollo realizado en Jira por
-el equipo:
+- Reconocimiento de obras de arte famosas
+- Restauración digital básica de imágenes
+- Visualización comparativa del antes y después de la restauración<br><br>
 
-[Jira Sprint 1 Screenshot]
+Este sprint sienta las bases tecnológicas y funcionales del proyecto, permitiendo validar el concepto principal y obtener feedback temprano de usuarios sobre las funcionalidades core del producto.<br><br>
+
+**Métricas de Éxito**<br>
+
+- Landing page funcional y responsive
+- Sistema de autenticación operativo
+- Capacidad de escanear y reconocer al menos 5 obras famosas predefinidas
+- Generar una versión restaurada básica de las obras escaneadas<br><br>
 
 <div align="center">
   <img src="[ruta-imagen-jira]" alt="Jira Sprint 1 Screenshot">

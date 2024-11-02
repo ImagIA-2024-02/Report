@@ -416,101 +416,159 @@ Asimismo, se presenta la tabla de nuestro primer sprint con las respectivas user
 
 #### 7.2.1.5. Execution Evidence for Sprint Review.
 
-[Descripción general de los productos/features implementados]
-
 - **Landing Page**
 
-[Descripción de los logros y características implementadas en la Landing Page]
+Para el Sprint 1, se completó exitosamente el desarrollo de la landing page, cumpliendo con todos los objetivos establecidos. Se implementó una hero section impactante, una sección clara de características del producto y un footer informativo. La página es completamente responsive y se integró correctamente la redirección a las tiendas de aplicaciones. Se realizaron pruebas exhaustivas en diferentes dispositivos y navegadores para garantizar una experiencia consistente.
 
 <div align="center">
  <img src="[ruta-imagen-landing]" width=500 alt="Execution">   
 </div>
 
-- **[Nombre del otro componente/aplicación]**
+- **Modelos de IA**
 
-[Descripción de los logros y características implementadas]
+El desarrollo de los modelos de IA representó uno de los mayores desafíos del sprint, requiriendo un proceso iterativo de investigación y pruebas.  
+Se exploraron dos aproximaciones en paralelo para encontrar la solución óptima. La primera aproximación involucró el uso de Azure Cognitive Services, realizando pruebas iniciales con sus servicios cognitivos para el reconocimiento de imágenes y evaluando su precisión con un conjunto selecto de obras de arte famosas. Paralelamente, se trabajó en el desarrollo y entrenamiento de modelos personalizados utilizando TensorFlow, enfocándose tanto en el reconocimiento de obras de arte como en la restauración digital básica.  
+Durante el proceso de desarrollo, se evaluó cuidadosamente el balance entre precisión y tamaño de los modelos, considerando dos alternativas de implementación: la integración directa en la aplicación móvil o el despliegue en un servicio separado con llamadas API. Las pruebas de rendimiento y precisión se realizaron sistemáticamente para determinar la mejor aproximación final para el proyecto.
 
 <div align="center">
- <img src="[ruta-imagen-componente]" width=500 alt="Execution">   
+ <img src="[ruta-imagen-modelo-IA]" width=500 alt="Execution">   
+</div>
+
+- **Aplicación móvil**
+
+Se alcanzó un progreso sustancial en el desarrollo de la aplicación móvil utilizando Flutter, estableciendo las funcionalidades fundamentales del sistema. El desarrollo se centró en la implementación del sistema de autenticación de usuarios robusto y seguro. Se logró desarrollar una interfaz de usuario principal con una navegación fluida e intuitiva, junto con la integración exitosa del módulo de cámara para el escaneo de obras. También se implementó la visualización básica de los resultados de reconocimiento y restauración. La arquitectura de la aplicación se diseñó considerando la potencial integración de los modelos de IA, manteniendo la flexibilidad necesaria para adaptarse tanto a una implementación on-device como a llamadas API.
+
+<div align="center">
+ <img src="[ruta-imagen-movil]" width=500 alt="Execution">   
+</div>
+
+- **Web Service (Backend)**
+
+Se estableció exitosamente la infraestructura básica del backend del sistema, implementando los componentes esenciales para el funcionamiento de la aplicación. El desarrollo incluyó la implementación de un sistema de autenticación robusto utilizando JWT para garantizar la seguridad de las sesiones de usuario. Se crearon los endpoints básicos necesarios para la gestión completa de usuarios, incluyendo registro, autenticación y administración de perfiles. Adicionalmente, se estableció la estructura inicial necesaria para la futura integración con los modelos de IA, preparando el terreno para la incorporación de las capacidades de procesamiento de imágenes. El servicio se desplegó exitosamente en un ambiente de desarrollo, permitiendo realizar las primeras pruebas de integración con la aplicación móvil y validar el funcionamiento del sistema completo.
+
+<div align="center">
+ <img src="[ruta-imagen-Backend]" width=500 alt="Execution">   
 </div>
 
 #### 7.2.1.6. Services Documentation Evidence for Sprint Review.
 
-[Descripción de los servicios implementados o simulados durante el sprint]
+Durante el Sprint 1, se establecieron dos componentes principales de servicios que soportan la funcionalidad core de la aplicación:
+
+**Servicios de IA para Reconocimiento y Restauración**
+
+Se implementaron dos aproximaciones paralelas para los servicios de procesamiento de imágenes:
+
+Los modelos de IA se desarrollaron utilizando TensorFlow, creando servicios especializados para:
+
+- Reconocimiento de obras de arte famosas
+- Restauración digital de imágenes
+
+Para optimizar el rendimiento y reducir el tamaño de la aplicación móvil, se implementó una arquitectura que utiliza Cloud Functions para el procesamiento de los modelos de IA. Esta decisión permitió mantener los modelos en la nube, reduciendo significativamente el tamaño de la aplicación mientras se mantiene la capacidad de procesamiento necesaria.
+
+**API de Gestión de Usuarios**
+
+Se desplegó exitosamente en Microsoft Azure una API RESTful que gestiona toda la funcionalidad relacionada con usuarios. Esta API incluye:
+
+- Endpoints para registro y autenticación de usuarios
+- Sistema de autenticación implementado con JWT
+- Gestión de perfiles de usuario
+- Control de acceso y autorización
+
+La integración entre los servicios de IA en la nube y la API de usuarios permite un flujo de trabajo eficiente mientras se mantiene la aplicación móvil ligera y performante.
 
 <div align="center">
  <img src="[ruta-imagen-servicios-1]" width=500 alt="Services"> 
 </div>
 
-[Descripción adicional de la implementación de servicios si es necesario]
-
-<div align="center">
- <img src="[ruta-imagen-servicios-2]" width=500 alt="Services">   
-</div>
-
 #### 7.2.1.7. Software Deployment Evidence for Sprint Review.
 
-- **[Componente 1 (ej: Landing Page)]**
+Para el Sprint 1, se han conseguido desplegar exitosamente los siguientes componentes del sistema:
 
-[Descripción de la estrategia de despliegue utilizada y justificación]
+**Landing Page**
+
+La landing page del proyecto se encuentra desplegada y accesible públicamente a través de GitHub Pages. La página web está alojada en el repositorio principal del proyecto y se actualiza automáticamente con cada push a la rama main.
+
+URL de acceso: [Incluir URL de la landing page]
+
+El despliegue incluye todos los elementos planificados para el primer sprint:
+
+- Hero section con presentación del producto
+- Sección de características principales de la aplicación
+- Información sobre la tecnología de restauración de obras
+- Footer con enlaces de contacto y navegación
+- Diseño completamente responsive
+- Enlaces de redirección a futura publicación en tiendas de aplicaciones
+
+El sitio ha sido verificado y probado en múltiples navegadores (Chrome, Firefox, Safari) y dispositivos para garantizar su correcta visualización y funcionamiento.
 
 <div align="center">
  <img src="[ruta-imagen-deployment-1]" width=500 alt="Deployment">
 </div>
 
-[Descripción del proceso de despliegue]
+**Aplicación Móvil**
+
+La aplicación móvil desarrollada en Flutter se encuentra actualmente en fase de desarrollo y pruebas. Para este primer sprint, se ha configurado un ambiente de pruebas utilizando Firebase
+
+La aplicación aún no está disponible online, se terminara desplegando en firebase mas no en tiendas como google play.
 
 <div align="center">
  <img src="[ruta-imagen-deployment-2]" width=500 alt="Deployment">
 </div>
 
-[Descripción de resultados del despliegue]
-
-<div align="center">
- <img src="[ruta-imagen-deployment-3]" width=500 alt="Deployment">
-</div>
-
-**Enlace del despliegue**: [URL del despliegue]
-
-- **[Componente 2 (ej: Web Application)]**
-
-[Descripción de la estrategia de despliegue utilizada y justificación]
-
-<div align="center">
- <img src="[ruta-imagen-deployment-4]" width=500 alt="Deployment">
- <img src="[ruta-imagen-deployment-5]" width=500 alt="Deployment">
-</div>
-
-**Enlace del despliegue**: [URL del despliegue]
-
 #### 7.2.1.8. Team Collaboration Insights during Sprint.
 
-- **[Componente 1]**
+- **SE NECESITA DE LANDING, API, COLAB, MOVIL: HACERLOS PUBLICOS**
 
-_Pulse_
+**_Pulse_**
+
+App movil:
 
  <div align="center">
- <img src="[ruta-imagen-pulse-1]" width=500 alt="Pulse Sprint 1">
+ <img src="../Recursos/imagenes/7.2.1.sprint-1/pulse-movil-1" width=500 alt="Pulse Sprint 1">
  </div>
 
-_Contributors_
+Backend:
 
  <div align="center">
-   <img src="[ruta-imagen-contributors-1]" width=500 alt="Contributors Sprint 1">
+ <img src="../Recursos/imagenes/7.2.1.sprint-1/pulse-backend-1.png" width=500 alt="Pulse Sprint 1">
  </div>
 
-- **[Componente 2]**
-
-_Pulse_
+Modelos de IA:
 
  <div align="center">
-   <img src="[ruta-imagen-pulse-2]" width=500 alt="Pulse Sprint 1">
+ <img src="../Recursos/imagenes/7.2.1.sprint-1/pulse-model-1" width=500 alt="Pulse Sprint 1">
  </div>
 
-_Contributors_
+Landing page:
 
  <div align="center">
-   <img src="[ruta-imagen-contributors-2]" width=500 alt="Contributors Sprint 1">
+ <img src="../Recursos/imagenes/7.2.1.sprint-1/pulse-landing-1" width=500 alt="Pulse Sprint 1">
+ </div>
+
+**_Contributors_**
+
+App movil:
+
+ <div align="center">
+ <img src="../Recursos/imagenes/7.2.1.sprint-1/contributors-movil-1" width=500 alt="Pulse Sprint 1">
+ </div>
+
+Backend:
+
+ <div align="center">
+ <img src="../Recursos/imagenes/7.2.1.sprint-1/contributors-backend-1.png" width=500 alt="Pulse Sprint 1">
+ </div>
+
+Modelos de IA:
+
+ <div align="center">
+ <img src="../Recursos/imagenes/7.2.1.sprint-1/contributors-model-1" width=500 alt="Pulse Sprint 1">
+ </div>
+
+Landing page:
+
+ <div align="center">
+ <img src="../Recursos/imagenes/7.2.1.sprint-1/contributors-landing-1" width=500 alt="Pulse Sprint 1">
  </div>
 
 ## 7.3. Validation Interviews.

@@ -242,15 +242,15 @@ Asimismo, se presenta la tabla de nuestro primer sprint con las respectivas user
 Frontend:
 
 <div align="center">
-  <img src="/Recursos/imagenes/network_frontend-app.png" width=500 alt="Network">   
+  <img src="../Recursos/imagenes/network_frontend-app.png" width=500 alt="Network">   
 </div>  
 Backend:  
 <div align="center">
-  <img src="/Recursos/imagenes/network_backend-imagia.png" width=500 alt="Network">   
+  <img src="../Recursos/imagenes/network_backend-imagia.png" width=500 alt="Network">   
 </div>  
 AI-models:
 <div align="center">
-  <img src="/Recursos/imagenes/network_AI-models.png" width=500 alt="Network">   
+  <img src="../Recursos/imagenes/network_AI-models.png" width=500 alt="Network">   
 </div>
 
 #### 7.2.1.4. Testing Suite Evidence for Sprint Review.
@@ -276,7 +276,7 @@ La estrategia de testing utilizada para estas historias de usuario se basa en pr
 - Esta estrategia garantiza que las funcionalidades clave del sistema se prueben exhaustivamente y que el usuario reciba una experiencia coherente y confiable.
 
 <div align="center">
- <img src="/Recursos/imagenes/testing_US12.png" width=500 alt="Testing">   
+ <img src="../Recursos/imagenes/testing_US12.png" width=500 alt="Testing">   
 </div>
 
 **Enlace del repositorio:** [[https://github.com/ImagIA-2024-02/Gherkin](https://github.com/ImagIA-2024-02/Gherkin)]
@@ -288,7 +288,7 @@ La estrategia de testing utilizada para estas historias de usuario se basa en pr
 Para el Sprint 1, se completó exitosamente el desarrollo de la landing page, cumpliendo con todos los objetivos establecidos. Se implementó una hero section impactante, una sección clara de características del producto y un footer informativo. La página es completamente responsive y se integró correctamente la redirección a las tiendas de aplicaciones. Se realizaron pruebas exhaustivas en diferentes dispositivos y navegadores para garantizar una experiencia consistente.
 
 <div align="center">
- <img src="/Recursos/imagenes/landing-img.png" width=500 alt="Execution">   
+ <img src="../Recursos/imagenes/landing-img.png" width=500 alt="Execution">   
 </div>
 
 - **Modelos de IA**
@@ -298,8 +298,8 @@ Se exploraron dos aproximaciones en paralelo para encontrar la solución óptima
 Durante el proceso de desarrollo, se evaluó cuidadosamente el balance entre precisión y tamaño de los modelos, considerando dos alternativas de implementación: la integración directa en la aplicación móvil o el despliegue en un servicio separado con llamadas API. Las pruebas de rendimiento y precisión se realizaron sistemáticamente para determinar la mejor aproximación final para el proyecto.
 
 <div align="center">
- <img src="/Recursos/imagenes/modelo-ia-recognition.png" width=500 alt="Execution">  
- <img src="/Recursos/imagenes/modelo-ia-restoration.png" width=500 alt="Execution">   
+ <img src="../Recursos/imagenes/modelo-ia-recognition.png" width=500 alt="Execution">  
+ <img src="../Recursos/imagenes/modelo-ia-restoration.png" width=500 alt="Execution">   
 </div>
 
 - **Aplicación móvil**
@@ -307,7 +307,7 @@ Durante el proceso de desarrollo, se evaluó cuidadosamente el balance entre pre
 Se alcanzó un progreso sustancial en el desarrollo de la aplicación móvil utilizando Flutter, estableciendo las funcionalidades fundamentales del sistema. El desarrollo se centró en la implementación del sistema de autenticación de usuarios robusto y seguro. Se logró desarrollar una interfaz de usuario principal con una navegación fluida e intuitiva, junto con la integración exitosa del módulo de cámara para el escaneo de obras. También se implementó la visualización básica de los resultados de reconocimiento y restauración. La arquitectura de la aplicación se diseñó considerando la potencial integración de los modelos de IA, manteniendo la flexibilidad necesaria para adaptarse tanto a una implementación on-device como a llamadas API.
 
 <div align="center">
- <img src="[ruta-imagen-movil]" width=500 alt="Execution">   
+ <img src="../Recursos/imagenes/7.2.1.sprint-1/excecution-movil.png" width=500 alt="Execution">   
 </div>
 
 - **Web Service (Backend)**
@@ -315,7 +315,7 @@ Se alcanzó un progreso sustancial en el desarrollo de la aplicación móvil uti
 Se estableció exitosamente la infraestructura básica del backend del sistema, implementando los componentes esenciales para el funcionamiento de la aplicación. El desarrollo incluyó la implementación de un sistema de autenticación robusto utilizando JWT para garantizar la seguridad de las sesiones de usuario. Se crearon los endpoints básicos necesarios para la gestión completa de usuarios, incluyendo registro, autenticación y administración de perfiles. Adicionalmente, se estableció la estructura inicial necesaria para la futura integración con los modelos de IA, preparando el terreno para la incorporación de las capacidades de procesamiento de imágenes. El servicio se desplegó exitosamente en un ambiente de desarrollo, permitiendo realizar las primeras pruebas de integración con la aplicación móvil y validar el funcionamiento del sistema completo.
 
 <div align="center">
- <img src="/Recursos/imagenes/backend-swagger.png" width=500 alt="Execution">   
+ <img src="../Recursos/imagenes/backend-swagger.png" width=500 alt="Execution">   
 </div>
 
 #### 7.2.1.6. Services Documentation Evidence for Sprint Review.
@@ -366,7 +366,7 @@ El despliegue incluye todos los elementos planificados para el primer sprint:
 El sitio ha sido verificado y probado en múltiples navegadores (Chrome, Firefox, Safari) y dispositivos para garantizar su correcta visualización y funcionamiento.
 
 <div align="center">
- <img src="/Recursos/imagenes/deployment-landing.png" width=500 alt="Deployment">
+ <img src="../Recursos/imagenes/deployment-landing.png" width=500 alt="Deployment">
 </div>
 
 **Aplicación Móvil**

@@ -253,16 +253,27 @@ AI-models:
 
 | Repository  | Branch   | Commit ID | Commit Message | Commit Message Body | Commited on (Date) |
 | ----------- | -------- | --------- | -------------- | ------------------- | ------------------ |
-| [Test Repo] | [Branch] | [ID]      | [Message]      | [Body]              | [DD-MM-YYYY]       |
+| Gherkin | main | e355caf03b659878a50591af018235adea7ca34e | add core US Guerkin | ... | 02-11-2024 |
 
-[Descripción de la estrategia de testing utilizada y justificación]
+##### Estrategia de Testing
+La estrategia de testing utilizada para estas historias de usuario se basa en pruebas funcionales utilizando el formato BDD (Behavior-Driven Development), empleando el lenguaje Gherkin para definir escenarios de prueba en un lenguaje claro y comprensible tanto para el equipo técnico como para los stakeholders. Esta estrategia se centra en validar que cada funcionalidad cumpla con los requisitos especificados en las historias de usuario, asegurando así una alta calidad en la experiencia de usuario final.
+
+###### Justificación
+- Claridad y Comunicación: El uso de Gherkin facilita la comprensión de los requisitos y pruebas, ya que permite que todos los involucrados (desarrolladores, testers y stakeholders) puedan leer y entender los casos de prueba sin necesidad de conocimientos técnicos avanzados.
+
+- Orientación a la Funcionalidad: Al estar basada en pruebas funcionales, esta estrategia se enfoca en validar que cada funcionalidad cumpla con las expectativas del usuario final, alineándose con los objetivos de cada historia de usuario.
+
+- Cobertura de Casos Positivos y Negativos: Los escenarios incluyen tanto casos exitosos como el manejo de errores, asegurando que la aplicación responde adecuadamente tanto en condiciones óptimas como en situaciones adversas.
+
+- Mejora Continua y Automatización: Al emplear Gherkin, los casos de prueba son fácilmente automatizables con herramientas como Cucumber, lo que permite ejecutar pruebas de manera continua e integrarlas en un flujo de CI/CD, reduciendo el tiempo de feedback y mejorando la eficiencia del proceso de desarrollo.
+
+- Esta estrategia garantiza que las funcionalidades clave del sistema se prueben exhaustivamente y que el usuario reciba una experiencia coherente y confiable.
 
 <div align="center">
- <img src="[ruta-imagen-testing-1]" width=500 alt="Testing">   
- <img src="[ruta-imagen-testing-2]" width=500 alt="Testing">
+ <img src="/Recursos/imagenes/testing_US12.png" width=500 alt="Testing">   
 </div>
 
-**Enlace del repositorio:** [URL del repositorio de testing]
+**Enlace del repositorio:** [[https://github.com/ImagIA-2024-02/Gherkin](https://github.com/ImagIA-2024-02/Gherkin)]
 
 #### 7.2.1.5. Execution Evidence for Sprint Review.
 
@@ -271,7 +282,7 @@ AI-models:
 Para el Sprint 1, se completó exitosamente el desarrollo de la landing page, cumpliendo con todos los objetivos establecidos. Se implementó una hero section impactante, una sección clara de características del producto y un footer informativo. La página es completamente responsive y se integró correctamente la redirección a las tiendas de aplicaciones. Se realizaron pruebas exhaustivas en diferentes dispositivos y navegadores para garantizar una experiencia consistente.
 
 <div align="center">
- <img src="[ruta-imagen-landing]" width=500 alt="Execution">   
+ <img src="/Recursos/imagenes/landing-img.png" width=500 alt="Execution">   
 </div>
 
 - **Modelos de IA**
@@ -281,7 +292,8 @@ Se exploraron dos aproximaciones en paralelo para encontrar la solución óptima
 Durante el proceso de desarrollo, se evaluó cuidadosamente el balance entre precisión y tamaño de los modelos, considerando dos alternativas de implementación: la integración directa en la aplicación móvil o el despliegue en un servicio separado con llamadas API. Las pruebas de rendimiento y precisión se realizaron sistemáticamente para determinar la mejor aproximación final para el proyecto.
 
 <div align="center">
- <img src="[ruta-imagen-modelo-IA]" width=500 alt="Execution">   
+ <img src="/Recursos/imagenes/modelo-ia-recognition.png" width=500 alt="Execution">  
+ <img src="/Recursos/imagenes/modelo-ia-restoration.png" width=500 alt="Execution">   
 </div>
 
 - **Aplicación móvil**
@@ -297,7 +309,7 @@ Se alcanzó un progreso sustancial en el desarrollo de la aplicación móvil uti
 Se estableció exitosamente la infraestructura básica del backend del sistema, implementando los componentes esenciales para el funcionamiento de la aplicación. El desarrollo incluyó la implementación de un sistema de autenticación robusto utilizando JWT para garantizar la seguridad de las sesiones de usuario. Se crearon los endpoints básicos necesarios para la gestión completa de usuarios, incluyendo registro, autenticación y administración de perfiles. Adicionalmente, se estableció la estructura inicial necesaria para la futura integración con los modelos de IA, preparando el terreno para la incorporación de las capacidades de procesamiento de imágenes. El servicio se desplegó exitosamente en un ambiente de desarrollo, permitiendo realizar las primeras pruebas de integración con la aplicación móvil y validar el funcionamiento del sistema completo.
 
 <div align="center">
- <img src="[ruta-imagen-Backend]" width=500 alt="Execution">   
+ <img src="/Recursos/imagenes/backend-swagger.png" width=500 alt="Execution">   
 </div>
 
 #### 7.2.1.6. Services Documentation Evidence for Sprint Review.
@@ -338,7 +350,7 @@ Para el Sprint 1, se han conseguido desplegar exitosamente los siguientes compon
 
 La landing page del proyecto se encuentra desplegada y accesible públicamente a través de GitHub Pages. La página web está alojada en el repositorio principal del proyecto y se actualiza automáticamente con cada push a la rama main.
 
-URL de acceso: [Incluir URL de la landing page]
+URL de acceso: [[https://imagia-2024-02.github.io/LandingPage/](https://imagia-2024-02.github.io/LandingPage/)]
 
 El despliegue incluye todos los elementos planificados para el primer sprint:
 
@@ -352,7 +364,7 @@ El despliegue incluye todos los elementos planificados para el primer sprint:
 El sitio ha sido verificado y probado en múltiples navegadores (Chrome, Firefox, Safari) y dispositivos para garantizar su correcta visualización y funcionamiento.
 
 <div align="center">
- <img src="[ruta-imagen-deployment-1]" width=500 alt="Deployment">
+ <img src="/Recursos/imagenes/deployment-landing.png" width=500 alt="Deployment">
 </div>
 
 **Aplicación Móvil**

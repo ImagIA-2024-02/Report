@@ -493,16 +493,56 @@ La aplicación aún no está disponible online, se terminara desplegando en fire
 
 - **SE NECESITA DE LANDING, API, COLAB, MOVIL: HACERLOS PUBLICOS**
 
-_Pulse_
+**_Pulse_**
+
+App movil:
 
  <div align="center">
- <img src="[ruta-imagen-pulse-1]" width=500 alt="Pulse Sprint 1">
+ <img src="../Recursos/imagenes/7.2.1.sprint-1/pulse-movil-1" width=500 alt="Pulse Sprint 1">
  </div>
 
-_Contributors_
+Backend:
 
  <div align="center">
-   <img src="[ruta-imagen-contributors-1]" width=500 alt="Contributors Sprint 1">
+ <img src="../Recursos/imagenes/7.2.1.sprint-1/pulse-backend-1.png" width=500 alt="Pulse Sprint 1">
+ </div>
+
+Modelos de IA:
+
+ <div align="center">
+ <img src="../Recursos/imagenes/7.2.1.sprint-1/pulse-model-1" width=500 alt="Pulse Sprint 1">
+ </div>
+
+Landing page:
+
+ <div align="center">
+ <img src="../Recursos/imagenes/7.2.1.sprint-1/pulse-landing-1" width=500 alt="Pulse Sprint 1">
+ </div>
+
+**_Contributors_**
+
+App movil:
+
+ <div align="center">
+ <img src="../Recursos/imagenes/7.2.1.sprint-1/contributors-movil-1" width=500 alt="Pulse Sprint 1">
+ </div>
+
+Backend:
+
+ <div align="center">
+ <img src="../Recursos/imagenes/7.2.1.sprint-1/contributors-backend-1.png" width=500 alt="Pulse Sprint 1">
+ </div>
+
+Modelos de IA:
+
+ <div align="center">
+ <img src="../Recursos/imagenes/7.2.1.sprint-1/contributors-model-1" width=500 alt="Pulse Sprint 1">
+ </div>
+
+Landing page:
+
+ <div align="center">
+ <img src="../Recursos/imagenes/7.2.1.sprint-1/contributors-landing-1" width=500 alt="Pulse Sprint 1">
  </div>
 
 ## 7.3. Validation Interviews.

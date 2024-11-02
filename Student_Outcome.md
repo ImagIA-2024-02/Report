@@ -19,6 +19,8 @@
                 Organicé reuniones regulares de equipo para discutir el progreso del proyecto y asignar tareas de manera eficiente.<br>                
                 <b>TP</b><br>
                 Me centre en la planeacion y dispocicion de las pantallas principales en el figma. Tanto wireframes como mockup, se centro en definir la estetica puesto es la cara y motor de venta del software.<br>
+                <b>TB2</b><br>
+                Dividi esfuerzos en analizar e investigar diversas maneras para implementar los modelos de IA, así como orientar en las pautas del desarrollo pero por terceros no pude realizar a tiempo las entrevistas y varias de mis indagaciones y pruebas de como implementar la IA no fueron implementadas.<br>                
                 <b>Primo Estrada, Rafael Wimmer</b><br>
                 <b>TB1</b><br>
                 Utilicé herramientas de colaboración en línea para compartir documentos, seguimiento de tareas y comunicación entre los miembros del equipo.<br>
@@ -49,6 +51,8 @@
                 Estudié casos de estudio y buenas prácticas en el desarrollo de soluciones de software aplicadas al sector de IA para obtener ideas y conocimientos.<br>
                 <b>TP</b><br>
                 Realize una investigacion breve sobre soluciones similares o aplicaciones que realicen proceso de reconocimiento y filtros o animacinoes para comparar su estructura, vi posibles características de complejidad baja no presente, las mismas se pueden añadir al proyecto.</b><br>
+                <b>TB2</b><br>
+                Realize una extensa investigacion y pruebas sobre como realizar el modelo de reconocimiento de pinturas, primero obteniendo imagenes con tags respectivos mpara el entranmiento mediante el uso de webscrapping. Posterioremente el </b><br>
                 <b>Primo Estrada, Rafael Wimmer</b><br>
                 <b>TB1</b><br>
                 Analicé datos y estadísticas relevantes sobre el rendimiento y las tendencias del sector de transporte para identificar oportunidades de mejora y áreas de enfoque para nuestro proyecto.<br>

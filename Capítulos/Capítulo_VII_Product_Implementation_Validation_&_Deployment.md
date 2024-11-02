@@ -231,6 +231,8 @@ Asimismo, se presenta la tabla de nuestro primer sprint con las respectivas user
 | backend-Imagia | develop | 17cab8b883054f41ba580528b953e43556760ad6 | add registro de obras de arte | ... | 27-10-2024 |
 | backend-Imagia | develop | efa7f6db11de6c2c9994477fd89075c80fadf808 | first commit | ... | 22-10-2024 |
 | LandingPage | main | d1f4cb4f5d29b42bf03d31ba38de5f819378b1bf | Primer commit - Landing page de PictorIA | ... | 02-11-2024 |
+| AI-models | main | 60f9200eba13f0eda947cfd83ab2871e5aea169e | add description for restoration model | ... | 02-11-2024 |
+| AI-models | main | 462a4fd6cf847e6b998971b84d77284b52d5fbb0 | add description for recognition model and notebooks | ... | 02-11-2024 |
 
 
 **Network**  
@@ -241,7 +243,11 @@ Frontend:
 Backend:  
 <div align="center">
   <img src="/Recursos/imagenes/network_backend-imagia.png" width=500 alt="Network">   
-</div>
+</div>  
+AI-models:
+<div align="center">
+  <img src="/Recursos/imagenes/network_AI-models.png" width=500 alt="Network">   
+</div> 
 
 #### 7.2.1.4. Testing Suite Evidence for Sprint Review.
 

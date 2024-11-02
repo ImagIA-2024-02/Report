@@ -481,4 +481,118 @@ A continuación, se presenta el diseño de las entrevistas de validación para l
 
 ### 7.3.3. Evaluaciones según heurísticas.
 
+#### UX Heuristics & Principles Evaluation
+
+##### Usability – Inclusive Design – Information Architecture
+
+**CARRERA**: Ingeniería de Software  
+**CURSO**: Arquitecturas de Software Emergentes  
+**SECCIÓN**: WS82
+**AUDITOR**: Diego Merino Mas  
+**CLIENTE(S)**: Imagia
+
+##### TAREAS A EVALUAR
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Análisis de imágenes sospechosas
+2. Restauración de imágenes
+3. Visualización de resultados del análisis
+4. Gestión del historial de análisis
+5. Compartir resultados
+6. Configuración de preferencias de análisis
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Integración con servicios de terceros
+2. Análisis de múltiples imágenes simultáneamente
+3. Gestión de perfiles de usuario
+4. Exportación masiva de resultados
+
+##### ESCALA DE SEVERIDAD
+
+| Nivel | Descripción                                                                                                                                                                                     |
+| ----- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1     | Problema superficial: puede ser fácilmente superado por el usuario ó ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.                    |
+| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.                                 |
+| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.                               |
+
+##### TABLA RESUMEN
+
+| #   | Problema                                                                    | Escala de severidad | Heurística/Principio violada(o)               |
+| --- | --------------------------------------------------------------------------- | ------------------- | --------------------------------------------- |
+| 1   | Falta de indicador visual durante el procesamiento de imágenes              | 2                   | Usability: Visibilidad del estado del sistema |
+| 2   | La interfaz no proporciona retroalimentación sobre el progreso del análisis | 3                   | Usability: Retroalimentación del sistema      |
+| 3   | No hay opción de cancelar el análisis una vez iniciado                      | 2                   | Usability: Control y libertad del usuario     |
+
+##### DESCRIPCIÓN DE PROBLEMAS
+
+**PROBLEMA #1: Falta de indicador visual durante el procesamiento de imágenes**
+**Severidad**: 2  
+**Heurística violada**: Usability - Visibilidad del estado del sistema
+
+**Problema**:  
+Cuando un usuario sube o restaura una imagen en la aplicación móvil, no existe ningún indicador visual (como una barra de progreso o un ícono de carga) que informe al usuario que la aplicación está procesando la imagen. La interfaz permanece estática durante este proceso, lo cual puede generar incertidumbre en el usuario sobre si la acción se está ejecutando correctamente o si la aplicación se ha detenido.
+
+<div style="border: 1px solid #ccc; padding: 10px; margin: 10px 0; text-align: center;">
+    <img src="https://media.discordapp.net/attachments/779964091531788330/1302340723462504509/Screenshot_20241102_133153.jpg?ex=6727c2d0&is=67267150&hm=48029cc22151994034b6a8836462863488c02891ae9431328efedd1a306805fd&=&format=webp&width=238&height=531" alt="Captura de pantalla mostrando la falta de indicador visual durante el procesamiento" style="max-width: 100%; height: auto;">
+    <p style="font-style: italic; margin-top: 5px;">Fig 1. Interfaz sin indicador de progreso durante el análisis de imagen</p>
+</div>
+
+**Recomendación**:  
+Se recomienda implementar:
+
+1. Un indicador de progreso animado (spinner) que aparezca inmediatamente después de iniciar el procesamiento
+2. Una barra de progreso que muestre el porcentaje de avance del análisis
+3. Un mensaje claro que indique la etapa actual del procesamiento
+4. Posibilidad de minimizar la aplicación mientras se procesa la imagen, manteniendo una notificación del estado en la barra de sistema
+
+**PROBLEMA #2: La interfaz no proporciona retroalimentación sobre el progreso del análisis**
+**Severidad**: 3  
+**Heurística violada**: Usability - Retroalimentación del sistema
+**Problema**:  
+Durante el proceso de análisis de imágenes, la aplicación no proporciona información sobre las diferentes etapas o pasos que se están ejecutando. El usuario no tiene visibilidad sobre si el análisis está en la fase de preprocesamiento, evaluación o generación de resultados. Esta falta de retroalimentación detallada puede causar frustración y desconfianza en el proceso, especialmente cuando los análisis toman más tiempo del esperado.
+
+<div style="border: 1px solid #ccc; padding: 10px; margin: 10px 0; text-align: center;">
+   <img src="https://media.discordapp.net/attachments/779964091531788330/1302340723462504509/Screenshot_20241102_133153.jpg?ex=6727c2d0&is=67267150&hm=48029cc22151994034b6a8836462863488c02891ae9431328efedd1a306805fd&=&format=webp&width=238&height=531" alt="Captura de pantalla mostrando la falta de retroalimentación durante el análisis" style="max-width: 100%; height: auto;">
+   <p style="font-style: italic; margin-top: 5px;">Fig 2. Interfaz sin información sobre el progreso del análisis</p>
+</div>
+
+**Recomendación**:
+
+1. Implementar un sistema de notificaciones que muestre:
+
+- Fase actual del análisis (preprocesamiento, análisis, generación de reporte)
+- Tiempo estimado restante
+- Porcentaje de progreso total
+
+2. Añadir mensajes informativos que expliquen brevemente cada fase
+3. Incluir un indicador visual que muestre el flujo del proceso
+4. Permitir al usuario acceder a un registro detallado del proceso si lo desea
+
+### PROBLEMA #3: No hay opción de cancelar el análisis una vez iniciado
+
+**Severidad**: 2  
+**Heurística violada**: Usability - Control y libertad del usuario
+**Problema**:  
+Una vez que se inicia el proceso de análisis de una imagen, el usuario no tiene la opción de cancelarlo. Esto es especialmente problemático en situaciones donde:
+
+- El usuario seleccionó accidentalmente la imagen incorrecta
+- El proceso está tomando más tiempo del esperado
+- El usuario necesita liberar recursos del dispositivo para otras tareas
+- Se requiere realizar un análisis más urgente de otra imagen
+
+<div style="border: 1px solid #ccc; padding: 10px; margin: 10px 0; text-align: center;">
+   <img src="https://media.discordapp.net/attachments/779964091531788330/1302340723462504509/Screenshot_20241102_133153.jpg?ex=6727c2d0&is=67267150&hm=48029cc22151994034b6a8836462863488c02891ae9431328efedd1a306805fd&=&format=webp&width=238&height=531" alt="Captura de pantalla mostrando la falta de botón de cancelación" style="max-width: 100%; height: auto;">
+   <p style="font-style: italic; margin-top: 5px;">Fig 3. Interfaz sin opción de cancelar el análisis en progreso</p>
+</div>
+
+**Recomendación**:
+
+1. Agregar un botón de "Cancelar" claramente visible durante el proceso de análisis
+2. Implementar un diálogo de confirmación cuando se solicite la cancelación
+3. Asegurar que el proceso de cancelación libere los recursos del sistema apropiadamente
+4. Proporcionar la opción de guardar el progreso parcial del análisis
+
 ## 7.4. Video About-the-Product.

@@ -486,3 +486,6 @@ A continuación, se presenta el diseño de las entrevistas de validación para l
 ### 7.3.3. Evaluaciones según heurísticas.
 
 ## 7.4. Video About-the-Product.
+
+[![Ver el video](https://img.youtube.com/vi/p9zqYlg8VJ8/0.jpg)](https://www.youtube.com/watch?v=p9zqYlg8VJ8)
+

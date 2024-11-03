@@ -26,6 +26,8 @@
                 Utilicé herramientas de colaboración en línea para compartir documentos, seguimiento de tareas y comunicación entre los miembros del equipo.<br>
                 <b>TP</b><br>
                 Trabajé con un equipo multidisciplinario utilizando Figma para diseñar la interfaz de usuario y herramientas de colaboración en línea para coordinar tareas y reuniones. Esto nos permitió mantener una comunicación fluida y trabajar de manera eficiente hacia los objetivos del proyecto.<br>
+                <b>TB2</b><br> 
+                Desarrollé la aplicación móvil utilizando Flutter como framework y Firebase como backend, implementando autenticación de usuarios y almacenamiento de datos en tiempo real. Trabajé en estrecha colaboración con el equipo de diseño y otros desarrolladores para integrar las funcionalidades de la interfaz de usuario con el backend.<br>
                 <b>Gonzales Gomez Antonella</b><br>
                 <b>TB1</b><br>
                 Realice las tareas asiganadas y organicé reuniones regulares de equipo para discutir el progreso del proyecto y asignar tareas de manera eficiente.<br>
@@ -60,6 +62,8 @@
                 Analicé datos y estadísticas relevantes sobre el rendimiento y las tendencias del sector de transporte para identificar oportunidades de mejora y áreas de enfoque para nuestro proyecto.<br>
                 <b>TP</b><br>
                 Apliqué conocimientos de C4, diagramas de base de datos y diagramas de clases en el proyecto PictorIA para diseñar una solución de software eficiente. También seguí principios de diseño para asegurar que la arquitectura fuera adecuada para el sector de museos y preservación del arte.<br>
+                <b>TB2</b><br> 
+                Desarrollé una aplicación móvil para el sector de gestión de inventarios y administración de arte utilizando Flutter y Firebase. Apliqué conocimientos específicos sobre almacenamiento de datos, autenticación y sincronización en tiempo real para satisfacer las necesidades de conservación y catalogación de obras de arte.<br>
                 <b>Gonzales Gomez Antonella</b><br>
                 <b>TB1</b><br>
                 Estudié casos de estudio y buenas prácticas en el desarrollo de soluciones de software aplicadas al sector de transporte para obtener ideas y conocimientos.<br>

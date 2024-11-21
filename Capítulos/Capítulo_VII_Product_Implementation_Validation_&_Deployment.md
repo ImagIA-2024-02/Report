@@ -588,7 +588,22 @@ El sprint 2 tiene como objetivo completar el flujo core de la aplicación Pictor
 #### 7.2.2.6. Services Documentation Evidence for Sprint Review.
 #### 7.2.2.7. Software Deployment Evidence for Sprint Review.
 #### 7.2.2.8. Team Collaboration Insights during Sprint.
+##### AI Models:
+- Pulse:  
+[![Captura-de-pantalla-2024-11-21-152330.png](https://i.postimg.cc/JhwMN2rZ/Captura-de-pantalla-2024-11-21-152330.png)](https://postimg.cc/LJVcRvZ8)  
+- Contributors:  
+[![Captura-de-pantalla-2024-11-21-152534.png](https://i.postimg.cc/ZRbkjk1B/Captura-de-pantalla-2024-11-21-152534.png)](https://postimg.cc/McFrKLZq)  
 
+##### Frontent-app (mobile):
+- Pulse:  
+[![Captura-de-pantalla-2024-11-21-152730.png](https://i.postimg.cc/wvGWNSHd/Captura-de-pantalla-2024-11-21-152730.png)](https://postimg.cc/Pp1zsVP6)  
+- Contributors:  
+[![Captura-de-pantalla-2024-11-21-152838.png](https://i.postimg.cc/SRbgVcXZ/Captura-de-pantalla-2024-11-21-152838.png)](https://postimg.cc/ygnh8gy9)
+##### Backend-imagia:
+- Pulse:  
+[![Captura-de-pantalla-2024-11-21-153207.png](https://i.postimg.cc/tCC3brH3/Captura-de-pantalla-2024-11-21-153207.png)](https://postimg.cc/t7wZtNJJ)  
+- Contributors:  
+[![Captura-de-pantalla-2024-11-21-153310.png](https://i.postimg.cc/Z5Xpr4vH/Captura-de-pantalla-2024-11-21-153310.png)](https://postimg.cc/k2F2CrcR)
 ## 7.3. Validation Interviews.
 
 ### 7.3.1. Diseño de Entrevistas.

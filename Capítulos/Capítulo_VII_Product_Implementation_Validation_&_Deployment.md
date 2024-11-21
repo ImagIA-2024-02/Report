@@ -567,6 +567,22 @@ El sprint 2 tiene como objetivo completar el flujo core de la aplicación Pictor
 </tbody></table>
 
 #### 7.2.2.3. Development Evidence for Sprint Review.
+| Repository     | Branch                    | Commit ID                                | Commit Message                                        | Commit Message Body | Commited on (Date) |
+|----------------|---------------------------|------------------------------------------|-------------------------------------------------------|---------------------|--------------------|
+| frontend-app   | main                      | af24b0cb0b06263d8237d1f484369b7131f3e2c9 | Merge pull request #3 from ImagIA-2024-02/develop     | ...                 | 17-11-2024         |
+| frontend-app   | develop                   | a66f637de7cce8d01a30049912084f944af40a74 | updated the models, designs and interface of the app  | ...                 | 17-11-2024         |
+| AI-models      | main                      | 43cdefa8bb885dc79013bdc0038b825b5b1604e9 | Add fixed models and update Readme                    | ...                 | 18-11-2024         |
+| backend-imagia | refactor/name-conventions | 6e06237ea7cf4d7a70a40a8128e13e933ca99d47 | feat: Secutity and handler exceptions, not tested yet | ...                 | 16-11-2024         |
+| backend-imagia | refactor/name-conventions | fde2f9b5b22e90828dbc9674bfaff8900951ef76 | feat: database connect                                | ...                 | 15-11-2024         |
+| backend-imagia | refactor/name-conventions | 89da765f85a932995323ce88d841837570c23f6d | feat: mantain table names                             | ...                 | 15-11-2024         |
+| backend-imagia | refactor/name-conventions | 6d02855c451562cb2717ba333be5be73a9805a51 | feat: names with correct standars                     | ...                 | 15-11-2024         |
+##### Network:
+- Frontent:  
+[![Captura-de-pantalla-2024-11-21-151609.png](https://i.postimg.cc/JhtZXthG/Captura-de-pantalla-2024-11-21-151609.png)](https://postimg.cc/p9bmbWzH)  
+- Backend:  
+[![Captura-de-pantalla-2024-11-21-151507.png](https://i.postimg.cc/vHdrKQ0N/Captura-de-pantalla-2024-11-21-151507.png)](https://postimg.cc/RqXJ6z57)  
+- AI-models:  
+[![Captura-de-pantalla-2024-11-21-151740.png](https://i.postimg.cc/mr0zFwq5/Captura-de-pantalla-2024-11-21-151740.png)](https://postimg.cc/HJ9sqQTw)  
 #### 7.2.2.4. Testing Suite Evidence for Sprint Review.
 #### 7.2.2.5. Execution Evidence for Sprint Review.
 #### 7.2.2.6. Services Documentation Evidence for Sprint Review.

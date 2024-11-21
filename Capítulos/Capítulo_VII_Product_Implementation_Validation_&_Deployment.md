@@ -597,13 +597,14 @@ Verificación de objetivo (Eliminar manchas negras generadas por fondos blancos 
 ##### Sobre el modelo de reconocmiento:
 Se realizaron pruebas unitarias con diversas imágenes de autores diferentes:  
 [![images.jpg](https://i.postimg.cc/tCxxp8MV/images.jpg)](https://postimg.cc/mtTDSpRb)  
-Resultado: [![Captura-de-pantalla-2024-11-21-160550.png](https://i.postimg.cc/wjYsvFC4/Captura-de-pantalla-2024-11-21-160550.png)](https://postimg.cc/Yh8SDNqQ)  
+Resultado:  
+[![Captura-de-pantalla-2024-11-21-160550.png](https://i.postimg.cc/wjYsvFC4/Captura-de-pantalla-2024-11-21-160550.png)](https://postimg.cc/Yh8SDNqQ)  
 Se observa el nuevo umbral agregado. De modo que si la confianza del modelo para la predicción es menor a 75%, se mostrará el resultado "Desconocido".
 
 #### Sobre el modelo de visión artificial (reconocimiento de artwork con yolo).
-Se realizaron pruebas unitarias con diversas imágenes de internet:
+Se realizaron pruebas unitarias con diversas imágenes de internet:  
 [![Captura-de-pantalla-2024-11-21-160933.png](https://i.postimg.cc/QtCFPz7C/Captura-de-pantalla-2024-11-21-160933.png)](https://postimg.cc/hzF4QppR)  
-De modo que utilizando el cuadro delimitador, se recortará el "Artwork" del fondo:
+De modo que utilizando el cuadro delimitador, se recortará el "Artwork" del fondo:  
 [![Captura-de-pantalla-2024-11-21-161120.png](https://i.postimg.cc/kMVcR1H7/Captura-de-pantalla-2024-11-21-161120.png)](https://postimg.cc/7bk7pVDR)  
 #### 7.2.2.5. Execution Evidence for Sprint Review.
 (Agregar app en ejecución video )

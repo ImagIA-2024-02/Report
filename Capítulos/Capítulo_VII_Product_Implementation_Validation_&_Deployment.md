@@ -584,6 +584,27 @@ El sprint 2 tiene como objetivo completar el flujo core de la aplicación Pictor
 - AI-models:  
 [![Captura-de-pantalla-2024-11-21-151740.png](https://i.postimg.cc/mr0zFwq5/Captura-de-pantalla-2024-11-21-151740.png)](https://postimg.cc/HJ9sqQTw)  
 #### 7.2.2.4. Testing Suite Evidence for Sprint Review.
+##### Sobre el Modelo de restauración:
+Se hicieron pruebas con una sección del dataset destinada a la validación:  
+[![Imagen-de-Whats-App-2024-11-21-a-las-15-51-35-bfb93a70.jpg](https://i.postimg.cc/QdK0L6p6/Imagen-de-Whats-App-2024-11-21-a-las-15-51-35-bfb93a70.jpg)](https://postimg.cc/QFsp1JY5)  
+Conjunto de validación (20% del dataset original):  
+[![Imagen-de-Whats-App-2024-11-21-a-las-15-51-35-62ab98dd.jpg](https://i.postimg.cc/VLdFM7HY/Imagen-de-Whats-App-2024-11-21-a-las-15-51-35-62ab98dd.jpg)](https://postimg.cc/fJQXQvNF)  
+Resultado de la evaluación:  
+[![Imagen-de-Whats-App-2024-11-21-a-las-15-52-13-b586d287.jpg](https://i.postimg.cc/vTD5rBhP/Imagen-de-Whats-App-2024-11-21-a-las-15-52-13-b586d287.jpg)](https://postimg.cc/Zvt9ZJ13)  
+Verificación de objetivo (Eliminar manchas negras generadas por fondos blancos y reflejos de luz):  
+[![Imagen-de-Whats-App-2024-11-21-a-las-15-53-23-51d619d9.jpg](https://i.postimg.cc/jqkHsHqB/Imagen-de-Whats-App-2024-11-21-a-las-15-53-23-51d619d9.jpg)](https://postimg.cc/c6wgh8nc)
+
+##### Sobre el modelo de reconocmiento:
+Se realizaron pruebas unitarias con diversas imágenes de autores diferentes:  
+[![images.jpg](https://i.postimg.cc/tCxxp8MV/images.jpg)](https://postimg.cc/mtTDSpRb)  
+Resultado: [![Captura-de-pantalla-2024-11-21-160550.png](https://i.postimg.cc/wjYsvFC4/Captura-de-pantalla-2024-11-21-160550.png)](https://postimg.cc/Yh8SDNqQ)  
+Se observa el nuevo umbral agregado. De modo que si la confianza del modelo para la predicción es menor a 75%, se mostrará el resultado "Desconocido".
+
+#### Sobre el modelo de visión artificial (reconocimiento de artwork con yolo).
+Se realizaron pruebas unitarias con diversas imágenes de internet:
+[![Captura-de-pantalla-2024-11-21-160933.png](https://i.postimg.cc/QtCFPz7C/Captura-de-pantalla-2024-11-21-160933.png)](https://postimg.cc/hzF4QppR)  
+De modo que utilizando el cuadro delimitador, se recortará el "Artwork" del fondo:
+[![Captura-de-pantalla-2024-11-21-161120.png](https://i.postimg.cc/kMVcR1H7/Captura-de-pantalla-2024-11-21-161120.png)](https://postimg.cc/7bk7pVDR)  
 #### 7.2.2.5. Execution Evidence for Sprint Review.
 #### 7.2.2.6. Services Documentation Evidence for Sprint Review.
 #### 7.2.2.7. Software Deployment Evidence for Sprint Review.

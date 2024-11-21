@@ -433,6 +433,146 @@ Landing page:
  <img src="../Recursos/imagenes/7.2.1.sprint-1/contributors-landing-1" width=500 alt="Pulse Sprint 1">
  </div>
 
+### 7.2.2. Sprint 2
+#### 7.2.2.1. Sprint Planning 2.
+<table><thead>
+  <tr>
+    <th>Sprint #</th>
+    <th>2</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td colspan="2">Sprint Planning Background</td>
+  </tr>
+  <tr>
+    <td>Date</td>
+    <td>06 - 11 - 2024</td>
+  </tr>
+  <tr>
+    <td>Time</td>
+    <td>21:00</td>
+  </tr>
+  <tr>
+    <td>Location</td>
+    <td>Reunión virtual vía Discord</td>
+  </tr>
+  <tr>
+    <td>Prepared by</td>
+    <td>Antonela Gonzales</td>
+  </tr>
+  <tr>
+    <td>Attendees</td>
+    <td>Todos los integrantes</td>
+  </tr>
+  <tr>
+    <td>Sprint 1 Review Summary</td>
+    <td>Parcialmente completado</td>
+  </tr>
+  <tr>
+    <td>Sprint 1 Retrospective summary</td>
+    <td>Los integrantes deben avisas de sus avances en el chat grupal.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Sprint Goal &amp; User Stories</td>
+  </tr>
+  <tr>
+    <td>Sprint 2 Goal</td>
+    <td>Completar el flujo core y garantizar la confiabilidad de los modelos en un 75%.</td>
+  </tr>
+</tbody>
+</table>
+
+#### 7.2.2.2. Sprint Backlog 2.
+El sprint 2 tiene como objetivo completar el flujo core de la aplicación Pictoria, lo cual incluye:
+<table><thead>
+  <tr>
+    <th>Sprint #</th>
+    <th colspan="7">2</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td colspan="2">User Story</td>
+    <td colspan="6">Work Item/Task</td>
+  </tr>
+  <tr>
+    <td>Id</td>
+    <td>Title</td>
+    <td>Id</td>
+    <td>Title</td>
+    <td>Description</td>
+    <td>Estimation (Hours)</td>
+    <td>Asigned to</td>
+    <td>Status</td>
+  </tr>
+  <tr>
+    <td rowspan="3">US10</td>
+    <td rowspan="3">Escaneo y reconocimiento de obras de arte.</td>
+    <td>1</td>
+    <td>Refinar el flujo de reconocimiento</td>
+    <td>Asegurarse de que el flujo de reconocimiento funcione correctamente.</td>
+    <td>4</td>
+    <td>Rafael Primo</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Implementar flujo de segmentación.</td>
+    <td>Asegurarse de que el flujo de segmentación funcione correctamente.</td>
+    <td>4</td>
+    <td>Rafael Primo</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Refinar flujo de restauración.</td>
+    <td>Asegurarse de que el flujo de restauración funcione correctamente.</td>
+    <td>4</td>
+    <td>Rafael Primo</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="4">TS02</td>
+    <td rowspan="4">Escaneo y reconocimiento de obras de Arte.</td>
+    <td>4</td>
+    <td>Conectar los modelos de IA</td>
+    <td>Subir los modelos mejorados a Firebase y asegurarse de que se integren en la aplicación móvil.</td>
+    <td>2</td>
+    <td>Rafael Primo</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Refinar modelo de reconocimiento</td>
+    <td>Mejorar la precisión del modelo</td>
+    <td>4</td>
+    <td>Jesica Jaramillo</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Crear modelo segmentador</td>
+    <td>Crear modelo que delimite la obra de arte de una foto</td>
+    <td>4</td>
+    <td>Jesica Jaramillo</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Corregir modelo de restauración</td>
+    <td>Corregir las manchas negras generadas por el modelo de restauración V1.</td>
+    <td>4</td>
+    <td>Jesica Jaramillo</td>
+    <td>Done</td>
+  </tr>
+</tbody></table>
+
+#### 7.2.2.3. Development Evidence for Sprint Review.
+#### 7.2.2.4. Testing Suite Evidence for Sprint Review.
+#### 7.2.2.5. Execution Evidence for Sprint Review.
+#### 7.2.2.6. Services Documentation Evidence for Sprint Review.
+#### 7.2.2.7. Software Deployment Evidence for Sprint Review.
+#### 7.2.2.8. Team Collaboration Insights during Sprint.
+
 ## 7.3. Validation Interviews.
 
 ### 7.3.1. Diseño de Entrevistas.

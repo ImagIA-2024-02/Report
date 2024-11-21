@@ -606,7 +606,7 @@ Se realizaron pruebas unitarias con diversas imágenes de internet:
 De modo que utilizando el cuadro delimitador, se recortará el "Artwork" del fondo:
 [![Captura-de-pantalla-2024-11-21-161120.png](https://i.postimg.cc/kMVcR1H7/Captura-de-pantalla-2024-11-21-161120.png)](https://postimg.cc/7bk7pVDR)  
 #### 7.2.2.5. Execution Evidence for Sprint Review.
-(Agregar api desplegada) (Agregar mobile app desplegada y enlace de invitación al apk)
+(Agregar app en ejecución video )
 
 #### 7.2.2.6. Services Documentation Evidence for Sprint Review.
 ##### Descripción del Modelo para el Reconocimiento de Autores
@@ -675,6 +675,7 @@ Este modelo fue desarrollado en Google Colab utilizando PyTorch y exportado a Te
 
 Este modelo está listo para ser implementado en aplicaciones móviles, donde se pueden utilizar bounding boxes generados para procesar imágenes y brindar una experiencia de usuario óptima.
 #### 7.2.2.7. Software Deployment Evidence for Sprint Review.
+(Agregar api desplegada) (Agregar mobile app desplegada y enlace de invitación al apk)
 #### 7.2.2.8. Team Collaboration Insights during Sprint.
 ##### AI Models:
 - Pulse:  

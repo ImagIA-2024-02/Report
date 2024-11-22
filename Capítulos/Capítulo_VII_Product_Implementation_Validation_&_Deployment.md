@@ -607,7 +607,8 @@ Se realizaron pruebas unitarias con diversas imágenes de internet:
 De modo que utilizando el cuadro delimitador, se recortará el "Artwork" del fondo:  
 [![Captura-de-pantalla-2024-11-21-161120.png](https://i.postimg.cc/kMVcR1H7/Captura-de-pantalla-2024-11-21-161120.png)](https://postimg.cc/7bk7pVDR)  
 #### 7.2.2.5. Execution Evidence for Sprint Review.
-(Agregar app en ejecución video )
+Evidencia de ejecución de la aplicación móvil: [https://youtube.com/shorts/C8Y_LiXyZec?si=Sb1mhAyBS0A3wa3a](https://youtube.com/shorts/C8Y_LiXyZec?si=Sb1mhAyBS0A3wa3a)  
+Enlace de invitación para aplicación Android desplegada en Firebase App Distribution: [https://appdistribution.firebase.dev/i/1568548a852a7713](https://appdistribution.firebase.dev/i/1568548a852a7713)
 
 #### 7.2.2.6. Services Documentation Evidence for Sprint Review.
 ##### Descripción del Modelo para el Reconocimiento de Autores

@@ -1,3 +1,5 @@
+*Video about the team:* [https://upcedupe-my.sharepoint.com/%3Av%3A/g/personal/u202111473_upc_edu_pe/EeHBUvpIWDJFkDe6fM1n2H8BKKaH40jAg1BefbL2aIXFjw](https://upcedupe-my.sharepoint.com/%3Av%3A/g/personal/u202111473_upc_edu_pe/EeHBUvpIWDJFkDe6fM1n2H8BKKaH40jAg1BefbL2aIXFjw)  
+
 <table border="2">
     <tr>
         <td>
@@ -42,6 +44,8 @@ Se realizó el Sprint 2, integrando la aplicación móvil con el backend y los m
                 Organicé reuniones regulares de equipo para discutir el progreso del proyecto y hacer el seguimiento de las tareas asignadas  .<br>
                 <b>TP1</b><br>
                 Realice acciones sobre el diseño estetico de la landing page, además de la reparticion sobre los distintos bounded context que se nos fue asignado a cada uno.<br>
+                <b>TF</b><br>
+                Realicé la recolección de datos para el entrenamiento de los modelos de inteligencia artificial, además del entrenamiento con python y tensorflow en colab y entorno local (IA de restauración).<br>
             </p>
         </td>
         <td>
@@ -80,6 +84,8 @@ Se realizó el Sprint 2, integrando la aplicación móvil con el backend y los m
                 Analicé datos y estadísticas relevantes sobre el rendimiento y las tendencias del sector que tienen que ver con la autenticidad de las artes de los museos para identificar oportunidades de mejora y áreas de enfoque para nuestro proyecto.<br>
                 <b>TP1</b><br>
                 Busque sobre como se podria realizar nuestro proyecto, asi como las posibles fuentes de datasets que se usaran para el entrenamiento considerando principalmente que sean open source.<br>
+    <b>TF</b><br>
+                Apoyé en la realización de las entrevistas, de modo que pude ver de primera mano el comportamiento del sector "Aficionados al arte" al tomar las fotografías. Esto me llevó a tomar la iniciativa de crear el modelo de segmentación para extraer la obra de arte "artwork" de la foto original (los usuarios usualmente toman fotos con marco o con ellos incluídos, lo que confunde al modelo de reconocimiento).<br>
             </p>
         </td>
         <td>

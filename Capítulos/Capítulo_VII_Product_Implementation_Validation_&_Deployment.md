@@ -622,8 +622,8 @@ De modo que utilizando el cuadro delimitador, se recortará el "Artwork" del fon
 [![Captura-de-pantalla-2024-11-21-161120.png](https://i.postimg.cc/kMVcR1H7/Captura-de-pantalla-2024-11-21-161120.png)](https://postimg.cc/7bk7pVDR)
 
 #### 7.2.2.5. Execution Evidence for Sprint Review.
-
-(Agregar app en ejecución video )
+Evidencia de ejecución de la aplicación móvil: [https://youtube.com/shorts/C8Y_LiXyZec?si=Sb1mhAyBS0A3wa3a](https://youtube.com/shorts/C8Y_LiXyZec?si=Sb1mhAyBS0A3wa3a)  
+Enlace de invitación para aplicación Android desplegada en Firebase App Distribution: [https://appdistribution.firebase.dev/i/1568548a852a7713](https://appdistribution.firebase.dev/i/1568548a852a7713)
 
 #### 7.2.2.6. Services Documentation Evidence for Sprint Review.
 
@@ -717,8 +717,27 @@ Este modelo fue desarrollado en Google Colab utilizando PyTorch y exportado a Te
 Este modelo está listo para ser implementado en aplicaciones móviles, donde se pueden utilizar bounding boxes generados para procesar imágenes y brindar una experiencia de usuario óptima.
 
 #### 7.2.2.7. Software Deployment Evidence for Sprint Review.
+##### Aplicación móvil
+Aplicación Móvil desplegada en Firebase App Distribution:  
+[![Captura-de-pantalla-2024-11-21-204440.png](https://i.postimg.cc/0Qx2Z9vL/Captura-de-pantalla-2024-11-21-204440.png)](https://postimg.cc/mcXsgftw)  
+Enlace de invitación para aplicación Android desplegada en Firebase App Distribution: [https://appdistribution.firebase.dev/i/1568548a852a7713](https://appdistribution.firebase.dev/i/1568548a852a7713)  
 
-(Agregar api desplegada) (Agregar mobile app desplegada y enlace de invitación al apk)
+##### Modelos de IA:
+Modelos de ia desplegados en Firebase Machine Learning:  
+[![Imagen-de-Whats-App-2024-11-21-a-las-20-45-32-2b764d91.jpg](https://i.postimg.cc/Gpj1LG05/Imagen-de-Whats-App-2024-11-21-a-las-20-45-32-2b764d91.jpg)](https://postimg.cc/rdzHgdw1)  
+##### Web Serivide Backend:
+###### Backend desplegado en azure:
+[![Captura-de-pantalla-2024-11-21-205941.png](https://i.postimg.cc/T3JRwZg0/Captura-de-pantalla-2024-11-21-205941.png)](https://postimg.cc/MnXk33sf)  
+Dominio predeterminado: [imagia-back-ggesdta7c3c7duc4.canadacentral-01.azurewebsites.net](imagia-back-ggesdta7c3c7duc4.canadacentral-01.azurewebsites.net)
+###### Swagger:  
+<div align="center">
+ <img src="/Recursos/imagenes/backend-swagger.png" width=500 alt="Execution">   
+</div>
+
+##### Base de datos:
+Base de datos desplegada en azure:  
+[![Captura-de-pantalla-2024-11-21-205801.png](https://i.postimg.cc/7hFRMZ8z/Captura-de-pantalla-2024-11-21-205801.png)](https://postimg.cc/N2xbQY0G)
+
 
 #### 7.2.2.8. Team Collaboration Insights during Sprint.
 
@@ -960,5 +979,5 @@ Aunque valora la propuesta de PictorIA, considera que los detalles técnicos y d
 ### 7.3.3. Evaluaciones según heurísticas.
 
 ## 7.4. Video About-the-Product.
-
-[![Ver el video](https://img.youtube.com/vi/p9zqYlg8VJ8/0.jpg)](https://www.youtube.com/watch?v=p9zqYlg8VJ8)
+[![Ver el video](https://img.youtube.com/vi/p9zqYlg8VJ8/0.jpg)](https://www.youtube.com/watch?v=p9zqYlg8VJ8)  
+Version final: [https://youtube.com/shorts/C8Y_LiXyZec?si=Sb1mhAyBS0A3wa3a](https://youtube.com/shorts/C8Y_LiXyZec?si=Sb1mhAyBS0A3wa3a)

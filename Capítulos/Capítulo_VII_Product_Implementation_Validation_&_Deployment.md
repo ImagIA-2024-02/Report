@@ -1087,5 +1087,7 @@ Una vez que se inicia el proceso de análisis de una imagen, el usuario no tiene
 4. Proporcionar la opción de guardar el progreso parcial del análisis
 
 ## 7.4. Video About-the-Product.
+### Verión 1:
 [![Ver el video](https://img.youtube.com/vi/p9zqYlg8VJ8/0.jpg)](https://www.youtube.com/watch?v=p9zqYlg8VJ8)  
-Version final: [https://youtube.com/shorts/C8Y_LiXyZec?si=Sb1mhAyBS0A3wa3a](https://youtube.com/shorts/C8Y_LiXyZec?si=Sb1mhAyBS0A3wa3a)
+### Version final: 
+[https://youtube.com/shorts/C8Y_LiXyZec?si=Sb1mhAyBS0A3wa3a](https://youtube.com/shorts/C8Y_LiXyZec?si=Sb1mhAyBS0A3wa3a)

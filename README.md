@@ -35,7 +35,10 @@ Setiembre 2024
 
 | Versión | Fecha      | Autor | Descripción de modificación                                                                                                                                                      |
 | ------- | ---------- | ----- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1.0     | 06/09/2024 | Todos | Se pasaron las secciones trabajadas en el word borrador al github. Se realizó una revisión grupal final y agregaron el link del video de entrevistas y exposición en los anexos. |
+| 1.0     | 06/09/2024  | Todos       | Se pasaron las secciones trabajadas en el Word borrador al GitHub. Se realizó una revisión grupal final y se agregó el link del video de entrevistas y exposición en los anexos. |
+| 2.0     | 12/10/2024  | Todos       | Se completó el desarrollo del backend y los modelos de IA para la restauración, además de un prototipo funcional de la aplicación móvil. |
+| 3.0     | 06/09/2024  | Todos       | Se integró la aplicación móvil con el backend y los modelos de IA, finalizando la conexión entre los componentes y asegurando el funcionamiento conjunto. |
+
 
 ### Project Report Collaboration Insights
 

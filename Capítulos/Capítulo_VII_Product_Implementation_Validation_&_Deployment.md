@@ -251,7 +251,7 @@ Backend:
 AI-models:
 <div align="center">
   <img src="../Recursos/imagenes/network_AI-models.png" width=500 alt="Network">   
-</div>
+</div> 
 
 #### 7.2.1.4. Testing Suite Evidence for Sprint Review.
 
@@ -429,6 +429,333 @@ Landing page:
  <img src="../Recursos/imagenes/7.2.1.sprint-1/pulse_landing_tb2.png" width=500 alt="Pulse Sprint 1">
  </div>
 
+### 7.2.2. Sprint 2
+
+#### 7.2.2.1. Sprint Planning 2.
+
+<table><thead>
+  <tr>
+    <th>Sprint #</th>
+    <th>2</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td colspan="2">Sprint Planning Background</td>
+  </tr>
+  <tr>
+    <td>Date</td>
+    <td>06 - 11 - 2024</td>
+  </tr>
+  <tr>
+    <td>Time</td>
+    <td>21:00</td>
+  </tr>
+  <tr>
+    <td>Location</td>
+    <td>Reunión virtual vía Discord</td>
+  </tr>
+  <tr>
+    <td>Prepared by</td>
+    <td>Antonela Gonzales</td>
+  </tr>
+  <tr>
+    <td>Attendees</td>
+    <td>Todos los integrantes</td>
+  </tr>
+  <tr>
+    <td>Sprint 1 Review Summary</td>
+    <td>Parcialmente completado</td>
+  </tr>
+  <tr>
+    <td>Sprint 1 Retrospective summary</td>
+    <td>Los integrantes deben avisas de sus avances en el chat grupal.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Sprint Goal &amp; User Stories</td>
+  </tr>
+  <tr>
+    <td>Sprint 2 Goal</td>
+    <td>Completar el flujo core y garantizar la confiabilidad de los modelos en un 75%.</td>
+  </tr>
+</tbody>
+</table>
+
+#### 7.2.2.2. Sprint Backlog 2.
+
+El sprint 2 tiene como objetivo completar el flujo core de la aplicación Pictoria, lo cual incluye:
+
+<table><thead>
+  <tr>
+    <th>Sprint #</th>
+    <th colspan="7">2</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td colspan="2">User Story</td>
+    <td colspan="6">Work Item/Task</td>
+  </tr>
+  <tr>
+    <td>Id</td>
+    <td>Title</td>
+    <td>Id</td>
+    <td>Title</td>
+    <td>Description</td>
+    <td>Estimation (Hours)</td>
+    <td>Asigned to</td>
+    <td>Status</td>
+  </tr>
+  <tr>
+    <td rowspan="3">US10</td>
+    <td rowspan="3">Escaneo y reconocimiento de obras de arte.</td>
+    <td>1</td>
+    <td>Refinar el flujo de reconocimiento</td>
+    <td>Asegurarse de que el flujo de reconocimiento funcione correctamente.</td>
+    <td>4</td>
+    <td>Rafael Primo</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Implementar flujo de segmentación.</td>
+    <td>Asegurarse de que el flujo de segmentación funcione correctamente.</td>
+    <td>4</td>
+    <td>Rafael Primo</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Refinar flujo de restauración.</td>
+    <td>Asegurarse de que el flujo de restauración funcione correctamente.</td>
+    <td>4</td>
+    <td>Rafael Primo</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="4">TS02</td>
+    <td rowspan="4">Escaneo y reconocimiento de obras de Arte.</td>
+    <td>4</td>
+    <td>Conectar los modelos de IA</td>
+    <td>Subir los modelos mejorados a Firebase y asegurarse de que se integren en la aplicación móvil.</td>
+    <td>2</td>
+    <td>Rafael Primo</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Refinar modelo de reconocimiento</td>
+    <td>Mejorar la precisión del modelo</td>
+    <td>4</td>
+    <td>Jesica Jaramillo</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Crear modelo segmentador</td>
+    <td>Crear modelo que delimite la obra de arte de una foto</td>
+    <td>4</td>
+    <td>Jesica Jaramillo</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Corregir modelo de restauración</td>
+    <td>Corregir las manchas negras generadas por el modelo de restauración V1.</td>
+    <td>4</td>
+    <td>Jesica Jaramillo</td>
+    <td>Done</td>
+  </tr>
+</tbody></table>
+
+#### 7.2.2.3. Development Evidence for Sprint Review.
+
+| Repository     | Branch                    | Commit ID                                | Commit Message                                        | Commit Message Body | Commited on (Date) |
+| -------------- | ------------------------- | ---------------------------------------- | ----------------------------------------------------- | ------------------- | ------------------ |
+| frontend-app   | main                      | af24b0cb0b06263d8237d1f484369b7131f3e2c9 | Merge pull request #3 from ImagIA-2024-02/develop     | ...                 | 17-11-2024         |
+| frontend-app   | develop                   | a66f637de7cce8d01a30049912084f944af40a74 | updated the models, designs and interface of the app  | ...                 | 17-11-2024         |
+| AI-models      | main                      | 43cdefa8bb885dc79013bdc0038b825b5b1604e9 | Add fixed models and update Readme                    | ...                 | 18-11-2024         |
+| backend-imagia | refactor/name-conventions | 6e06237ea7cf4d7a70a40a8128e13e933ca99d47 | feat: Secutity and handler exceptions, not tested yet | ...                 | 16-11-2024         |
+| backend-imagia | refactor/name-conventions | fde2f9b5b22e90828dbc9674bfaff8900951ef76 | feat: database connect                                | ...                 | 15-11-2024         |
+| backend-imagia | refactor/name-conventions | 89da765f85a932995323ce88d841837570c23f6d | feat: mantain table names                             | ...                 | 15-11-2024         |
+| backend-imagia | refactor/name-conventions | 6d02855c451562cb2717ba333be5be73a9805a51 | feat: names with correct standars                     | ...                 | 15-11-2024         |
+
+##### Network:
+
+- Frontent:  
+  [![Captura-de-pantalla-2024-11-21-151609.png](https://i.postimg.cc/JhtZXthG/Captura-de-pantalla-2024-11-21-151609.png)](https://postimg.cc/p9bmbWzH)
+- Backend:  
+  [![Captura-de-pantalla-2024-11-21-151507.png](https://i.postimg.cc/vHdrKQ0N/Captura-de-pantalla-2024-11-21-151507.png)](https://postimg.cc/RqXJ6z57)
+- AI-models:  
+  [![Captura-de-pantalla-2024-11-21-151740.png](https://i.postimg.cc/mr0zFwq5/Captura-de-pantalla-2024-11-21-151740.png)](https://postimg.cc/HJ9sqQTw)
+
+#### 7.2.2.4. Testing Suite Evidence for Sprint Review.
+
+##### Sobre el Modelo de restauración:
+
+Se hicieron pruebas con una sección del dataset destinada a la validación:  
+[![Imagen-de-Whats-App-2024-11-21-a-las-15-51-35-bfb93a70.jpg](https://i.postimg.cc/QdK0L6p6/Imagen-de-Whats-App-2024-11-21-a-las-15-51-35-bfb93a70.jpg)](https://postimg.cc/QFsp1JY5)  
+Conjunto de validación (20% del dataset original):  
+[![Imagen-de-Whats-App-2024-11-21-a-las-15-51-35-62ab98dd.jpg](https://i.postimg.cc/VLdFM7HY/Imagen-de-Whats-App-2024-11-21-a-las-15-51-35-62ab98dd.jpg)](https://postimg.cc/fJQXQvNF)  
+Resultado de la evaluación:  
+[![Imagen-de-Whats-App-2024-11-21-a-las-15-52-13-b586d287.jpg](https://i.postimg.cc/vTD5rBhP/Imagen-de-Whats-App-2024-11-21-a-las-15-52-13-b586d287.jpg)](https://postimg.cc/Zvt9ZJ13)  
+Verificación de objetivo (Eliminar manchas negras generadas por fondos blancos y reflejos de luz):  
+[![Imagen-de-Whats-App-2024-11-21-a-las-15-53-23-51d619d9.jpg](https://i.postimg.cc/jqkHsHqB/Imagen-de-Whats-App-2024-11-21-a-las-15-53-23-51d619d9.jpg)](https://postimg.cc/c6wgh8nc)
+
+##### Sobre el modelo de reconocmiento:
+
+Se realizaron pruebas unitarias con diversas imágenes de autores diferentes:  
+[![images.jpg](https://i.postimg.cc/tCxxp8MV/images.jpg)](https://postimg.cc/mtTDSpRb)  
+Resultado:  
+[![Captura-de-pantalla-2024-11-21-160550.png](https://i.postimg.cc/wjYsvFC4/Captura-de-pantalla-2024-11-21-160550.png)](https://postimg.cc/Yh8SDNqQ)  
+Se observa el nuevo umbral agregado. De modo que si la confianza del modelo para la predicción es menor a 75%, se mostrará el resultado "Desconocido".
+
+#### Sobre el modelo de visión artificial (reconocimiento de artwork con yolo).
+
+Se realizaron pruebas unitarias con diversas imágenes de internet:  
+[![Captura-de-pantalla-2024-11-21-160933.png](https://i.postimg.cc/QtCFPz7C/Captura-de-pantalla-2024-11-21-160933.png)](https://postimg.cc/hzF4QppR)  
+De modo que utilizando el cuadro delimitador, se recortará el "Artwork" del fondo:  
+[![Captura-de-pantalla-2024-11-21-161120.png](https://i.postimg.cc/kMVcR1H7/Captura-de-pantalla-2024-11-21-161120.png)](https://postimg.cc/7bk7pVDR)
+
+#### 7.2.2.5. Execution Evidence for Sprint Review.
+Evidencia de ejecución de la aplicación móvil: [https://youtube.com/shorts/C8Y_LiXyZec?si=Sb1mhAyBS0A3wa3a](https://youtube.com/shorts/C8Y_LiXyZec?si=Sb1mhAyBS0A3wa3a)  
+Enlace de invitación para aplicación Android desplegada en Firebase App Distribution: [https://appdistribution.firebase.dev/i/1568548a852a7713](https://appdistribution.firebase.dev/i/1568548a852a7713)
+
+#### 7.2.2.6. Services Documentation Evidence for Sprint Review.
+
+##### Descripción del Modelo para el Reconocimiento de Autores
+
+Este modelo fue desarrollado en Google Colab utilizando TensorFlow. Su objetivo es clasificar obras de arte según el autor, utilizando una arquitectura de MobileNetV2 como base para optimización y velocidad, ideal para dispositivos móviles. La construcción del modelo incluyó varios pasos, desde la carga y preprocesamiento de datos hasta la creación y el entrenamiento de la red neuronal.
+
+###### Proceso de Entrenamiento
+
+- Aumentación de Datos: Se utilizó ImageDataGenerator para simular condiciones reales de captura de imágenes, como rotaciones, desplazamientos y ajustes de brillo.
+- Entrenamiento de Capas Superiores: Inicialmente, solo se entrenaron las capas superiores, con las capas base congeladas para evitar el sobreajuste temprano.
+- Fine-Tuning: Posteriormente, se descongelaron capas adicionales de MobileNetV2 para mejorar la precisión en las últimas etapas del entrenamiento.
+
+###### Problemas Encontrados
+
+Conversión a TensorFlow Lite: Durante la conversión a TFLite, el modelo experimentó errores de compatibilidad con el delegado XNNPack. Este problema se resolvió deshabilitando el delegado en la configuración del intérprete.
+Errores de Dimensión: Durante las pruebas, hubo varios problemas con la dimensión del tensor de entrada. Esto se resolvió ajustando la redimensión y la normalización de las imágenes.
+
+###### Link al Notebook de Google Colab
+
+[[Enlace al notebook en Colab](https://colab.research.google.com/drive/1zNUN2m8Yqs4IebR2McDBQSlPpxp4yyfw?usp=sharing)]
+[[Cuanderno descargado en el Repositorio](https://github.com/ImagIA-2024-02/AI-models/blob/main/ReconocimientoAutorSimpifPlayground.ipynb)]
+
+##### Descripción del Modelo de Restauración de Imágenes
+
+Este proyecto implementa un modelo de restauración de imágenes desarrollado en VSCode usando TensorFlow. El modelo sigue una arquitectura de tipo U-Net, diseñada para transformar imágenes degradadas en versiones restauradas, corrigiendo efectos como ruido, desenfoque, desvanecimiento de colores y grietas.
+
+###### Proceso de Entrenamiento
+
+_Dataset_
+
+- Se generó un conjunto de datos con imágenes degradadas artificialmente. Las degradaciones incluyen adición de ruido, desvanecimiento de colores aleatorio, desenfoque, y superposición de texturas de grietas.
+- Las imágenes originales fueron preprocesadas para evitar sobresaturación y se aplicaron métodos probabilísticos para garantizar una mayor variabilidad en las degradaciones.  
+  _Entrenamiento_
+- El modelo fue entrenado para aprender a restaurar estas imágenes degradadas, utilizando la función de pérdida de error cuadrático medio (MSE) para medir la diferencia entre las imágenes restauradas y las originales.
+- Los datos se manejaron en lotes pequeños para optimizar el uso de memoria.
+
+###### Problemas Enfrentados y Soluciones Implementadas
+
+_1. Saturación de Colores:_
+Al inicio, el modelo sobresaturaba los colores de las imágenes restauradas. Para solucionar esto:
+
+- Se ajustó el proceso de degradación, implementando desvanecimiento de colores aleatorio con probabilidades controladas.
+- Esto aumentó la diversidad del dataset, mejorando la capacidad del modelo para generalizar.
+  _2. Uso de Memoria:_
+  Durante el entrenamiento en Google Colab y sistemas locales con GPU, surgieron limitaciones de memoria:
+- Se redujo el tamaño de lote (batch_size) y se configuró el uso dinámico de memoria en la GPU.
+- Se implementaron pipelines con tf.data.Dataset para cargar los datos por lotes, optimizando el rendimiento.
+  _3. Manchas Negras en Imágenes Restauradas:_
+  Inicialmente, las imágenes restauradas presentaban manchas negras debido a una falta de diversidad en el dataset.
+- Se ampliaron las variaciones en las texturas de grietas y degradaciones.
+- Además, se incluyó protección para áreas blancas, evitando que el ruido degradara regiones clave de las imágenes originales.
+  _4. Formato y Portabilidad:_
+  El modelo se guardó en formato TensorFlow (SavedModel) para permitir vsu carga y uso eficiente, reduciendo el impacto en la memoria RAM durante las evaluaciones.
+
+###### Link al Notebook
+
+[[Cuanderno descargado en este Repositorio](https://github.com/ImagIA-2024-02/AI-models/blob/main/restorationv2/PlaygroundRegeneration.ipynb)]
+
+###### Conclusión
+
+Esta versión del modelo ha demostrado ser más robusta y eficiente para restaurar imágenes degradadas, ofreciendo resultados significativamente mejores gracias a las optimizaciones realizadas en el dataset, el entrenamiento y el manejo de recursos.
+
+##### Descripción del Modelo Delimitador con YOLOv5
+
+Este modelo fue desarrollado en Google Colab utilizando PyTorch y exportado a TensorFlow Lite para su implementación en dispositivos móviles. Su objetivo principal es detectar cuadros u obras de arte dentro de imágenes, generando coordenadas precisas de las áreas delimitadas (bounding boxes). El modelo es ideal para aplicaciones que requieren alta precisión y velocidad, como aplicaciones móviles o sistemas embebidos.
+
+###### Proceso de Entrenamiento
+
+- Modelo Base: Se utilizó la arquitectura YOLOv5, conocida por su balance entre precisión y velocidad, como base para la detección de objetos.
+- Dataset Personalizado: Las imágenes fueron etiquetadas en formato YOLO para entrenar el modelo en la detección de cuadros dentro de diversos contextos.
+- Aumentación de Datos: Incluyó rotaciones, cambios de escala y ajustes de brillo/contraste para simular escenarios reales.
+- Entrenamiento: Se entrenó el modelo en múltiples épocas, utilizando GPUs de Google Colab para acelerar el proceso. Se configuró un umbral de confianza para filtrar detecciones menos precisas.
+
+###### Conversión a TensorFlow Lite
+
+- Exportación: El modelo entrenado en PyTorch fue exportado directamente a TensorFlow Lite usando el script export.py de Ultralytics.
+- Optimización: Se aplicó la optimización de cuantización para reducir el tamaño del modelo y mejorar su rendimiento en dispositivos con recursos limitados.
+
+###### Problemas Encontrados
+
+1. Errores de Compatibilidad: Durante la conversión a TensorFlow Lite, surgieron problemas con ciertas capas del modelo. Esto se resolvió ajustando el script de exportación.
+2. Configuración de Entrada: Se detectaron problemas con las dimensiones de entrada durante las pruebas. Esto se solucionó redimensionando las imágenes a 640x640 y normalizándolas a valores entre 0 y 1.
+3. Interpretación de Resultados: Al principio, los valores de salida del modelo no coincidían con las expectativas. Esto requirió una reconfiguración de la estructura de salida del modelo.
+
+###### Link al Notebook de Google Colab
+
+[[Enlace al notebook en Colab](https://colab.research.google.com/drive/1AiyJ4cQnDVnyxSng1UCqZ4kaluPIcAe6?usp=sharing)]
+[[Cuanderno descargado en este Repositorio](https://github.com/ImagIA-2024-02/AI-models/blob/main/PlaygroundArtworkReco.ipynb)]
+
+Este modelo está listo para ser implementado en aplicaciones móviles, donde se pueden utilizar bounding boxes generados para procesar imágenes y brindar una experiencia de usuario óptima.
+
+#### 7.2.2.7. Software Deployment Evidence for Sprint Review.
+##### Aplicación móvil
+Aplicación Móvil desplegada en Firebase App Distribution:  
+[![Captura-de-pantalla-2024-11-21-204440.png](https://i.postimg.cc/0Qx2Z9vL/Captura-de-pantalla-2024-11-21-204440.png)](https://postimg.cc/mcXsgftw)  
+Enlace de invitación para aplicación Android desplegada en Firebase App Distribution: [https://appdistribution.firebase.dev/i/1568548a852a7713](https://appdistribution.firebase.dev/i/1568548a852a7713)  
+
+##### Modelos de IA:
+Modelos de ia desplegados en Firebase Machine Learning:  
+[![Imagen-de-Whats-App-2024-11-21-a-las-20-45-32-2b764d91.jpg](https://i.postimg.cc/Gpj1LG05/Imagen-de-Whats-App-2024-11-21-a-las-20-45-32-2b764d91.jpg)](https://postimg.cc/rdzHgdw1)  
+##### Web Serivide Backend:
+###### Backend desplegado en azure:
+[![Captura-de-pantalla-2024-11-21-205941.png](https://i.postimg.cc/T3JRwZg0/Captura-de-pantalla-2024-11-21-205941.png)](https://postimg.cc/MnXk33sf)  
+Dominio predeterminado: [imagia-back-ggesdta7c3c7duc4.canadacentral-01.azurewebsites.net](imagia-back-ggesdta7c3c7duc4.canadacentral-01.azurewebsites.net)
+###### Swagger:  
+<div align="center">
+ <img src="/Recursos/imagenes/backend-swagger.png" width=500 alt="Execution">   
+</div>
+
+##### Base de datos:
+Base de datos desplegada en azure:  
+[![Captura-de-pantalla-2024-11-21-205801.png](https://i.postimg.cc/7hFRMZ8z/Captura-de-pantalla-2024-11-21-205801.png)](https://postimg.cc/N2xbQY0G)
+
+
+#### 7.2.2.8. Team Collaboration Insights during Sprint.
+
+##### AI Models:
+
+- Pulse:  
+  [![Captura-de-pantalla-2024-11-21-152330.png](https://i.postimg.cc/JhwMN2rZ/Captura-de-pantalla-2024-11-21-152330.png)](https://postimg.cc/LJVcRvZ8)
+- Contributors:  
+  [![Captura-de-pantalla-2024-11-21-152534.png](https://i.postimg.cc/ZRbkjk1B/Captura-de-pantalla-2024-11-21-152534.png)](https://postimg.cc/McFrKLZq)
+
+##### Frontent-app (mobile):
+
+- Pulse:  
+  [![Captura-de-pantalla-2024-11-21-152730.png](https://i.postimg.cc/wvGWNSHd/Captura-de-pantalla-2024-11-21-152730.png)](https://postimg.cc/Pp1zsVP6)
+- Contributors:  
+  [![Captura-de-pantalla-2024-11-21-152838.png](https://i.postimg.cc/SRbgVcXZ/Captura-de-pantalla-2024-11-21-152838.png)](https://postimg.cc/ygnh8gy9)
+
+##### Backend-imagia:
+
+- Pulse:  
+  [![Captura-de-pantalla-2024-11-21-153207.png](https://i.postimg.cc/tCC3brH3/Captura-de-pantalla-2024-11-21-153207.png)](https://postimg.cc/t7wZtNJJ)
+- Contributors:  
+  [![Captura-de-pantalla-2024-11-21-153310.png](https://i.postimg.cc/Z5Xpr4vH/Captura-de-pantalla-2024-11-21-153310.png)](https://postimg.cc/k2F2CrcR)
+
 ## 7.3. Validation Interviews.
 
 ### 7.3.1. Diseño de Entrevistas.
@@ -478,6 +805,170 @@ A continuación, se presenta el diseño de las entrevistas de validación para l
 - ¿Hay algún comentario adicional o sugerencia que quieras compartir sobre tu experiencia con la aplicación?
 
 ### 7.3.2. Registro de Entrevistas.
+
+**Segmento: Ciudadanos Aficionados al arte:**
+
+**Entrevistador:** Diego Merino
+**Entrevistada:** Cristiana Poma
+**Edad:**: 18 años
+**Distrito:**: Los Olivos
+**Ocupación:**: Estudiante de Comunicaciones Audiovisuales
+**Dispositivo:** Android
+
+<div class="container" style="text-align: center">
+    <img src="https://media.discordapp.net/attachments/779964091531788330/1309319167798808607/image.png?ex=674125ff&is=673fd47f&hm=545ea14e055bd816916ce06fb788959fc502518e74fa206b906201ccd074e1eb&=&format=webp&quality=lossless" width="200" alt="Imagen de entrevista">
+</div>
+
+- Perfil:
+  Cristiana Poma, una joven estudiante de Comunicaciones Audiovisuales de 18 años, representa un segmento juvenil interesado en el arte visual desde una perspectiva más general y no necesariamente tradicional. Reside en Los Olivos, un distrito urbano que favorece la conexión tecnológica, y utiliza un dispositivo Android como su principal herramienta de interacción. Aunque no es particularmente afín a visitar museos, Cristiana muestra interés por las pinturas y cuadros, especialmente aquellos que evocan emociones o tienen historias detrás.
+
+- Interacción con la aplicación:
+  Cristiana expresó que tuvo ciertas dificultades iniciales para comprender el funcionamiento de la aplicación, perdiéndose un poco entre las opciones disponibles. A pesar de esto, valoró el concepto de la plataforma y destacó que le resulta interesante la posibilidad de explorar más sobre las pinturas de manera interactiva.
+
+Sugerencias:
+
+Narrador: Cristiana sugirió incluir una función de narrador dentro de la aplicación, que proporcione más detalles sobre las pinturas y sus contextos. Esta característica, según ella, permitiría profundizar en la historia de cada obra y hacer la experiencia más inmersiva.
+Galería Online: Le gustaría contar con una galería virtual organizada en “salas” temáticas o cronológicas. En estas salas, los usuarios podrían recorrer virtualmente las obras de arte, conocer más sobre ellas, y tener una experiencia similar a la de caminar por un museo físico, pero desde la comodidad de su dispositivo.
+Interacción social: Cristiana mencionó que sería interesante integrar un espacio para dejar comentarios o reflexiones sobre las pinturas, como una forma de interactuar con otros usuarios y compartir opiniones.
+Preferencias en la experiencia:
+
+Prefiere experiencias visuales enriquecidas con narrativas que expliquen detalles únicos de las obras, pero sin sobrecargar de texto.
+Encuentra atractivo el concepto de conectar con el arte a través de representaciones digitales dinámicas.
+Considera que la posibilidad de agregar un elemento social o colaborativo dentro de la aplicación la haría más atractiva para las personas jóvenes, especialmente aquellas que no son habituales en museos.
+
+**Entrevistador:** Diego Merino
+**Entrevistada:** Maryorie Contreras
+**Edad:**: 20 años
+**Distrito:**: San Miguel
+**Ocupación:**: Estudiante de Administración de Negocios Internacionales
+**Dispositivo:** Android
+
+<div class="container" style="text-align: center">
+    <img src="https://media.discordapp.net/attachments/779964091531788330/1309319145430581310/image.png?ex=674125fa&is=673fd47a&hm=3b16d2e1af9b08be4dcb563d4550cbf27032eb2d687290755db26ea8faeadcbd&=&format=webp&quality=lossless&width=299&height=350" width="200" alt="Imagen de entrevista">
+</div>
+
+- Perfil:
+  Maryorie Contreras, estudiante de 20 años de Administración de Negocios Internacionales, representa un segmento joven con un interés general por el arte, especialmente las pinturas, aunque no es de visitar museos frecuentemente. Al igual que otros jóvenes de su generación, utiliza un dispositivo Android como su principal herramienta tecnológica y tiene una conexión constante con aplicaciones digitales, lo que la convierte en una potencial usuaria de la aplicación PictorIA.
+
+- Interacción con la aplicación:
+  Maryorie resaltó varios puntos relacionados con su experiencia al utilizar la plataforma:
+
+Confusión en los nombres de las opciones:
+
+La opción "Galería" generó expectativas de una galería virtual donde se pudieran explorar obras de arte categorizadas o exhibidas en un formato interactivo. En lugar de eso, la funcionalidad actual no coincidió con lo que ella esperaba, lo que la llevó a expresar su frustración.
+Considera que los nombres de las secciones y opciones deben ser más claros y representativos de su función.
+Falta de un tutorial:
+
+Maryorie destacó la necesidad de incluir un tutorial inicial o una guía dentro de la aplicación para explicar cómo navegar por las distintas secciones y aprovechar las funciones disponibles.
+Señaló que la plataforma no le resultó intuitiva, lo que generó una curva de aprendizaje que, en su opinión, podría desmotivar a algunos usuarios.
+Sugerencias:
+
+Revisar y optimizar la nomenclatura: Cambiar nombres de opciones y secciones para que sean más descriptivos y fáciles de entender, como reemplazar "Galería" por algo como "Explorar Obras" o "Museo Virtual".
+Implementar un tutorial interactivo: Agregar un tutorial introductorio que guíe al usuario en su primera interacción con la aplicación, mostrando las funcionalidades principales y cómo utilizarlas.
+Mejorar la usabilidad: Simplificar la estructura de la aplicación para que sea más amigable para usuarios con poca experiencia en herramientas digitales avanzadas.
+Preferencias en la experiencia:
+
+Maryorie se siente atraída por la idea de explorar pinturas y obras de arte desde su dispositivo, pero enfatiza la importancia de que la experiencia sea fácil de usar y no requiera mucho tiempo para entenderla.
+Cree que una galería virtual bien implementada podría atraer más a personas como ella, que disfrutan del arte pero no son visitantes frecuentes de museos.
+
+**Entrevistador:** Diego Merino
+**Entrevistada:** Mónica Prialé de la Peña
+**Edad:**: 49
+**Distrito:**: San Isidro
+**Ocupación:**: Docente universitaria en informática
+**Dispositivo:** Android
+
+<div class="container" style="text-align: center">
+    <img src="https://media.discordapp.net/attachments/779964091531788330/1309319119224569928/image.png?ex=674125f3&is=673fd473&hm=1fa6f671dd0972a37c4f6f58c9b829885a22cee60448faa3b7732c4fbb6884e9&=&format=webp&quality=lossless" width="200" alt="Imagen de entrevista">
+</div>
+
+- Perfil:
+  Mónica Prialé de la Peña, docente universitaria en el área de informática, representa un perfil profesional y analítico. Aunque tiene un interés general por el arte, este no forma parte central de su vida, lo que aporta una perspectiva objetiva y práctica sobre la interacción con la aplicación PictorIA. Como usuaria de Android y con una experiencia avanzada en tecnología, Mónica brinda observaciones detalladas sobre la usabilidad y terminología de la plataforma, subrayando áreas clave para mejorar la experiencia del usuario.
+
+- Interacción con la aplicación:
+
+Confusión en la terminología:
+
+Mónica señaló que el término "Galería" fue confuso, ya que lo interpretó como una galería virtual o un espacio museístico en línea, en lugar de una referencia a la galería de imágenes del dispositivo.
+Recomendó cambiar o aclarar esta nomenclatura para evitar malentendidos y alinear las expectativas del usuario con las funcionalidades reales.
+Sugerencias de mejora en los menús:
+
+El término "Editor" le generó dudas, ya que esperaba herramientas típicas de edición (como añadir texto o modificar fondos). Sugirió un cambio en el nombre que refleje de manera más precisa la funcionalidad, como "Restaurar Imagen" o "Ajustar Detalles".
+Resaltó la necesidad de tutoriales o ayudas contextuales, especialmente para explicar los términos y las opciones del menú.
+Flujo de trabajo:
+
+Apreció los pasos cortos y simples que forman parte del flujo de trabajo, lo que facilita que el usuario realice las acciones necesarias sin sentirse abrumado.
+Sin embargo, señaló que la interfaz podría ser más clara para que los usuarios comprendan rápidamente qué esperar de cada funcionalidad.
+Percepción de la restauración:
+
+Destacó las diferencias entre las imágenes originales y restauradas, especialmente en aquellas que muestran daños notorios.
+Comentó que en casos donde el daño es menor, las mejoras no siempre son evidentes, lo que podría ser decepcionante para algunos usuarios.
+Falta de contexto inicial:
+
+Mónica expresó que al principio tuvo dudas sobre cómo empezar a utilizar la aplicación y qué esperar de cada opción. Esto subraya la importancia de proporcionar un contexto claro desde el inicio, ya sea mediante un tutorial o una pantalla de bienvenida con explicaciones breves.
+Sugerencias:
+
+Revisar la terminología: Cambiar los nombres de las opciones "Galería" y "Editor" para reflejar con mayor precisión sus funcionalidades, como "Museo Virtual" o "Explorar Obras" en lugar de "Galería" y "Restaurar Imagen" en lugar de "Editor".
+Implementar tutoriales interactivos: Incluir un tutorial inicial que explique paso a paso cómo utilizar la aplicación y qué esperar de cada opción del menú.
+Optimizar la interfaz: Mejorar la claridad visual y textual de la interfaz para que sea más intuitiva y fácil de navegar para todos los usuarios, independientemente de su familiaridad con la tecnología.
+Ofrecer ejemplos visuales: Incorporar ejemplos comparativos de imágenes dañadas y restauradas para que los usuarios comprendan mejor el valor de la funcionalidad, incluso en casos donde el daño sea mínimo.
+Preferencias en la experiencia:
+
+Mónica valora un flujo de trabajo eficiente y bien estructurado, pero cree que la claridad en la interfaz es fundamental para garantizar una experiencia satisfactoria.
+Aunque su interés por el arte no es profundo, está dispuesta a utilizar una aplicación como PictorIA si esta logra transmitir sus funcionalidades de manera clara y eficiente.
+
+**Entrevistador:** Diego Merino
+**Entrevistado:** Leonardo Aquino
+**Edad:**: 24
+**Distrito:**: Cercado de Lima
+**Ocupación:**: Estudiante de Ingeniería de Software
+**Dispositivo:** Android
+
+<div class="container" style="text-align: center">
+    <img src="https://media.discordapp.net/attachments/779964091531788330/1309319097103814676/image.png?ex=674125ee&is=673fd46e&hm=8cc2b9c3631927e05769b6391e2f25ac27b4cc9ecb46ac73a5bf232ee686e63b&=&format=webp&quality=lossless&width=431&height=516" width="200" alt="Imagen de entrevista">
+</div>
+
+- Perfil:
+  Leonardo Aquino, estudiante de Ingeniería de Software, aborda el arte como un hobby. Su interés se centra en la observación de distintos tipos de arte, desde piezas históricas hasta expresiones más liberales. Como usuario técnico y crítico, Leonardo aporta una perspectiva detallada sobre las áreas de mejora en la funcionalidad y el diseño de la aplicación PictorIA, con comentarios que reflejan tanto su conocimiento técnico como su aprecio por una experiencia de usuario optimizada.
+
+- Interacción con la aplicación:
+
+Restauración de imágenes:
+
+Comentó que, en imágenes de alta calidad, las diferencias entre las versiones originales y restauradas no son muy notorias, lo que podría reducir el impacto visual esperado.
+Observó que algunas imágenes restauradas parecían "aplastadas", lo que afecta la percepción estética y profesional del resultado.
+Sugirió incorporar una descripción del autor y una explicación más detallada de las obras en futuras versiones, con el fin de enriquecer la experiencia educativa de los usuarios.
+Interfaz:
+
+Leonardo considera que las opciones no son intuitivas, lo que dificulta la navegación inicial y la comprensión de las funcionalidades.
+Criticó el diseño estético de la aplicación, mencionando que podría ser más atractivo y estar alineado con las tendencias modernas de diseño para aplicaciones culturales y educativas.
+Rendimiento:
+
+Señaló que el tiempo requerido para restaurar imágenes es algo lento, lo que podría afectar la percepción de eficiencia del prototipo.
+Percepción general:
+
+Reconoció el potencial del prototipo, destacando que, si bien la idea es innovadora, hay aspectos clave que necesitan mejoras significativas, como la claridad de la interfaz y la calidad visual de las imágenes restauradas.
+Sugerencias:
+
+Mejorar la restauración:
+
+Refinar los algoritmos de restauración para evitar distorsiones visuales como el efecto de "aplastado".
+Incorporar herramientas que permitan al usuario ajustar manualmente ciertos parámetros de restauración para personalizar los resultados.
+Ampliar la información sobre las obras:
+
+Agregar descripciones detalladas de los autores y explicaciones contextuales sobre las obras, destacando su relevancia histórica o artística. Esto enriquecería la experiencia y cumpliría con las expectativas de usuarios interesados en el aprendizaje.
+Optimizar la interfaz:
+
+Rediseñar la estructura del menú para que sea más intuitiva, utilizando iconos descriptivos y textos más claros.
+Modernizar el diseño gráfico para hacerlo más atractivo, con colores, tipografía y transiciones acordes a una experiencia digital innovadora.
+Mejorar el rendimiento:
+
+Incrementar la velocidad de los procesos de restauración mediante la optimización de los algoritmos y la gestión de recursos.
+Ofrecer una barra de progreso para que los usuarios tengan una idea clara del tiempo que tomará la restauración.
+Preferencias en la experiencia:
+
+Leonardo aprecia aplicaciones que combinen estética, funcionalidad y velocidad, destacando que un diseño bien pensado puede marcar la diferencia en la adopción de un producto.
+Aunque valora la propuesta de PictorIA, considera que los detalles técnicos y de usabilidad deben pulirse para que la aplicación cumpla con las expectativas de un usuario exigente y crítico.
 
 ### 7.3.3. Evaluaciones según heurísticas.
 
@@ -596,6 +1087,5 @@ Una vez que se inicia el proceso de análisis de una imagen, el usuario no tiene
 4. Proporcionar la opción de guardar el progreso parcial del análisis
 
 ## 7.4. Video About-the-Product.
-
-[![Ver el video](https://img.youtube.com/vi/p9zqYlg8VJ8/0.jpg)](https://www.youtube.com/watch?v=p9zqYlg8VJ8)
-
+[![Ver el video](https://img.youtube.com/vi/p9zqYlg8VJ8/0.jpg)](https://www.youtube.com/watch?v=p9zqYlg8VJ8)  
+Version final: [https://youtube.com/shorts/C8Y_LiXyZec?si=Sb1mhAyBS0A3wa3a](https://youtube.com/shorts/C8Y_LiXyZec?si=Sb1mhAyBS0A3wa3a)

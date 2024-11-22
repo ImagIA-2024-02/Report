@@ -20,7 +20,9 @@
                 <b>TP</b><br>
                 Me centre en la planeacion y dispocicion de las pantallas principales en el figma. Tanto wireframes como mockup, se centro en definir la estetica puesto es la cara y motor de venta del software.<br>
                 <b>TB2</b><br>
-                Dividi esfuerzos en analizar e investigar diversas maneras para implementar los modelos de IA, así como orientar en las pautas del desarrollo pero por terceros no pude realizar a tiempo las entrevistas y varias de mis indagaciones y pruebas de como implementar la IA no fueron implementadas.<br>                
+                Dividi esfuerzos en analizar e investigar diversas maneras para implementar los modelos de IA, así como orientar en las pautas del desarrollo pero por terceros no pude realizar a tiempo las entrevistas y varias de mis indagaciones y pruebas de como implementar la IA no fueron implementadas.<br>   
+                <b>TF</b><br>
+                Me centre en cambios de seguridad y refactorizacion, así como optimización al backend. Asegurandome de seguir la metodología DDD y continuar con mejoras, aunque no vitales si importantes. Además me dedique a realizar las heurísticas de la aplicación desarrollada junto a las entrevistas de validación.<br>                
                 <b>Primo Estrada, Rafael Wimmer</b><br>
                 <b>TB1</b><br>
                 Utilicé herramientas de colaboración en línea para compartir documentos, seguimiento de tareas y comunicación entre los miembros del equipo.<br>

@@ -35,6 +35,8 @@
                 Realice las tareas asignadas asi como el  bounded context de user se realizo los diagramas como el de la base de datos.<br>
  <b>TB2</b><br>
                 Realice las tareas asiganadas y organicé reuniones regulares de equipo para discutir el progreso del proyecto y asignar tareas de manera eficiente para lograr los entregables del proyecto como el landing pague, backend y la App móvil.<br>
+                    <b>TF</b><br>
+Se realizó el Sprint 2, integrando la aplicación móvil con el backend y los modelos de IA. También se llevaron a cabo entrevistas relacionadas con la aplicación móvil y su funcionalidad.<br>
                 <b>Jaramillo Almora, Jesica Rut</b><br>
                 <b>TB1</b><br>
                 Organicé reuniones regulares de equipo para discutir el progreso del proyecto y hacer el seguimiento de las tareas asignadas  .<br>
@@ -71,6 +73,8 @@
                 <br> Analice las arquitecturas que se van a utilizar al momento de desarrollar la aplicacion como hacer los diagramas de contenedores y los diagramas de base de datos.<br>
 <b>TB2</b><br>
                 Realice el backend para la gestión de usuarios .<br>
+    <b>TF</b><br>
+Se realizó el Sprint 2, integrando la aplicación móvil con el backend y los modelos de IA. También se llevaron a cabo entrevistas relacionadas con la aplicación móvil y su funcionalidad.<br>
                 <b>Jaramillo Almora, Jesica Rut</b><br>
                 <b>TB1</b><br>
                 Analicé datos y estadísticas relevantes sobre el rendimiento y las tendencias del sector que tienen que ver con la autenticidad de las artes de los museos para identificar oportunidades de mejora y áreas de enfoque para nuestro proyecto.<br>

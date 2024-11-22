@@ -682,14 +682,21 @@ Aplicación Móvil desplegada en Firebase App Distribution:
 [![Captura-de-pantalla-2024-11-21-204440.png](https://i.postimg.cc/0Qx2Z9vL/Captura-de-pantalla-2024-11-21-204440.png)](https://postimg.cc/mcXsgftw)  
 Enlace de invitación para aplicación Android desplegada en Firebase App Distribution: [https://appdistribution.firebase.dev/i/1568548a852a7713](https://appdistribution.firebase.dev/i/1568548a852a7713)  
 
-#### Modelos de IA:
+##### Modelos de IA:
 Modelos de ia desplegados en Firebase Machine Learning:  
 [![Imagen-de-Whats-App-2024-11-21-a-las-20-45-32-2b764d91.jpg](https://i.postimg.cc/Gpj1LG05/Imagen-de-Whats-App-2024-11-21-a-las-20-45-32-2b764d91.jpg)](https://postimg.cc/rdzHgdw1)  
-#### Web Serivide Backend:
-Backend desplegado en azure:
+##### Web Serivide Backend:
+###### Backend desplegado en azure:
+[![Captura-de-pantalla-2024-11-21-205941.png](https://i.postimg.cc/T3JRwZg0/Captura-de-pantalla-2024-11-21-205941.png)](https://postimg.cc/MnXk33sf)  
+Dominio predeterminado: [imagia-back-ggesdta7c3c7duc4.canadacentral-01.azurewebsites.net](imagia-back-ggesdta7c3c7duc4.canadacentral-01.azurewebsites.net)
+###### Swagger:  
 <div align="center">
  <img src="/Recursos/imagenes/backend-swagger.png" width=500 alt="Execution">   
 </div>
+
+##### Base de datos:
+Base de datos desplegada en azure:  
+[![Captura-de-pantalla-2024-11-21-205801.png](https://i.postimg.cc/7hFRMZ8z/Captura-de-pantalla-2024-11-21-205801.png)](https://postimg.cc/N2xbQY0G)
 
 #### 7.2.2.8. Team Collaboration Insights during Sprint.
 ##### AI Models:

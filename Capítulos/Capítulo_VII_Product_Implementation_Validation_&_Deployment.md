@@ -677,7 +677,20 @@ Este modelo fue desarrollado en Google Colab utilizando PyTorch y exportado a Te
 
 Este modelo está listo para ser implementado en aplicaciones móviles, donde se pueden utilizar bounding boxes generados para procesar imágenes y brindar una experiencia de usuario óptima.
 #### 7.2.2.7. Software Deployment Evidence for Sprint Review.
-(Agregar api desplegada) (Agregar mobile app desplegada y enlace de invitación al apk)
+##### Aplicación móvil
+Aplicación Móvil desplegada en Firebase App Distribution:  
+[![Captura-de-pantalla-2024-11-21-204440.png](https://i.postimg.cc/0Qx2Z9vL/Captura-de-pantalla-2024-11-21-204440.png)](https://postimg.cc/mcXsgftw)  
+Enlace de invitación para aplicación Android desplegada en Firebase App Distribution: [https://appdistribution.firebase.dev/i/1568548a852a7713](https://appdistribution.firebase.dev/i/1568548a852a7713)  
+
+#### Modelos de IA:
+Modelos de ia desplegados en Firebase Machine Learning:  
+[![Imagen-de-Whats-App-2024-11-21-a-las-20-45-32-2b764d91.jpg](https://i.postimg.cc/Gpj1LG05/Imagen-de-Whats-App-2024-11-21-a-las-20-45-32-2b764d91.jpg)](https://postimg.cc/rdzHgdw1)  
+#### Web Serivide Backend:
+Backend desplegado en azure:
+<div align="center">
+ <img src="/Recursos/imagenes/backend-swagger.png" width=500 alt="Execution">   
+</div>
+
 #### 7.2.2.8. Team Collaboration Insights during Sprint.
 ##### AI Models:
 - Pulse:  
